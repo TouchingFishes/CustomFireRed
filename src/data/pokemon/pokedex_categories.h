@@ -803,6 +803,7 @@ static const u16 sDexCategory_RarePkmn_Page5[] = {
 
 static const u16 sDexCategory_RarePkmn_Page6[] = {
     SPECIES_DEOXYS,
+    SPECIES_DARKRAI,
 };
 
 static const u16 sDexCategory_RarePkmn_Page7[] = {

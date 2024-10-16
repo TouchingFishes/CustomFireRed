@@ -333,6 +333,7 @@ static const u16 sEasyChatWordsByLetter_D[] = {
     EC_WORD_DANCE,
     EC_WORD_DANGER,
     EC_WORD_DARK,
+    EC_POKEMON2(DARKRAI),
     EC_WORD_DARN,
     EC_WORD_DATE,
     EC_WORD_DAUGHTER,

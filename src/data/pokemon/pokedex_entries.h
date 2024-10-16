@@ -5030,4 +5030,17 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 337,
         .trainerOffset = 2,
     },
+
+    [NATIONAL_DEX_DARKRAI] =
+    {
+        .categoryName = _("PITCH-BLACK"),
+        .height = 15,
+        .weight = 505,
+        .description = gDarkraiPokedexText,
+        .unusedDescription = gDarkraiPokedexTextUnused,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
 };
