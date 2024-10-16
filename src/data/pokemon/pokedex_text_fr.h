@@ -2726,3 +2726,21 @@ const u8 gDarkraiPokedexText[] = _(
     "it means no harm.");
 
 const u8 gDarkraiPokedexTextUnused[] = _("");
+
+const u8 gDundragPokedexText[] = _(
+    "It chases people and Pokémon from its\n"
+    "territory by causing them to experience\n"
+    "deep, nightmarish slumbers. However,\n"
+    "it means no harm.");
+
+const u8 gDundragPokedexTextUnused[] = _("");
+
+
+const u8 gDunlongPokedexText[] = _(
+    "It chases people and Pokémon from its\n"
+    "territory by causing them to experience\n"
+    "deep, nightmarish slumbers. However,\n"
+    "it means no harm.");
+
+const u8 gDunlongPokedexTextUnused[] = _("");
+

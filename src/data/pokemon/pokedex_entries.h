@@ -5043,4 +5043,30 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 271,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_DUNDRAG] =
+    {
+        .categoryName = _("PITCH-BLACK"),
+        .height = 15,
+        .weight = 505,
+        .description = gDundragPokedexText,
+        .unusedDescription = gDundragPokedexTextUnused,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DUNLONG] =
+    {
+        .categoryName = _("PITCH-BLACK"),
+        .height = 15,
+        .weight = 505,
+        .description = gDunlongPokedexText,
+        .unusedDescription = gDunlongPokedexTextUnused,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
 };

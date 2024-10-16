@@ -139,6 +139,8 @@ enum
     CRY_DEOXYS = 386,
     CRY_CHIMECHO = 387,
     CRY_DARKRAI = 388,
+    CRY_DUNDRAG = 389,
+    CRY_DUNLONG = 340,
 };
 
 #endif

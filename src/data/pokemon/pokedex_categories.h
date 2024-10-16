@@ -520,12 +520,14 @@ static const u16 sDexCategory_CavePkmn_Page4[] = {
 static const u16 sDexCategory_CavePkmn_Page5[] = {
     SPECIES_MISDREAVUS,
     SPECIES_DUNSPARCE,
-    SPECIES_NOSEPASS,
+    SPECIES_DUNDRAG,
+    SPECIES_DUNLONG,
 };
 
 static const u16 sDexCategory_CavePkmn_Page6[] = {
     SPECIES_SABLEYE,
     SPECIES_MAWILE,
+    SPECIES_NOSEPASS,
 };
 
 static const u16 sDexCategory_CavePkmn_Page7[] = {

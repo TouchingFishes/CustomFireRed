@@ -1860,6 +1860,14 @@ Cry_Darkrai::
 	.incbin "sound/direct_sound_samples/cries/darkrai.bin"
 
 	.align 2
+Cry_Dundrag::
+	.incbin "sound/direct_sound_samples/cries/dunsparce.bin"
+
+	.align 2
+Cry_Dunlong::
+	.incbin "sound/direct_sound_samples/cries/dunsparce.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

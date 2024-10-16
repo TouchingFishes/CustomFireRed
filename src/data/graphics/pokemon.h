@@ -2728,6 +2728,20 @@ const u32 gMonShinyPalette_Darkrai[] = INCBIN_U32("graphics/pokemon/darkrai/shin
 const u8 gMonIcon_Darkrai[] = INCBIN_U8("graphics/pokemon/darkrai/icon.4bpp");
 const u8 gMonFootprint_Darkrai[] = INCBIN_U8("graphics/pokemon/darkrai/footprint.1bpp");
 
+const u32 gMonFrontPic_Dundrag[] = INCBIN_U32("graphics/pokemon/dundrag/front.4bpp.lz");
+const u32 gMonPalette_Dundrag[] = INCBIN_U32("graphics/pokemon/dundrag/normal.gbapal.lz");
+const u32 gMonBackPic_Dundrag[] = INCBIN_U32("graphics/pokemon/dundrag/back.4bpp.lz");
+const u32 gMonShinyPalette_Dundrag[] = INCBIN_U32("graphics/pokemon/dundrag/shiny.gbapal.lz");
+const u8 gMonIcon_Dundrag[] = INCBIN_U8("graphics/pokemon/dundrag/icon.4bpp");
+const u8 gMonFootprint_Dundrag[] = INCBIN_U8("graphics/pokemon/dundrag/footprint.1bpp");
+
+const u32 gMonFrontPic_Dunlong[] = INCBIN_U32("graphics/pokemon/dunlong/front.4bpp.lz");
+const u32 gMonPalette_Dunlong[] = INCBIN_U32("graphics/pokemon/dunlong/normal.gbapal.lz");
+const u32 gMonBackPic_Dunlong[] = INCBIN_U32("graphics/pokemon/dunlong/back.4bpp.lz");
+const u32 gMonShinyPalette_Dunlong[] = INCBIN_U32("graphics/pokemon/dunlong/shiny.gbapal.lz");
+const u8 gMonIcon_Dunlong[] = INCBIN_U8("graphics/pokemon/dunlong/icon.4bpp");
+const u8 gMonFootprint_Dunlong[] = INCBIN_U8("graphics/pokemon/dunlong/footprint.1bpp");
+
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/front.4bpp.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
