@@ -391,6 +391,28 @@ gCryTable::
 	cry Cry_Darkrai
 	cry Cry_Dundrag
 	cry Cry_Dunlong
+	cry Cry_Budew
+	cry Cry_Roserade
+	cry Cry_Larvesta
+	cry Cry_Volcarona
+	cry Cry_Axew
+	cry Cry_Fraxure
+	cry Cry_Haxorus
+	cry Cry_Spiritomb
+	cry Cry_Flittle
+	cry Cry_Espathra
+	cry Cry_Tangrowth
+	cry Cry_Honchkrow
+	cry Cry_Weavile
+	cry Cry_Electivire
+	cry Cry_Magmortar
+	cry Cry_Wyrdeer
+	cry Cry_Gallade
+	cry Cry_Leafeon
+	cry Cry_Glaceon
+	cry Cry_Gliscor
+	cry Cry_Froslass
+	cry Cry_Yanmega
 
 	.align 2
 gCryTable_Reverse::
@@ -785,3 +807,25 @@ gCryTable_Reverse::
 	cry_reverse Cry_Darkrai
 	cry_reverse Cry_Dundrag
 	cry_reverse Cry_Dunlong
+	cry_reverse Cry_Budew
+	cry_reverse Cry_Roserade
+	cry_reverse Cry_Larvesta
+	cry_reverse Cry_Volcarona
+	cry_reverse Cry_Axew
+	cry_reverse Cry_Fraxure
+	cry_reverse Cry_Haxorus
+	cry_reverse Cry_Spiritomb
+	cry_reverse Cry_Flittle
+	cry_reverse Cry_Espathra
+	cry_reverse Cry_Tangrowth
+	cry_reverse Cry_Honchkrow
+	cry_reverse Cry_Weavile
+	cry_reverse Cry_Electivire
+	cry_reverse Cry_Magmortar
+	cry_reverse Cry_Wyrdeer
+	cry_reverse Cry_Gallade
+	cry_reverse Cry_Leafeon
+	cry_reverse Cry_Glaceon
+	cry_reverse Cry_Gliscor
+	cry_reverse Cry_Froslass
+	cry_reverse Cry_Yanmega

@@ -1867,6 +1867,94 @@ Cry_Dundrag::
 Cry_Dunlong::
 	.incbin "sound/direct_sound_samples/cries/dunsparce.bin"
 
+.align 2
+Cry_Budew::
+	.incbin "sound/direct_sound_samples/cries/budew.bin"
+
+	.align 2
+Cry_Roserade::
+	.incbin "sound/direct_sound_samples/cries/roserade.bin"
+
+	.align 2
+Cry_Larvesta::
+	.incbin "sound/direct_sound_samples/cries/larvesta.bin"
+
+	.align 2
+Cry_Volcarona::
+	.incbin "sound/direct_sound_samples/cries/volcarona.bin"
+
+	.align 2
+Cry_Axew::
+	.incbin "sound/direct_sound_samples/cries/axew.bin"
+
+	.align 2
+Cry_Fraxure::
+	.incbin "sound/direct_sound_samples/cries/fraxure.bin"
+
+	.align 2
+Cry_Haxorus::
+	.incbin "sound/direct_sound_samples/cries/haxorus.bin"
+
+	.align 2
+Cry_Spiritomb::
+	.incbin "sound/direct_sound_samples/cries/spiritomb.bin"
+
+	.align 2
+Cry_Flittle::
+	.incbin "sound/direct_sound_samples/cries/flittle.bin"
+
+	.align 2
+Cry_Espathra::
+	.incbin "sound/direct_sound_samples/cries/espathra.bin"
+
+.align 2
+Cry_Tangrowth::
+	.incbin "sound/direct_sound_samples/cries/tangrowth.bin"
+
+	.align 2
+Cry_Honchkrow::
+	.incbin "sound/direct_sound_samples/cries/honchkrow.bin"
+
+.align 2
+Cry_Weavile::
+	.incbin "sound/direct_sound_samples/cries/weavile.bin"
+
+	.align 2
+Cry_Electivire::
+	.incbin "sound/direct_sound_samples/cries/electivire.bin"
+
+	.align 2
+Cry_Magmortar::
+	.incbin "sound/direct_sound_samples/cries/magmortar.bin"
+
+	.align 2
+Cry_Wyrdeer::
+	.incbin "sound/direct_sound_samples/cries/wyrdeer.bin"
+
+	.align 2
+Cry_Gallade::
+	.incbin "sound/direct_sound_samples/cries/gallade.bin"
+
+	.align 2
+Cry_Leafeon::
+	.incbin "sound/direct_sound_samples/cries/leafeon.bin"
+
+	.align 2
+Cry_Glaceon::
+	.incbin "sound/direct_sound_samples/cries/glaceon.bin"
+
+	.align 2
+Cry_Gliscor::
+	.incbin "sound/direct_sound_samples/cries/gliscor.bin"
+
+	.align 2
+Cry_Froslass::
+	.incbin "sound/direct_sound_samples/cries/froslass.bin"
+
+	.align 2
+Cry_Yanmega::
+	.incbin "sound/direct_sound_samples/cries/yanmega.bin"
+
 	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"

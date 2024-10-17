@@ -2744,3 +2744,179 @@ const u8 gDunlongPokedexText[] = _(
 
 const u8 gDunlongPokedexTextUnused[] = _("");
 
+const u8 gBudewPokedexText[] = _(
+    "Over the winter, it closes its bud and\n"
+    "endures the cold. Sensitive to changing\n"
+    "temperature, the bud is said to bloom\n"
+    "when it feels the sun's warm touch.");
+
+const u8 gBudewPokedexTextUnused[] = _("");
+
+const u8 gRoseradePokedexText[] = _(
+    "A Roselia that drinks nutritionally rich\n"
+    "springwater blooms with lovely flowers.\n"
+    "The fragrance of its flowers has the\n"
+    "effect of making its foes careless.");
+
+const u8 gRoseradePokedexTextUnused[] = _("");
+
+const u8 gLarvestaPokedexText[] = _(
+    "This Pokémon was believed to have\n"
+    "been born from the sun. It spews fire from\n"
+    "its horns and encases itself in a cocoon\n"
+    "of fire when it evolves.");
+
+const u8 gLarvestaPokedexTextUnused[] = _("");
+
+const u8 gVolcaronaPokedexText[] = _(
+    "When volcanic ash darkened the\n"
+    "atmosphere, it appeared and saved Pokémon\n"
+    "from freezing, Volcarona's fire provided a\n"
+    "replacement for the sun.");
+
+const u8 gVolcaronaPokedexTextUnused[] = _("");
+
+const u8 gAxewPokedexText[] = _(
+    "They mark their territory by leaving\n"
+    "gashes in trees with their tusks. If a\n"
+    "tusk breaks, a new one grows in quickly,\n"
+    "harder and sturdier than the last.");
+
+const u8 gAxewPokedexTextUnused[] = _("");
+
+const u8 gFraxurePokedexText[] = _(
+    "Their tusks can shatter rocks.\n"
+    "A broken tusk will not grow back,\n"
+    "so it diligently sharpens its tusks on\n"
+    "river rocks after the end of a battle.");
+
+const u8 gFraxurePokedexTextUnused[] = _("");
+
+const u8 gHaxorusPokedexText[] = _(
+    "They are kind but can be relentless\n"
+    "when defending territory. Their sturdy\n"
+    "tusks will stay sharp even if used to cut\n"
+    "steel beams.");
+
+const u8 gHaxorusPokedexTextUnused[] = _("");
+
+const u8 gSpiritombPokedexText[] = _(
+    "A Pokémon that was formed by 108 spirits.\n"
+    "Its constant mischief and misdeeds\n"
+    "resulted in it being bound to an\n"
+    "Odd Keystone by a mysterious spell.");
+
+const u8 gSpiritombPokedexTextUnused[] = _("");
+
+const u8 gFlittlePokedexText[] = _(
+    "Flittle's toes levitate about half\n"
+    "an inch above the ground because of\n"
+    "the psychic power emitted from the\n"
+    "frills on the Pokémon's belly.");
+
+const u8 gFlittlePokedexTextUnused[] = _("");
+
+const u8 gEspathraPokedexText[] = _(
+    "It immobilizes opponents by\n"
+    "bathing them in psychic power from its\n"
+    "large eyes. Despite its appearance, it\n"
+    "has a vicious temperament.");
+
+const u8 gEspathraPokedexTextUnused[] = _("");
+
+const u8 gTangrowthPokedexText[] = _(
+    "It ensnares prey by extending arms made\n"
+    "of vines. Even if one of its arms is eaten,\n"
+    "it's fine. The Pokémon regenerates quickly\n"
+    "and will go right back to normal.");
+
+const u8 gTangrowthPokedexTextUnused[] = _("");
+
+const u8 gHonchkrowPokedexText[] = _(
+    "Becoming active at night, it is known\n"
+    "to swarm with numerous Murkrow in tow.\n"
+    "It is said that it never forgives the\n"
+    "mistakes of its cronies.");
+
+const u8 gHonchkrowPokedexTextUnused[] = _("");
+
+const u8 gWeavilePokedexText[] = _(
+    "They travel in groups of four or five,\n"
+    "leaving signs for one another on trees\n"
+    "and rocks. They bring down their prey\n"
+    "with coordinated attacks.");
+
+const u8 gWeavilePokedexTextUnused[] = _("");
+
+const u8 gElectivirePokedexText[] = _(
+    "When it gets excited, it thumps its chest.\n"
+    "With every thud, thunder roars, electric\n"
+    "sparks shower all around and blue sparks\n"
+    "begin to crackle between its horns.");
+
+const u8 gElectivirePokedexTextUnused[] = _("");
+
+const u8 gMagmortarPokedexText[] = _(
+    "According to what is known, a single pair\n"
+    "of male and female Magmortar lives in\n"
+    "one volcano. From its arm, it launches\n"
+    "fireballs hotter than any furnace.");
+
+const u8 gMagmortarPokedexTextUnused[] = _("");
+
+const u8 gWyrdeerPokedexText[] = _(
+    "The black orbs shine with an uncanny light\n"
+    "when it is erecting invisible barriers.\n"
+    "The fur shed from its beard retains heat\n"
+    "and is useful for winter clothing.");
+
+const u8 gWyrdeerPokedexTextUnused[] = _("");
+
+const u8 gGalladePokedexText[] = _(
+    "A master of courtesy and swordsmanship,\n"
+    "it fights using extending swords on its\n"
+    "elbows when trying to protect someone.\n"
+    "It can sense what its foe is thinking.");
+
+const u8 gGalladePokedexTextUnused[] = _("");
+
+const u8 gLeafeonPokedexText[] = _(
+    "Its cellular composition is closer to\n"
+    "that of a plant than an animal. It uses\n"
+    "photosynthesis to produce its energy\n"
+    "supply without eating food.");
+
+const u8 gLeafeonPokedexTextUnused[] = _("");
+
+const u8 gGlaceonPokedexText[] = _(
+    "It can control its body temperature\n"
+    "at will. This enables it to freeze the\n"
+    "moisture in the atmosphere, creating\n"
+    "flurries of diamond dust.");
+
+const u8 gGlaceonPokedexTextUnused[] = _("");
+
+const u8 gGliscorPokedexText[] = _(
+    "Gliscor observes prey while hanging\n"
+    "upside down from branches. Its flight is\n"
+    "soundless. When the chance presents\n"
+    "itself, it swoops!");
+
+const u8 gGliscorPokedexTextUnused[] = _("");
+
+const u8 gFroslassPokedexText[] = _(
+    "When it finds people or Pokémon it likes,\n"
+    "it freezes them and takes them to its\n"
+    "chilly den, where they become its\n"
+    "decorations.");
+
+const u8 gFroslassPokedexTextUnused[] = _("");
+
+const u8 gYanmegaPokedexText[] = _(
+    "This six-legged Pokémon is easily capable\n"
+    "of transporting an adult in flight. It is\n"
+    "adept at biting apart foes while flying\n"
+    "by at high speed.");
+
+const u8 gYanmegaPokedexTextUnused[] = _("");
+

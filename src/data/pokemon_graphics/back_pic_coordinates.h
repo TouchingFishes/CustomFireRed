@@ -2075,6 +2075,112 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+
+    [SPECIES_BUDEW] =
+    {
+        .size = MON_COORDS_SIZE(40, 56),
+        .y_offset = 11,
+    },
+    [SPECIES_ROSERADE] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 6,
+    },
+    [SPECIES_LARVESTA] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 12,
+    },
+    [SPECIES_VOLCARONA] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 3,
+    },
+    [SPECIES_AXEW] =
+    {
+        .size = MON_COORDS_SIZE(48, 56),
+        .y_offset = 8,
+    },
+    [SPECIES_FRAXURE] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 13,
+    },
+    [SPECIES_HAXORUS] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 8,
+    },
+    [SPECIES_SPIRITOMB] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 5,
+    },
+    [SPECIES_FLITTLE] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 9,
+    },
+    [SPECIES_TANGROWTH] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 2,
+    },
+    [SPECIES_HONCHKROW] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 8,
+    },
+    [SPECIES_WEAVILE] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 6,
+    },
+    [SPECIES_ELECTIVIRE] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 9,
+    },
+    [SPECIES_MAGMORTAR] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 6,
+    },
+    [SPECIES_WYRDEER] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+    [SPECIES_GALLADE] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 5,
+    },
+    [SPECIES_LEAFEON] =
+    {
+        .size = MON_COORDS_SIZE(48, 64),
+        .y_offset = 0,
+    },
+    [SPECIES_GLACEON] =
+    {
+        .size = MON_COORDS_SIZE(56, 64),
+        .y_offset = 6,
+    },
+    [SPECIES_GLISCOR] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 11,
+    },
+    [SPECIES_FROSLASS] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 3,
+    },
+    [SPECIES_YANMEGA] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 6,
+    },
     [SPECIES_EGG] =
     {
         .size = MON_COORDS_SIZE(24, 48),

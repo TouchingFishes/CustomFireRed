@@ -441,6 +441,28 @@ const u8 *const gMonIconTable[] = {
     [SPECIES_DARKRAI]     = gMonIcon_Darkrai,
     [SPECIES_DUNDRAG]     = gMonIcon_Dundrag,
     [SPECIES_DUNLONG]     = gMonIcon_Dunlong,
+    [SPECIES_BUDEW]       = gMonIcon_Budew,
+    [SPECIES_ROSERADE]    = gMonIcon_Roserade,
+    [SPECIES_LARVESTA]    = gMonIcon_Larvesta,
+    [SPECIES_VOLCARONA]   = gMonIcon_Volcarona,
+    [SPECIES_AXEW]        = gMonIcon_Axew,
+    [SPECIES_FRAXURE]     = gMonIcon_Fraxure,
+    [SPECIES_HAXORUS]     = gMonIcon_Haxorus,
+    [SPECIES_SPIRITOMB]   = gMonIcon_Spiritomb,
+    [SPECIES_FLITTLE]     = gMonIcon_Flittle,
+    [SPECIES_ESPATHRA]    = gMonIcon_Espathra,
+    [SPECIES_TANGROWTH]   = gMonIcon_Tangrowth,
+    [SPECIES_HONCHKROW]   = gMonIcon_Honchkrow,
+    [SPECIES_WEAVILE]     = gMonIcon_Weavile,
+    [SPECIES_ELECTIVIRE]  = gMonIcon_Electivire,
+    [SPECIES_MAGMORTAR]   = gMonIcon_Magmortar,
+    [SPECIES_WYRDEER]     = gMonIcon_Wyrdeer,
+    [SPECIES_GALLADE]     = gMonIcon_Gallade,
+    [SPECIES_LEAFEON]     = gMonIcon_Leafeon,
+    [SPECIES_GLACEON]     = gMonIcon_Glaceon,
+    [SPECIES_GLISCOR]     = gMonIcon_Gliscor,
+    [SPECIES_FROSLASS]    = gMonIcon_Froslass,
+    [SPECIES_YANMEGA]     = gMonIcon_Yanmega,
     [SPECIES_EGG]         = gMonIcon_Egg,
     [SPECIES_UNOWN_B]     = gMonIcon_UnownB,
     [SPECIES_UNOWN_C]     = gMonIcon_UnownC,
@@ -884,6 +906,41 @@ const u8 gMonIconPaletteIndices[] = {
     [SPECIES_JIRACHI]     = 0,
     [SPECIES_DEOXYS]      = 0,
     [SPECIES_CHIMECHO]    = 0,
+    [SPECIES_DARKRAI]     = 0,
+    [SPECIES_DUNDRAG]     = 0,
+    [SPECIES_DUNLONG]     = 0,
+    [SPECIES_BUDEW]       = 0,
+    [SPECIES_ROSERADE]    = 2,
+    [SPECIES_LARVESTA]    = 2,
+    [SPECIES_VOLCARONA]   = 2,
+    [SPECIES_AXEW]        = 2,
+    [SPECIES_FRAXURE]     = 0,
+    [SPECIES_HAXORUS]     = 1,
+    [SPECIES_LATIAS]      = 0,
+    [SPECIES_LATIOS]      = 2,
+    [SPECIES_JIRACHI]     = 0,
+    [SPECIES_DEOXYS]      = 0,
+    [SPECIES_CHIMECHO]    = 0,
+    [SPECIES_DARKRAI]     = 0,
+
+#define SPECIES_AXEW 419
+#define SPECIES_FRAXURE 420
+#define SPECIES_HAXORUS 421
+#define SPECIES_SPIRITOMB 422
+#define SPECIES_FLITTLE 423
+#define SPECIES_ESPATHRA 424
+#define SPECIES_TANGROWTH 425
+#define SPECIES_HONCHKROW 426
+#define SPECIES_WEAVILE 427
+#define SPECIES_ELECTIVIRE 428
+#define SPECIES_MAGMORTAR 429
+#define SPECIES_WYRDEER 430
+#define SPECIES_GALLADE 431
+#define SPECIES_LEAFEON 432
+#define SPECIES_GLACEON 433
+#define SPECIES_GLISCOR 434
+#define SPECIES_FROSLASS 435
+#define SPECIES_YANMEGA 436
     [SPECIES_EGG]         = 1,
     [SPECIES_UNOWN_B]     = 0,
     [SPECIES_UNOWN_C]     = 0,
