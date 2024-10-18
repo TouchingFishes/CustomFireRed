@@ -2123,8 +2123,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_TANGROWTH] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 2,
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 6,
     },
     [SPECIES_HONCHKROW] =
     {
