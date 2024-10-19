@@ -2735,15 +2735,15 @@ const u8 gDundragPokedexTextUnused[] = _("");
 
 
 const u8 gDunlongPokedexText[] = _(
-    "Dunlong is revered as an armored guardian.\n"
-    "Legends say those who witness its majestic\n"
-    "form are blessed with immense fortune.");
+    "Dunlong is revered as a hallowed guardian.\n"
+    "Legends say those who witness its majesty\n"
+    "are blessed with immense fortune.");
 
 const u8 gDunlongPokedexTextUnused[] = _("");
 
 const u8 gBudewPokedexText[] = _(
     "Over the winter, it closes its bud and\n"
-    "endures the cold. the bud is said to bloom\n"
+    "endures the cold. It is said to bloom\n"
     "when it feels the sun's warm touch.");
 
 const u8 gBudewPokedexTextUnused[] = _("");
@@ -2758,7 +2758,7 @@ const u8 gRoseradePokedexTextUnused[] = _("");
 const u8 gLarvestaPokedexText[] = _(
     "This Pokémon was believed to have been\n"
     "born from the sun. It spews fire from its\n"
-    "horns and encases itself in a cocoon of fire.");
+    "horns and encases itself in a fiery silk.");
 
 const u8 gLarvestaPokedexTextUnused[] = _("");
 
@@ -2794,7 +2794,7 @@ const u8 gHaxorusPokedexTextUnused[] = _("");
 const u8 gSpiritombPokedexText[] = _(
     "A Pokémon that was formed by 108 spirits.\n"
     "Its constant misdeeds resulted in it being\n"
-    "bound to a Keystone by a mysterious spell.");
+    "bound to a keystone by a mysterious spell.");
 
 const u8 gSpiritombPokedexTextUnused[] = _("");
 
@@ -2814,8 +2814,8 @@ const u8 gEspathraPokedexTextUnused[] = _("");
 
 const u8 gTangrowthPokedexText[] = _(
     "It ensnares prey by extending arms made\n"
-    "of vines. Even if one of its arms is eaten,\n"
-    "it's fine. The Pokémon regenerates quickly.");
+    "of vines. Even if its arms are lost,\n"
+    "it can regenerate quickly.");
 
 const u8 gTangrowthPokedexTextUnused[] = _("");
 
