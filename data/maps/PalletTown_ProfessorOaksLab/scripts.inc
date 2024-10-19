@@ -1127,9 +1127,9 @@ PalletTown_ProfessorOaksLab_EventScript_ChoseStarter::
 	call EventScript_RestorePrevTextColor
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
-	givemon SPECIES_DARKRAI, 75
+	givemon SPECIES_DUNLONG, 75
 	copyvar VAR_STARTER_MON, PLAYER_STARTER_NUM
-	bufferspeciesname STR_VAR_1, SPECIES_DARKRAI
+	bufferspeciesname STR_VAR_1, SPECIES_DUNLONG
 	message PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
 	waitmessage
 	playfanfare MUS_OBTAIN_KEY_ITEM
