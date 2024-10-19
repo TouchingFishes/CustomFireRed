@@ -2874,49 +2874,68 @@ static const u16 sTutorLearnsets[] =
                          | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_FLITTLE] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
+                    | TUTOR(MOVE_MIMIC)
+                    | TUTOR(MOVE_DREAM_EATER)
+                    | TUTOR(MOVE_SOFT_BOILED)
+                    | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_ESPATHRA] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
+                    | TUTOR(MOVE_MIMIC)
+                    | TUTOR(MOVE_DREAM_EATER)
+                    | TUTOR(MOVE_SOFT_BOILED)
+                    | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_TANGROWTH] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_TANGROWTH] = TUTOR(MOVE_SWORDS_DANCE)
+                      | TUTOR(MOVE_BODY_SLAM)
+                      | TUTOR(MOVE_DOUBLE_EDGE)
+                      | TUTOR(MOVE_MIMIC)
+                      | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_HONCHKROW] = TUTOR(MOVE_DOUBLE_EDGE)
+                      | TUTOR(MOVE_MIMIC)
+                      | TUTOR(MOVE_DREAM_EATER)
+                      | TUTOR(MOVE_THUNDER_WAVE)
+                      | TUTOR(MOVE_SUBSTITUTE),
+
+    [SPECIES_WEAVILE] = TUTOR(MOVE_SWORDS_DANCE)
+                      | TUTOR(MOVE_DOUBLE_EDGE)
+                      | TUTOR(MOVE_COUNTER)
+                      | TUTOR(MOVE_MIMIC)
+                      | TUTOR(MOVE_DREAM_EATER)
+                      | TUTOR(MOVE_SUBSTITUTE),
+
+    [SPECIES_ELECTIVIRE] = TUTOR(MOVE_MEGA_PUNCH)
+                         | TUTOR(MOVE_MEGA_KICK)
+                         | TUTOR(MOVE_BODY_SLAM)
+                         | TUTOR(MOVE_DOUBLE_EDGE)
+                         | TUTOR(MOVE_COUNTER)
+                         | TUTOR(MOVE_SEISMIC_TOSS)
                          | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
+                         | TUTOR(MOVE_THUNDER_WAVE)
                          | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_WEAVILE] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_MAGMORTAR] = TUTOR(MOVE_MEGA_PUNCH)
+                     | TUTOR(MOVE_MEGA_KICK)
+                     | TUTOR(MOVE_BODY_SLAM)
+                     | TUTOR(MOVE_DOUBLE_EDGE)
+                     | TUTOR(MOVE_COUNTER)
+                     | TUTOR(MOVE_SEISMIC_TOSS)
+                     | TUTOR(MOVE_MIMIC)
+                     | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_ELECTIVIRE] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_WYRDEER] = TUTOR(MOVE_BODY_SLAM)
+                       | TUTOR(MOVE_DOUBLE_EDGE)
+                       | TUTOR(MOVE_MIMIC)
+                       | TUTOR(MOVE_DREAM_EATER)
+                       | TUTOR(MOVE_THUNDER_WAVE)
+                       | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_MAGMORTAR] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
-
-    [SPECIES_WYRDEER] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
-
-    [SPECIES_GALLADE] = TUTOR(MOVE_DOUBLE_EDGE)
-                         | TUTOR(MOVE_MIMIC)
-                         | TUTOR(MOVE_DREAM_EATER)
-                         | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_GALLADE] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_MIMIC)
+                        | TUTOR(MOVE_DREAM_EATER)
+                        | TUTOR(MOVE_THUNDER_WAVE)
+                        | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_LEAFEON] = TUTOR(MOVE_DOUBLE_EDGE)
                          | TUTOR(MOVE_MIMIC)

@@ -9702,7 +9702,29 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_FROSLASS]       = TMHM_LEARNSET(0),
+    [SPECIES_FROSLASS]       = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
+                                        | TMHM(TM06_TOXIC)
+                                        | TMHM(TM07_HAIL)
+                                        | TMHM(TM10_HIDDEN_POWER)
+                                        | TMHM(TM12_TAUNT)
+                                        | TMHM(TM13_ICE_BEAM)
+                                        | TMHM(TM14_BLIZZARD)
+                                        | TMHM(TM15_HYPER_BEAM)
+                                        | TMHM(TM16_LIGHT_SCREEN)
+                                        | TMHM(TM17_PROTECT)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM20_SAFEGUARD)
+                                        | TMHM(TM21_FRUSTRATION)
+                                        | TMHM(TM24_THUNDERBOLT)
+                                        | TMHM(TM27_RETURN)
+                                        | TMHM(TM30_SHADOW_BALL)
+                                        | TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM41_TORMENT)
+                                        | TMHM(TM42_FACADE)
+                                        | TMHM(TM43_SECRET_POWER)
+                                        | TMHM(TM44_REST)
+                                        | TMHM(TM45_ATTRACT)
+                                        | TMHM(HM05_FLASH)),
 
     [SPECIES_YANMEGA]       = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
@@ -9715,6 +9737,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM35_FLAMETHROWER)
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM42_FACADE)
                                         | TMHM(TM43_SECRET_POWER)
@@ -9722,6 +9745,8 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM45_ATTRACT)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM47_STEEL_WING)
+                                        | TMHM(HM01_CUT)
+                                        | TMHM(HM04_STRENGTH)
                                         | TMHM(HM05_FLASH)),
 
     
