@@ -2728,19 +2728,19 @@ const u8 gDarkraiPokedexText[] = _(
 const u8 gDarkraiPokedexTextUnused[] = _("");
 
 const u8 gDundragPokedexText[] = _(
-    "It chases people and Pokémon from its\n"
-    "territory by causing them to experience\n"
-    "deep, nightmarish slumbers. However,\n"
-    "it means no harm.");
+    "Dundrag is so elusive that it is thought\n"
+    "to be a legend. Its peaceful aura can\n"
+    "calm even the fiercest storms, making\n"
+    "it a symbol of serenity in nature.");
 
 const u8 gDundragPokedexTextUnused[] = _("");
 
 
 const u8 gDunlongPokedexText[] = _(
-    "It chases people and Pokémon from its\n"
-    "territory by causing them to experience\n"
-    "deep, nightmarish slumbers. However,\n"
-    "it means no harm.");
+    "Dunlong is revered as an ancient guardian\n"
+    "with heavenly armour. Legends say those\n"
+    "who witness its majestic form are blessed\n"
+    "with immense fortune.");
 
 const u8 gDunlongPokedexTextUnused[] = _("");
 
@@ -2809,10 +2809,10 @@ const u8 gSpiritombPokedexText[] = _(
 const u8 gSpiritombPokedexTextUnused[] = _("");
 
 const u8 gFlittlePokedexText[] = _(
-    "Flittle's toes levitate about half\n"
-    "an inch above the ground because of\n"
-    "the psychic power emitted from the\n"
-    "frills on the Pokémon's belly.");
+    "It spends its time running around\n"
+    "wastelands. If anyone steals its beloved\n"
+    "berries, it will chase them down\n"
+    "and exact its revenge.");
 
 const u8 gFlittlePokedexTextUnused[] = _("");
 
