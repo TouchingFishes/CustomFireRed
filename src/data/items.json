@@ -19,7 +19,7 @@
     {
       "english": "MASTER BALL",
       "itemId": "ITEM_MASTER_BALL",
-      "price": 0,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "The best BALL with the ultimate\\nperformance. It will catch any wild\\nPOKéMON without fail.",
@@ -1091,7 +1091,7 @@
     {
       "english": "RARE CANDY",
       "itemId": "ITEM_RARE_CANDY",
-      "price": 4800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A candy that is packed with energy.\\nIt raises the level of a POKéMON\\nby one.",
