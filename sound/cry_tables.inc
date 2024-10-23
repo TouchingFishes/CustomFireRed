@@ -413,6 +413,50 @@ gCryTable::
 	cry Cry_Gliscor
 	cry Cry_Froslass
 	cry Cry_Yanmega
+	cry Cry_Kujinought
+	cry Cry_Mlloy
+	cry Cry_Bitemare
+	cry Cry_Gemgeist
+	cry Cry_Voltrel
+	cry Cry_Voltrean
+	cry Cry_Fletchling
+	cry Cry_Fletchinder
+	cry Cry_Talonflame
+	cry Cry_Rufflet
+	cry Cry_Braviary
+	cry Cry_Croagunk
+	cry Cry_Toxicroak
+	cry Cry_Tinkatink
+	cry Cry_Tinkatuff
+	cry Cry_Tinkaton
+	cry Cry_Solosis
+	cry Cry_Duosion
+	cry Cry_Reuniclus
+	cry Cry_Glameow
+	cry Cry_Purugly
+	cry Cry_Impidimp
+	cry Cry_Morgrem
+	cry Cry_Grimmsnarl
+	cry Cry_Combee
+	cry Cry_Vespiquen
+	cry Cry_Riolu
+	cry Cry_Lucario
+	cry Cry_Honedge
+	cry Cry_Doublade
+	cry Cry_Aegislash
+	cry Cry_Gible
+	cry Cry_Gabite
+	cry Cry_Garchomp
+	cry Cry_Turtwig
+	cry Cry_Grotle
+	cry Cry_Torterra
+	cry Cry_Chimchar
+	cry Cry_Monferno
+	cry Cry_Infernape
+	cry Cry_Piplup
+	cry Cry_Prinplup
+	cry Cry_Empoleon
+	cry Cry_Hoopa
 
 	.align 2
 gCryTable_Reverse::
@@ -829,3 +873,48 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gliscor
 	cry_reverse Cry_Froslass
 	cry_reverse Cry_Yanmega
+	cry_reverse Cry_Kujinought
+	cry_reverse Cry_Mlloy
+	cry_reverse Cry_Bitemare
+	cry_reverse Cry_Gemgeist
+	cry_reverse Cry_Voltrel
+	cry_reverse Cry_Voltrean
+	cry_reverse Cry_Fletchling
+	cry_reverse Cry_Fletchinder
+	cry_reverse Cry_Talonflame
+	cry_reverse Cry_Rufflet
+	cry_reverse Cry_Braviary
+	cry_reverse Cry_Croagunk
+	cry_reverse Cry_Toxicroak
+	cry_reverse Cry_Tinkatink
+	cry_reverse Cry_Tinkatuff
+	cry_reverse Cry_Tinkaton
+	cry_reverse Cry_Solosis
+	cry_reverse Cry_Duosion
+	cry_reverse Cry_Reuniclus
+	cry_reverse Cry_Glameow
+	cry_reverse Cry_Purugly
+	cry_reverse Cry_Impidimp
+	cry_reverse Cry_Morgrem
+	cry_reverse Cry_Grimmsnarl
+	cry_reverse Cry_Combee
+	cry_reverse Cry_Vespiquen
+	cry_reverse Cry_Riolu
+	cry_reverse Cry_Lucario
+	cry_reverse Cry_Honedge
+	cry_reverse Cry_Doublade
+	cry_reverse Cry_Aegislash
+	cry_reverse Cry_Gible
+	cry_reverse Cry_Gabite
+	cry_reverse Cry_Garchomp
+	cry_reverse Cry_Turtwig
+	cry_reverse Cry_Grotle
+	cry_reverse Cry_Torterra
+	cry_reverse Cry_Chimchar
+	cry_reverse Cry_Monferno
+	cry_reverse Cry_Infernape
+	cry_reverse Cry_Piplup
+	cry_reverse Cry_Prinplup
+	cry_reverse Cry_Empoleon
+	cry_reverse Cry_Hoopa
+
