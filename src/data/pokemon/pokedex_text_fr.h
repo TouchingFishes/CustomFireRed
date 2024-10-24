@@ -2735,9 +2735,9 @@ const u8 gDundragPokedexTextUnused[] = _("");
 
 
 const u8 gDunlongPokedexText[] = _(
-    "Dunlong is revered as a hallowed guardian.\n"
-    "Legends say those who witness its majesty\n"
-    "are blessed with immense fortune.");
+    "Dunlong is revered as a sacred guardian.\n"
+    "Legends say witnesses of its majesty are\n"
+    "blessed with immense fortune.");
 
 const u8 gDunlongPokedexTextUnused[] = _("");
 
@@ -2758,14 +2758,14 @@ const u8 gRoseradePokedexTextUnused[] = _("");
 const u8 gLarvestaPokedexText[] = _(
     "This Pokémon was believed to have been\n"
     "born from the sun. It spews fire from its\n"
-    "horns and encases itself in a fiery silk.");
+    "horns and encases itself in fiery silk.");
 
 const u8 gLarvestaPokedexTextUnused[] = _("");
 
 const u8 gVolcaronaPokedexText[] = _(
-    "When volcanic ash darkened the\n"
-    "atmosphere, it appeared and saved Pokémon\n"
-    "from freezing, it's fire blazes like a sun");
+    "When volcanic ash darkened the atmo-\n"
+    "sphere, it is said the Volcarona's fire\n"
+    "provided a replacement for the sun.");
 
 const u8 gVolcaronaPokedexTextUnused[] = _("");
 
@@ -2786,15 +2786,14 @@ const u8 gFraxurePokedexTextUnused[] = _("");
 const u8 gHaxorusPokedexText[] = _(
     "They are kind but can be relentless\n"
     "when defending territory. Their sturdy\n"
-    "tusks will stay sharp even if they cut\n"
-    "steel beams.");
+    "tusks can even cut steel beams.");
 
 const u8 gHaxorusPokedexTextUnused[] = _("");
 
 const u8 gSpiritombPokedexText[] = _(
-    "A Pokémon that was formed by 108 spirits.\n"
-    "Its constant misdeeds resulted in it being\n"
-    "bound to a keystone by a mysterious spell.");
+    "Spiritomb was formed by 108 spirits.\n"
+    "Constant misdeeds resulted in it being\n"
+    "bound to a keystone by an ancient spell.");
 
 const u8 gSpiritombPokedexTextUnused[] = _("");
 
@@ -2814,15 +2813,15 @@ const u8 gEspathraPokedexTextUnused[] = _("");
 
 const u8 gTangrowthPokedexText[] = _(
     "It ensnares prey by extending arms made\n"
-    "of vines. Even if its arms are lost,\n"
-    "it can regenerate quickly.");
+    "of vines. Even if its arms are lost, it\n"
+    "can regenerate them very quickly.");
 
 const u8 gTangrowthPokedexTextUnused[] = _("");
 
 const u8 gHonchkrowPokedexText[] = _(
-    "It is known to swarm with numerous Murkrow\n"
-    "in tow. It is said that it never forgives\n"
-    "the mistakes of its cronies.");
+    "It is known to swarm with numerous Mur-\n"
+    "krow in tow. It is said that it never\n"
+    "forgives the mistakes of its cronies.");
 
 const u8 gHonchkrowPokedexTextUnused[] = _("");
 
@@ -2841,14 +2840,14 @@ const u8 gElectivirePokedexText[] = _(
 const u8 gElectivirePokedexTextUnused[] = _("");
 
 const u8 gMagmortarPokedexText[] = _(
-    "According to what is known, a single pair\n"
-    "of male and female Magmortar lives in\n"
-    "one volcano. Its arms launch fireballs.");
+    "According to what is known, it can only\n"
+    "be found inside of active volcanoes. Its\n"
+    "arms can launch devastating fireballs.");
 
 const u8 gMagmortarPokedexTextUnused[] = _("");
 
 const u8 gWyrdeerPokedexText[] = _(
-    "The black orbs shine with an uncanny light\n"
+    "The black orbs shine with an uncanny glow\n"
     "when it is erecting invisible barriers.\n"
     "The fur shed from its beard retains heat.");
 
@@ -2890,37 +2889,37 @@ const u8 gFroslassPokedexText[] = _(
 const u8 gFroslassPokedexTextUnused[] = _("");
 
 const u8 gYanmegaPokedexText[] = _(
-    "This Pokémon is easily capable of carrying\n" 
-    "an adult in flight. It is adept at biting\n"
+    "This Pokémon can easily carry multiple\n" 
+    "adults in flight. It is adept at biting\n"
     "apart foes while flyingby at high speed.");
 
 const u8 gYanmegaPokedexTextUnused[] = _("");
 
 const u8 gKujinoughtPokedexText[] = _(
-    "It is able to freeze the moisture\n"
-    "in the atmosphere, creating beautiful\n"
-    "flurries of diamond dust.");
+    "It is a swimming fortress, using its\n"
+    "fire power to level any threat it faces.\n"
+    "This power is the source of its pride.");
 
 const u8 gKujinoughtPokedexTextUnused[] = _("");
 
 const u8 gMlloyPokedexText[] = _(
-    "Gliscor observes prey while hanging\n"
-    "upside down from branches. Its flight is\n"
-    "soundless. Its fangs are deadly");
+    "M'lloy loves the taste of fermented berry\n"
+    "juice. Despite its petite physique it can\n"
+    "drink a lot and hit suprisingly hard.");
 
 const u8 gMlloyPokedexTextUnused[] = _("");
 
 const u8 gBitemarePokedexText[] = _(
-    "When it finds people or Pokémon it likes,\n"
-    "it freezes them and takes them to its\n"
-    "chilly den, where they become decorations");
+    "Bitemare is ever hungry for prey. It uses\n"
+    "deceptive tactics to lure it prey. Once\n"
+    "it opens its maw, there is no escape.");
 
 const u8 gBitemarePokedexTextUnused[] = _("");
 
 const u8 gGemgeistPokedexText[] = _(
-    "This Pokémon is easily capable of carrying\n" 
-    "an adult in flight. It is adept at biting\n"
-    "apart foes while flyingby at high speed.");
+    "Gemgeist uses diamonds and other gems as\n" 
+    "shields. Despite its small size, it has\n"
+    "an unnerving amount of resilience.");
 
 const u8 gGemgeistPokedexTextUnused[] = _("");
 
@@ -2947,8 +2946,8 @@ const u8 gFletchlingPokedexTextUnused[] = _("");
 
 const u8 gFletchinderPokedexText[] = _(
     "From its beak, it expels embers that set\n"
-    "the tall grass on fire. Then it pounces on\n"
-    "any bewildered Pokémon.");
+    "the tall grass on fire. Then it pounces\n"
+    "on any bewildered Pokémon.");
 
 const u8 gFletchinderPokedexTextUnused[] = _("");
 
@@ -2961,15 +2960,15 @@ const u8 gTalonflamePokedexTextUnused[] = _("");
 
 const u8 gRuffletPokedexText[] = _(
     "With its sharp claws, this Pokémon pierces\n"
-    "its prey, and then it pecks at them.\n"
-    "It's a carnivore at heart.");
+    "its prey, and then it pecks at them. It\n"
+    "is a carnivore at heart.");
 
 const u8 gRuffletPokedexTextUnused[] = _("");
 
 const u8 gBraviaryPokedexText[] = _(
     "For the sake of its friends, this brave\n"
     "warrior of the sky will not stop battling,\n"
-    "even if it is injured.");
+    "even if it is gravely injured.");
 
 const u8 gBraviaryPokedexTextUnused[] = _("");
 
@@ -3039,7 +3038,7 @@ const u8 gGlameowPokedexTextUnused[] = _("");
 const u8 gPuruglyPokedexText[] = _(
     "It is a brazen brute that barges its way\n"
     "into another Pokémon's nest and claims\n"
-    "it as its own.");
+    "it as its own. Purugly has a bad temper.");
 
 const u8 gPuruglyPokedexTextUnused[] = _("");
 
@@ -3086,9 +3085,9 @@ const u8 gRioluPokedexText[] = _(
 const u8 gRioluPokedexTextUnused[] = _("");
 
 const u8 gLucarioPokedexText[] = _(
-    "It is said that no foe can remain invisible\n"
+    "It is said that no foe can remain unseen\n"
     "to Lucario, since it can detect Auras.\n"
-    "Even foes it could not otherwise see.");
+    "Even invisible foes are not safe.");
 
 const u8 gLucarioPokedexTextUnused[] = _("");
 
@@ -3150,7 +3149,8 @@ const u8 gGrotlePokedexTextUnused[] = _("");
 
 const u8 gTorterraPokedexText[] = _(
     "Some Pokémon are born on a Torterra's\n"
-    "back and spend their entire life there.");
+    "back and spend their entire life there.\n"
+    "They often act as guardians of nature.");
 
 const u8 gTorterraPokedexTextUnused[] = _("");
 
@@ -3176,9 +3176,9 @@ const u8 gInfernapePokedexText[] = _(
 const u8 gInfernapePokedexTextUnused[] = _("");
 
 const u8 gPiplupPokedexText[] = _(
-    "A poor walker, it often falls down. However,\n"
-    "its strong pride makes it puff up its chest\n"
-    "without a care.");
+    "A poor walker, it often falls down. How-\n"
+    "ever, its strong pride makes it puff up\n"
+    "its chest without a care.");
 
 const u8 gPiplupPokedexTextUnused[] = _("");
 
@@ -3197,8 +3197,9 @@ const u8 gEmpoleonPokedexText[] = _(
 const u8 gEmpoleonPokedexTextUnused[] = _("");
 
 const u8 gHoopaPokedexText[] = _(
-    "In its true form, it possess a huge amount\n"
-    "of power. When its powers are sealed away,\n"
-    "it is transformed into a much smaller form.");
+    "In its true form, it possess incredible\n"
+    "power. When its power is sealed away, it\n"
+    "is transformed into a much smaller form.");
 
 const u8 gHoopaPokedexTextUnused[] = _("");
+

@@ -2194,17 +2194,17 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_MLLOY] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .y_offset = 0,
     },
     [SPECIES_BITEMARE] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 5,
     },
     [SPECIES_GEMGEIST] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 5,
     },
     [SPECIES_VOLTREL] =
     {
@@ -2223,8 +2223,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_FLETCHINDER] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(56, 48),
+        .y_offset = 11,
     },
     [SPECIES_TALONFLAME] =
     {

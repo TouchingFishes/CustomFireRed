@@ -975,10 +975,9 @@ const u8 gMonIconPaletteIndices[] = {
     [SPECIES_GLISCOR]     = 2,
     [SPECIES_FROSLASS]    = 0,
     [SPECIES_YANMEGA]     = 1,
-
     [SPECIES_KUJINOUGHT]  = 0,
-    [SPECIES_MLLOY]       = 1,
-    [SPECIES_BITEMARE]    = 2,
+    [SPECIES_MLLOY]       = 0,
+    [SPECIES_BITEMARE]    = 0,
     [SPECIES_GEMGEIST]    = 2,
     [SPECIES_VOLTREL]     = 0,
     [SPECIES_VOLTREAN]    = 0,
@@ -1003,11 +1002,10 @@ const u8 gMonIconPaletteIndices[] = {
     [SPECIES_COMBEE]      = 0,
     [SPECIES_VESPIQUEN]   = 0,
     [SPECIES_RIOLU]       = 2,
-    [SPECIES_LUCARIO]     = 1,
+    [SPECIES_LUCARIO]     = 2,
     [SPECIES_HONEDGE]     = 2,
     [SPECIES_DOUBLADE]    = 2,
     [SPECIES_AEGISLASH]   = 2,
-
     [SPECIES_GIBLE]       = 0,
     [SPECIES_GABITE]      = 0,
     [SPECIES_GARCHOMP]    = 0,
@@ -1020,7 +1018,6 @@ const u8 gMonIconPaletteIndices[] = {
     [SPECIES_PIPLUP]      = 0,
     [SPECIES_PRINPLUP]    = 0,
     [SPECIES_EMPOLEON]    = 0,
-
     [SPECIES_HOOPA]       = 0,
     [SPECIES_EGG]         = 1,
     [SPECIES_UNOWN_B]     = 0,
