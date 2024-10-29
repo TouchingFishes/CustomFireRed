@@ -11313,6 +11313,34 @@ Move_FIERY_DANCE:
 
 Move_HYPERSPACE_HOLE:
 Move_PSYSHIELD_BASH:
+	loadspritegfx ANIM_TAG_IMPACT
+	loadspritegfx ANIM_TAG_SPIRAL
+	call SetPsychicBackground
+	monbg ANIM_DEF_PARTNER
+	setalpha 12, 8
+	playsewithpan SE_M_SUPERSONIC, SOUND_PAN_ATTACKER
+	createvisualtask AnimTask_BlendBattleAnimPal, 0xa, F_PAL_ATTACKER, 0x1, 0x0, 0xB, 0x7FAF @;Light blue
+	createvisualtask AnimTask_WindUpLunge, 5, ANIM_ATTACKER, -24, 8, 23, 10, 56, 10
+	delay 0x23
+	createsprite gPsychUpSpiralSpriteTemplate, ANIM_ATTACKER, 4, -10, 0x0, 0x1, 0x0
+	playsewithpan SE_M_MEGA_KICK2, SOUND_PAN_TARGET
+	delay 0x1
+	createsprite gSlideMonToOffsetSpriteTemplate ANIM_TARGET, 2, ANIM_TARGET, 0xfff0, 0x0, 0x0, 0x4
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_TARGET, 4, 0, 12, 1
+	playsewithpan SE_M_COMET_PUNCH, SOUND_PAN_TARGET
+	waitforvisualfinish
+	delay 0x2
+	createvisualtask AnimTask_BlendBattleAnimPal, 0xa, F_PAL_ATTACKER, 0x1, 0xB, 0x0, 0x7FAF @;Light blue
+	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, 0x5
+	delay 0x3
+	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_ATTACKER, 2, 0x1, 0x0, 0x7
+	waitforvisualfinish
+	call UnsetPsychicBackground
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	end
+
 Move_LUMINA_CRASH:
 	loadspritegfx ANIM_TAG_ELECTRIC_ORBS
 	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT
@@ -11445,4 +11473,3 @@ Move_TWIN_BEAM:
 	
 
 
-	
