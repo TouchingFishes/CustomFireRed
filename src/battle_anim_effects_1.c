@@ -842,6 +842,19 @@ const struct SpriteTemplate gItemStealSpriteTemplate =
     .callback = AnimItemSteal,
 };
 
+const struct SpriteTemplate gAttackOrderParticleSpriteTemplate =
+{
+    .tileTag = ANIM_TAG_ATTACK_ORDER,
+    .paletteTag = ANIM_TAG_ATTACK_ORDER,
+    .oam = &gOamData_AffineOff_ObjNormal_16x16,
+    .anims = sRazorLeafParticleAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = AnimMoveTwisterParticle,
+};
+
+
+
 static const union AffineAnimCmd sTrickBagAffineAnimCmds1[] = 
 {
     AFFINEANIMCMD_FRAME(0, 0, 0, 3),
