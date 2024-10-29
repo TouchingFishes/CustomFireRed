@@ -281,7 +281,7 @@
 #define EVO_LEVEL_FEMALE     16 // Pokémon reaches the specified level, is female
 #define EVO_LEVEL_MALE       17 // Pokémon reaches the specified level, is male
 
-#define EVOS_PER_MON 5
+#define EVOS_PER_MON 7
 
 #define EVO_MODE_NORMAL     0
 #define EVO_MODE_TRADE      1

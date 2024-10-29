@@ -5293,7 +5293,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LEAFEON] =
     {
-        .categoryName = _("VERDAMT"),
+        .categoryName = _("VERDANT"),
         .height = 10,
         .weight = 255,
         .description = gLeafeonPokedexText,
@@ -5372,8 +5372,8 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_MLLOY] =
     {
         .categoryName = _("WATERFOWL"),
-        .height = 8,
-        .weight = 150,
+        .height = 9,
+        .weight = 220,
         .description = gMlloyPokedexText,
         .unusedDescription = gMlloyPokedexTextUnused,
         .pokemonScale = 317,
@@ -5385,8 +5385,8 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_BITEMARE] =
     {
         .categoryName = _("DEVOURER"),
-        .height = 6,
-        .weight = 115,
+        .height = 8,
+        .weight = 315,
         .description = gBitemarePokedexText,
         .unusedDescription = gBitemarePokedexTextUnused,
         .pokemonScale = 466,
@@ -5399,7 +5399,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("DIAMOND"),
         .height = 5,
-        .weight = 110,
+        .weight = 810,
         .description = gGemgeistPokedexText,
         .unusedDescription = gGemgeistPokedexTextUnused,
         .pokemonScale = 451,
