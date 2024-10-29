@@ -384,9 +384,9 @@ gBattleAnims_Moves::
 	.4byte Move_FIERY_DANCE
 	.4byte Move_KINGS_SHIELD
 	.4byte Move_HYPERSPACE_HOLE
-	.4byte Move_PSYSHIELD_BASH
+	.4byte Move_BARRIER_BASH
 	.4byte Move_LUMINA_CRASH
-	.4byte Move_GIGATON_SMASH
+	.4byte Move_GIGATON_SLAM
 	.4byte Move_TWIN_BEAM
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
@@ -11312,7 +11312,7 @@ Move_FIERY_DANCE:
 	end
 
 Move_HYPERSPACE_HOLE:
-Move_PSYSHIELD_BASH:
+Move_BARRIER_BASH:
 	loadspritegfx ANIM_TAG_IMPACT
 	loadspritegfx ANIM_TAG_SPIRAL
 	call SetPsychicBackground
@@ -11405,7 +11405,7 @@ Move_LUMINA_CRASH:
 	blendoff
 	end
 
-Move_GIGATON_SMASH:
+Move_GIGATON_SLAM:
 	loadspritegfx ANIM_TAG_CLAW_SLASH
 	loadspritegfx ANIM_TAG_IMPACT
 	loopsewithpan SE_M_HARDEN, SOUND_PAN_ATTACKER, 28, 2

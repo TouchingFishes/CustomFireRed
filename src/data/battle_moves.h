@@ -4758,7 +4758,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
     },
 
-    [MOVE_GIGATON_SMASH] =
+    [MOVE_GIGATON_SLAM] =
     {
         .effect = EFFECT_RECHARGE,
         .power = 150,

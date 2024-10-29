@@ -368,7 +368,7 @@ const u8 gMoveDescription_KingsShield[] = _("A mystic, powerful\ndance that boos
 const u8 gMoveDescription_HSpaceHole[] = _("The user hurls two\nto five hard rocks\nat the foe to\nattack.");
 const u8 gMoveDescription_BarrierBash[] = _("A rapid jolt of\nelectricity strikes\nthe foe. It can't\nbe evaded.");
 const u8 gMoveDescription_LuminaCrash[] = _("An attack with a\npulsing blast of\nwater. It may also\nconfuse the foe.");
-const u8 gMoveDescription_GigatonSmash[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
+const u8 gMoveDescription_GigatonSlam[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
 const u8 gMoveDescription_TwinBeam[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
@@ -737,6 +737,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_H_SPACE_HOLE  - 1] = gMoveDescription_HSpaceHole,
     [MOVE_BARRIER_BASH  - 1] = gMoveDescription_BarrierBash,
     [MOVE_LUMINA_CRASH  - 1] = gMoveDescription_LuminaCrash,
-    [MOVE_GIGATON_SMASH  - 1]= gMoveDescription_GigatonSmash,
+    [MOVE_GIGATON_SLAM  - 1]= gMoveDescription_GigatonSlam,
     [MOVE_TWIN_BEAM     - 1] = gMoveDescription_TwinBeam,
 };
