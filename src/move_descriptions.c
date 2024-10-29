@@ -357,10 +357,10 @@ const u8 gMoveDescription_DoomDesire[] = _("A move that attacks\nthe foe with a\
 const u8 gMoveDescription_PsychoBoost[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
 
 
-const u8 gMoveDescription_DefendOrder[] = _("An attack with a\nhigh critical-hit\nratio. It may also\npoison the foe.");
-const u8 gMoveDescription_HealOrder[] = _("A cutely executed\nattack that also\nsteals the foe's\nhold item.");
-const u8 gMoveDescription_AttackOrder[] = _("The user throws an\nelectrified tackle.\nIt hurts the user\na little.");
-const u8 gMoveDescription_DrainPunch[] = _("The foe is attacked\nwith a strange leaf\nthat cannot be\nevaded.");
+const u8 gMoveDescription_DefendOrder[] = _("The user orders\nbees to protect it\nraising DEFENSE\nand SP. DEF.");
+const u8 gMoveDescription_HealOrder[] = _("A self-healing move\nthat restores HP by\nup to half of the\nuser's maximum HP.");
+const u8 gMoveDescription_AttackOrder[] = _("The user orders\nbees to strike.\nIt has a high\ncritical-hit ratio.");
+const u8 gMoveDescription_DrainPunch[] = _("A punch that\nabsorbs half the\ndamage it inflicted\nto restore HP.");
 const u8 gMoveDescription_AuraSphere[] = _("Weakens FIRE-type\nattacks while the\nuser is in the\nbattle.");
 const u8 gMoveDescription_DarkVoid[] = _("The user focuses\nits mind to raise\nthe SP. ATK and\nSP. DEF stats.");
 const u8 gMoveDescription_FieryDance[] = _("The foe is slashed\nwith a sharp leaf.\nIt has a high\ncritical-hit ratio.");
@@ -368,7 +368,7 @@ const u8 gMoveDescription_KingsShield[] = _("A mystic, powerful\ndance that boos
 const u8 gMoveDescription_HSpaceHole[] = _("The user hurls two\nto five hard rocks\nat the foe to\nattack.");
 const u8 gMoveDescription_BarrierBash[] = _("A rapid jolt of\nelectricity strikes\nthe foe. It can't\nbe evaded.");
 const u8 gMoveDescription_LuminaCrash[] = _("An attack with a\npulsing blast of\nwater. It may also\nconfuse the foe.");
-const u8 gMoveDescription_HammerSmash[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
+const u8 gMoveDescription_GigatonSmash[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
 const u8 gMoveDescription_TwinBeam[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
@@ -737,6 +737,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_H_SPACE_HOLE  - 1] = gMoveDescription_HSpaceHole,
     [MOVE_BARRIER_BASH  - 1] = gMoveDescription_BarrierBash,
     [MOVE_LUMINA_CRASH  - 1] = gMoveDescription_LuminaCrash,
-    [MOVE_HAMMER_SMASH  - 1] = gMoveDescription_HammerSmash,
+    [MOVE_GIGATON_SMASH  - 1]= gMoveDescription_GigatonSmash,
     [MOVE_TWIN_BEAM     - 1] = gMoveDescription_TwinBeam,
 };

@@ -5736,7 +5736,7 @@ static const u16 sDundragLevelUpLearnset[] = {
 };
 
 static const u16 sDunlongLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_HAMMER_SMASH),
+    LEVEL_UP_MOVE(1, MOVE_GIGATON_SMASH),
 //    LEVEL_UP_MOVE(4, MOVE_DEFENSE_CURL),
 //    LEVEL_UP_MOVE(2, MOVE_HEAL_ORDER),
 //    LEVEL_UP_MOVE(2, MOVE_ATTACK_ORDER),
