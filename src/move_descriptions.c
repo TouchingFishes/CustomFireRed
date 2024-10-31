@@ -355,8 +355,6 @@ const u8 gMoveDescription_ShockWave[] = _("A rapid jolt of\nelectricity strikes\
 const u8 gMoveDescription_WaterPulse[] = _("An attack with a\npulsing blast of\nwater. It may also\nconfuse the foe.");
 const u8 gMoveDescription_DoomDesire[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
 const u8 gMoveDescription_PsychoBoost[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
-
-
 const u8 gMoveDescription_DefendOrder[] = _("The user orders\nbees to protect it\nraising DEFENSE\nand SP. DEF.");
 const u8 gMoveDescription_HealOrder[] = _("A self-healing move\nthat restores HP by\nup to half of the\nuser's maximum HP.");
 const u8 gMoveDescription_AttackOrder[] = _("The user orders\nbees to strike.\nIt has a high\ncritical-hit ratio.");
@@ -366,7 +364,7 @@ const u8 gMoveDescription_DarkVoid[] = _("A hauntng lullaby\nis used to make the
 const u8 gMoveDescription_FieryDance[] = _("The foe is attacked\nby dancing embers.\nIt may also raise\nthe user's SP. ATK.");
 const u8 gMoveDescription_KingsShield[] = _("A mystic shield to\nevade all attacks.\nIt may fail if used\nin succession.");
 const u8 gMoveDescription_HSpaceFury[] = _("The user strikes\nwith interdimen-\nsional fury, it\nhits without fail.");
-const u8 gMoveDescription_BarrierBash[] = _("A rapid jolt of\nelectricity strikes\nthe foe. It can't\nbe evaded.");
+const u8 gMoveDescription_BarrierBash[] = _("A psychic barrier\nis used to bash the\nfoe. It may raise\nthe user's DEF.");
 const u8 gMoveDescription_LuminaCrash[] = _("An attack with a\npulsing blast of\nlight. It lowers\nfoe's SP. DEF.");
 const u8 gMoveDescription_GigatonSlam[] = _("A severely damaging\nattack that makes\nthe user rest on\nthe next turn.");
 const u8 gMoveDescription_TwinBeam[] = _("Two beams are\nfired to quickly hit\nhit the foe twice\nin one turn.");
