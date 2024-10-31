@@ -365,13 +365,15 @@
 #define MOVE_DARK_VOID 360
 #define MOVE_FIERY_DANCE 361
 #define MOVE_KINGS_SHIELD 362
-#define MOVE_H_SPACE_HOLE 363
+#define MOVE_H_SPACE_FURY 363
 #define MOVE_BARRIER_BASH 364
 #define MOVE_LUMINA_CRASH 365
 #define MOVE_GIGATON_SLAM 366
 #define MOVE_TWIN_BEAM 367
+#define MOVE_MIRROR_SHOT 368
+#define MOVE_BURNING_SAND 369
 
-#define MOVES_COUNT 368
+#define MOVES_COUNT 370
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

@@ -361,15 +361,19 @@ const u8 gMoveDescription_DefendOrder[] = _("The user orders\nbees to protect it
 const u8 gMoveDescription_HealOrder[] = _("A self-healing move\nthat restores HP by\nup to half of the\nuser's maximum HP.");
 const u8 gMoveDescription_AttackOrder[] = _("The user orders\nbees to strike.\nIt has a high\ncritical-hit ratio.");
 const u8 gMoveDescription_DrainPunch[] = _("A punch that\nabsorbs half the\ndamage it inflicted\nto restore HP.");
-const u8 gMoveDescription_AuraSphere[] = _("Weakens FIRE-type\nattacks while the\nuser is in the\nbattle.");
-const u8 gMoveDescription_DarkVoid[] = _("The user focuses\nits mind to raise\nthe SP. ATK and\nSP. DEF stats.");
-const u8 gMoveDescription_FieryDance[] = _("The foe is slashed\nwith a sharp leaf.\nIt has a high\ncritical-hit ratio.");
-const u8 gMoveDescription_KingsShield[] = _("A mystic, powerful\ndance that boosts\nthe user's ATTACK\nand SPEED stats.");
-const u8 gMoveDescription_HSpaceHole[] = _("The user hurls two\nto five hard rocks\nat the foe to\nattack.");
+const u8 gMoveDescription_AuraSphere[] = _("The user fires\naura energy at\nhis foe, it hits\nwithout fail.");
+const u8 gMoveDescription_DarkVoid[] = _("A hauntng lullaby\nis used to make the\nfoe fall into a\ndeep sleep.");
+const u8 gMoveDescription_FieryDance[] = _("The foe is attacked\nby dancing embers.\nIt may also raise\nthe user's SP. ATK.");
+const u8 gMoveDescription_KingsShield[] = _("A mystic shield to\nevade all attacks.\nIt may fail if used\nin succession.");
+const u8 gMoveDescription_HSpaceFury[] = _("The user strikes\nwith interdimen-\nsional fury, it\nhits without fail.");
 const u8 gMoveDescription_BarrierBash[] = _("A rapid jolt of\nelectricity strikes\nthe foe. It can't\nbe evaded.");
-const u8 gMoveDescription_LuminaCrash[] = _("An attack with a\npulsing blast of\nwater. It may also\nconfuse the foe.");
-const u8 gMoveDescription_GigatonSlam[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
-const u8 gMoveDescription_TwinBeam[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
+const u8 gMoveDescription_LuminaCrash[] = _("An attack with a\npulsing blast of\nlight. It lowers\nfoe's SP. DEF.");
+const u8 gMoveDescription_GigatonSlam[] = _("A severely damaging\nattack that makes\nthe user rest on\nthe next turn.");
+const u8 gMoveDescription_TwinBeam[] = _("Two beams are\nfired to quickly hit\nhit the foe twice\nin one turn.");
+const u8 gMoveDescription_MirrorShot[] = _("Glass is hurled in\nthe foe's face to\ninflict damage and\nlower its accuracy.");
+const u8 gMoveDescription_BurningSand[] = _("The foe is attacked\nwith scorching sand.\nIt may suffer a\nburn.");
+
+
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -734,9 +738,11 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_DARK_VOID     - 1] = gMoveDescription_DarkVoid,
     [MOVE_FIERY_DANCE   - 1] = gMoveDescription_FieryDance,
     [MOVE_KINGS_SHIELD  - 1] = gMoveDescription_KingsShield,
-    [MOVE_H_SPACE_HOLE  - 1] = gMoveDescription_HSpaceHole,
+    [MOVE_H_SPACE_FURY  - 1] = gMoveDescription_HSpaceFury,
     [MOVE_BARRIER_BASH  - 1] = gMoveDescription_BarrierBash,
     [MOVE_LUMINA_CRASH  - 1] = gMoveDescription_LuminaCrash,
-    [MOVE_GIGATON_SLAM  - 1]= gMoveDescription_GigatonSlam,
+    [MOVE_GIGATON_SLAM  - 1] = gMoveDescription_GigatonSlam,
     [MOVE_TWIN_BEAM     - 1] = gMoveDescription_TwinBeam,
+    [MOVE_MIRROR_SHOT   - 1] = gMoveDescription_MirrorShot,
+    [MOVE_BURNING_SAND  - 1] = gMoveDescription_BurningSand,
 };
