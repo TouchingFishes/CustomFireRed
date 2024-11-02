@@ -281,6 +281,8 @@
 #define EVO_LEVEL_FEMALE     16 // Pokémon reaches the specified level, is female
 #define EVO_LEVEL_MALE       17 // Pokémon reaches the specified level, is male
 #define EVO_ITEM_HOLD        18 // Pokémon levels up while holding specified item
+#define EVO_ITEM_FEMALE      19 // specified item is used on a female Pokémon
+#define EVO_ITEM_MALE        20 // specified item is used on a male Pokémon
 
 #define EVOS_PER_MON 7
 

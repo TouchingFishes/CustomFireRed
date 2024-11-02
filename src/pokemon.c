@@ -5359,6 +5359,20 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }
+            else if (gEvolutionTable[species][i].method == EVO_ITEM_FEMALE
+             && gEvolutionTable[species][i].param == evolutionItem
+             && GetMonGender(mon) == MON_FEMALE)
+             {
+                targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+             }
+            else if (gEvolutionTable[species][i].method == EVO_ITEM_MALE
+             && gEvolutionTable[species][i].param == evolutionItem
+             && GetMonGender(mon) == MON_MALE)
+             {
+                targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+             }
         }
         break;
     }
