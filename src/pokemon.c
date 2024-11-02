@@ -5311,6 +5311,16 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 if (gEvolutionTable[species][i].param <= level && GetMonGender(mon) == MON_MALE)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
+            case EVO_ITEM_HOLD:
+                if (heldItem == gEvolutionTable[species][i].param)
+                {
+                    heldItem = ITEM_NONE;
+                    SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    break;
+                    //removes the item
+
+                }
             }
         }
         break;

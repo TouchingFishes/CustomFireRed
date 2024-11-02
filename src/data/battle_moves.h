@@ -4696,10 +4696,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FIERY_DANCE] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
-        .power = 80,
+        .power = 75,
         .type = TYPE_FIRE,
         .accuracy = 100,
-        .pp = 15,
+        .pp = 10,
         .secondaryEffectChance = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,

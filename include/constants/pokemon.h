@@ -280,6 +280,7 @@
 #define EVO_BEAUTY           15 // Pokémon levels up with beauty ≥ specified value
 #define EVO_LEVEL_FEMALE     16 // Pokémon reaches the specified level, is female
 #define EVO_LEVEL_MALE       17 // Pokémon reaches the specified level, is male
+#define EVO_ITEM_HOLD        18 // Pokémon levels up while holding specified item
 
 #define EVOS_PER_MON 7
 
