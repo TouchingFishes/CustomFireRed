@@ -1284,7 +1284,7 @@ static void Cmd_typecalc(void)
 
     GET_MOVE_TYPE(gCurrentMove, moveType);
 
-    // check stab
+    // check stab adaptability here
     if (IS_BATTLER_OF_TYPE(gBattlerAttacker, moveType))
     {
         gBattleMoveDamage = gBattleMoveDamage * 15;
