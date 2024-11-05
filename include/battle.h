@@ -230,6 +230,7 @@ struct SpecialStatus
     u8 specialBattlerId;
     u8 field12;
     u8 field13;
+    u8 switchInAbilityDone:1;
 };
 
 extern struct SpecialStatus gSpecialStatuses[MAX_BATTLERS_COUNT];
