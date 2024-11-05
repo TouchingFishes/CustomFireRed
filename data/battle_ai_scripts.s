@@ -61,6 +61,7 @@ AI_CBM_CheckIfNegatesType::
 	if_equal ABILITY_VOLT_ABSORB, CheckIfVoltAbsorbCancelsElectric
 	if_equal ABILITY_WATER_ABSORB, CheckIfWaterAbsorbCancelsWater
 	if_equal ABILITY_FLASH_FIRE, CheckIfFlashFireCancelsFire
+	if_equal ABILITY_SAP_SIPPER, CheckIfSapSipperCancelsGrass
 	if_equal ABILITY_WONDER_GUARD, CheckIfWonderGuardCancelsMove
 	if_equal ABILITY_LEVITATE, CheckIfLevitateCancelsGroundMove
 	goto AI_CheckBadMove_CheckSoundproof
@@ -78,6 +79,11 @@ CheckIfWaterAbsorbCancelsWater::
 CheckIfFlashFireCancelsFire::
 	get_curr_move_type
 	if_equal_ TYPE_FIRE, Score_Minus12
+	goto AI_CheckBadMove_CheckSoundproof
+
+CheckIfSapSipperCancelsGrass::
+	get_curr_move_type
+	if_equal_ TYPE_GRASS, Score_Minus12
 	goto AI_CheckBadMove_CheckSoundproof
 
 CheckIfWonderGuardCancelsMove::
@@ -2390,6 +2396,7 @@ AI_CV_Hail::
 	if_equal AI_WEATHER_SUN, AI_CV_Hail2
 	if_equal AI_WEATHER_RAIN, AI_CV_Hail2
 	if_equal AI_WEATHER_SANDSTORM, AI_CV_Hail2
+	if_equal ABILITY_RAIN_DISH, AI_CV_Hail2
 	goto AI_CV_Hail_End
 
 AI_CV_Hail2::

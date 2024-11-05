@@ -238,5 +238,6 @@ extern const u8 *const gBattlescriptsForSafariActions[];
 extern const u8 BattleScript_SnowWarningActivates[];
 extern const u8 BattleScript_AttackerAbilityStatsRaise[];
 extern const u8 BattleScript_AttackerAbilityStatRaiseEnd3[];
+extern const u8 BattleScript_IceBodyActivates[];
 
 #endif // GUARD_BATTLE_SCRIPTS_H

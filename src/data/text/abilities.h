@@ -78,8 +78,9 @@ static const u8 sCacophonyDescription[] = _("Avoids sound-based moves.");
 static const u8 sAirLockDescription[] = _("Negates weather effects.");
 static const u8 sSnowWarningDescription[] = _("Summons hail in battle.");
 static const u8 sDownloadDescription[] = _("Adjusts power favorably.");
-//static const u8 sIceBodyDescription[] = _("Slight HP recovery in hail.");
-//static const u8 sSapSipperDescription[] = _("Feeds on grass to heal.");
+static const u8 sSapSipperDescription[] = _("Feeds on grass to heal.");
+static const u8 sIceBodyDescription[] = _("Slight HP recovery in hail.");
+
 
 const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
 {
@@ -163,6 +164,8 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_AIR_LOCK] = sAirLockDescription,
     [ABILITY_SNOW_WARNING] = sSnowWarningDescription,
     [ABILITY_DOWNLOAD] = sDownloadDescription,
+    [ABILITY_SAP_SIPPER] = sSapSipperDescription,
+    [ABILITY_ICE_BODY] = sIceBodyDescription,
 };
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -247,4 +250,6 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_AIR_LOCK] = _("AIR LOCK"),
     [ABILITY_SNOW_WARNING] = _("SNOW WARNING"),
     [ABILITY_DOWNLOAD] = _("DOWNLOAD"),
+    [ABILITY_SAP_SIPPER] = _("SAP SIPPER"),
+    [ABILITY_ICE_BODY] = _("ICE BODY"),
 };
