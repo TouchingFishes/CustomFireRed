@@ -85,7 +85,7 @@
 #define ABILITY_ICE_BODY 81
 #define ABILITY_ADAPTABILITY 82
 #define ABILITY_MULTISCALE 83 //tbd
-#define ABILITY_NO_GUARD 84 //tbd
+#define ABILITY_NO_GUARD 84 
 #define ABILITY_SKILL_LINK 85 //tbd
 #define ABILITY_TECHNICIAN 86 //tbd
 #define ABILITY_SOLID_ROCK 87 //tbd
@@ -102,10 +102,10 @@
 #define ABILITY_EARTH_EATER 98
 #define ABILITY_FORM_CHANGE 99 //stance change & tbd
 #define ABILITY_REGENERATOR 100 //tbd
-#define ABILITY_SLUSH_RUSH 101 //tbd
-#define ABILITY_SAND_FORCE 102 //tbd
-#define ABILITY_SCRAPPY 103 //tbd
-#define ABILITY_POISON_TOUCH 104 //tbd
+#define ABILITY_SLUSH_RUSH 101 
+#define ABILITY_SAND_FORCE 102 //tbd ole
+#define ABILITY_SCRAPPY 103 //tbd ole
+#define ABILITY_POISON_TOUCH 104 //tbd ole
 #define ABILITY_IRON_FIST 105 //tbd
 
 #define ABILITIES_COUNT 106
