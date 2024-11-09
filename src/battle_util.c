@@ -2224,7 +2224,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
             
             case ABILITY_AFTERMATH:
                 if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
-                && gBattleMons[gBattlerTarget].hp != 0
+                && gBattleMons[gBattlerTarget].hp == 0
                 && gBattleMons[gBattlerAttacker].hp != 0
                 && (gBattleMoves[move].flags & FLAG_MAKES_CONTACT))
                 {

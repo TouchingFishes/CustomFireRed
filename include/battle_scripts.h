@@ -243,4 +243,5 @@ extern const u8 BattleScript_CursedBodyActivates[];
 extern const u8 BattleScript_AftermathDmg[];
 extern const u8 BattleScript_DampPreventsAftermath[];
 extern const u8 BattleScript_BadDreamsActivates[];
+
 #endif // GUARD_BATTLE_SCRIPTS_H

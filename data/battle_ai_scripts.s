@@ -64,6 +64,7 @@ AI_CBM_CheckIfNegatesType::
 	if_equal ABILITY_SAP_SIPPER, CheckIfSapSipperCancelsGrass
 	if_equal ABILITY_WONDER_GUARD, CheckIfWonderGuardCancelsMove
 	if_equal ABILITY_LEVITATE, CheckIfLevitateCancelsGroundMove
+	if_equal ABILITY_EARTH_EATER, CheckIfEarthEaterCancelsGroundMove
 	goto AI_CheckBadMove_CheckSoundproof
 
 CheckIfVoltAbsorbCancelsElectric::
@@ -91,6 +92,10 @@ CheckIfWonderGuardCancelsMove::
 	goto Score_Minus10
 
 CheckIfLevitateCancelsGroundMove::
+	get_curr_move_type
+	if_equal_ TYPE_GROUND, Score_Minus10
+
+CheckIfEarthEaterCancelsGroundMove::
 	get_curr_move_type
 	if_equal_ TYPE_GROUND, Score_Minus10
 
