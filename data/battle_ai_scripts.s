@@ -371,6 +371,8 @@ AI_CBM_LightScreen::
 
 AI_CBM_OneHitKO::
 	if_type_effectiveness AI_EFFECTIVENESS_x0, Score_Minus10
+	get_Ability AI_USER
+	if_equal ABILITY_NO_GUARD, Score_Plus10
 	get_ability AI_TARGET
 	if_equal ABILITY_STURDY, Score_Minus10
 	if_level_cond 1, Score_Minus10
@@ -656,10 +658,10 @@ Score_Plus5::
 	score +5
 	end
 
-@ Improvement in Emerald
-@Score_Plus10::
-@	score +10
-@	end
+@Improvement in Emerald
+Score_Plus10::
+	score +10
+	end
 
 AI_CheckViability::
 	if_effect EFFECT_SLEEP, AI_CV_Sleep
