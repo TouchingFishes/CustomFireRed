@@ -104,6 +104,8 @@ static const u8 sSandForceDescription[] = _("Powers up in a sandstorm.");
 static const u8 sScrappyDescription[] = _("Hits GHOST-type POKéMON.");
 static const u8 sPoisonTouchDescription[] = _("Poisons foe on contact.");
 static const u8 sIronFistDescription[] = _("Boosts punching moves.");
+static const u8 sWeakArmorDescription[] = _("Its stats change when hit.");
+static const u8 sShortFuseDescription[] = _("Its stats change when hit.");
 
 
 const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
@@ -213,7 +215,9 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_SAND_FORCE] = sSandForceDescription,
     [ABILITY_SCRAPPY] = sScrappyDescription,
     [ABILITY_POISON_TOUCH] = sPoisonTouchDescription,
-    [ABILITY_IRON_FIST] = sIronFistDescription
+    [ABILITY_IRON_FIST] = sIronFistDescription,
+    [ABILITY_WEAK_ARMOR] = sWeakArmorDescription,
+    [ABILITY_SHORT_FUSE] = sShortFuseDescription
 };
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -324,5 +328,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SCRAPPY] = _("SCRAPPY"),
     [ABILITY_POISON_TOUCH] = _("POISON TOUCH"),
     [ABILITY_IRON_FIST] = _("IRON FIST"),
+    [ABILITY_WEAK_ARMOR] = _("WEAK ARMOR"),
+    [ABILITY_SHORT_FUSE] = _("SHORT FUSE"),
 
 };

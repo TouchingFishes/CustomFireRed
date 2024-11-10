@@ -430,6 +430,9 @@ static const u8 sText_CursedBodyDisabled[] = _("{B_ATK_NAME_WITH_PREFIX}'s {B_BU
 static const u8 sText_AftermathDmg[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt by\n{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}!");
 static const u8 sText_PkmnsAbilityPreventsAbility[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s ABILITY\nprevents {B_DEF_NAME_WITH_PREFIX}'s\l{B_DEF_ABILITY} from working!");
 static const u8 sText_BadDreamsDmg[] = _("{B_DEF_NAME_WITH_PREFIX} is tormented!");
+static const u8 sText_TargetAbilityRaisedStat[] = _("{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\nraised its {B_BUFF1}!");
+static const u8 sText_TargetAbilityLoweredStat[] = _("{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\nlowered its {B_BUFF1}!");
+static const u8 sText_TargetStatWontGoHigher[] = _("{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\nwon't go higher!");
 
 static const u8 sText_HP2[] = _("HP");
 static const u8 sText_Attack2[] = _("ATTACK");
@@ -900,8 +903,10 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_ST
     [STRINGID_CUSEDBODYDISABLED - BATTLESTRINGS_TABLE_START]             = sText_CursedBodyDisabled,
     [STRINGID_AFTERMATHDMG - BATTLESTRINGS_TABLE_START]                  = sText_AftermathDmg,
     [STRINGID_PKMNSABILITYPREVENTSABILITY - BATTLESTRINGS_TABLE_START]   = sText_PkmnsAbilityPreventsAbility,
-    [STRINGID_BADDREAMSDMG - BATTLESTRINGS_TABLE_START]                  = sText_BadDreamsDmg
-    
+    [STRINGID_BADDREAMSDMG - BATTLESTRINGS_TABLE_START]                  = sText_BadDreamsDmg,
+    [STRINGID_TARGETABILITYSTATRAISE - BATTLESTRINGS_TABLE_START]        = sText_TargetAbilityRaisedStat,
+    [STRINGID_TARGETABILITYSTATLOWER - BATTLESTRINGS_TABLE_START]        = sText_TargetAbilityLoweredStat,
+    [STRINGID_TARGETSTATWONTGOHIGHER - BATTLESTRINGS_TABLE_START]        = sText_TargetStatWontGoHigher
 };
 
 const u16 gMissStringIds[] =
