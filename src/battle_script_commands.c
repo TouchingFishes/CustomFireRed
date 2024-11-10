@@ -1255,10 +1255,10 @@ static void ModulateDmgByType(u8 multiplier)
 {
     if((gBattleMons[gBattlerTarget].ability == ABILITY_FILTER 
     || gBattleMons[gBattlerTarget].ability == ABILITY_SOLID_ROCK)
-    && multiplier == TYPE_MUL_SUPER_EFFECTIVE)
+    && multiplier >= 2)
     {
-        gBattleMoveDamage = gBattleMoveDamage * multiplier * 75;
-        gBattleMoveDamage = gBattleMoveDamage / 100;
+        gBattleMoveDamage = gBattleMoveDamage * multiplier / 13;
+        //gBattleMoveDamage = gBattleMoveDamage / 100;
     } 
     else
     {
@@ -1450,7 +1450,17 @@ static void CheckWonderGuardAndLevitate(void)
 // Same as ModulateDmgByType except different arguments
 static void ModulateDmgByType2(u8 multiplier, u16 move, u8 *flags)
 {
-    gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
+    if((gBattleMons[gBattlerTarget].ability == ABILITY_FILTER 
+    || gBattleMons[gBattlerTarget].ability == ABILITY_SOLID_ROCK)
+    && multiplier >= 20)
+    {
+        gBattleMoveDamage = gBattleMoveDamage * multiplier / 13;
+        //gBattleMoveDamage = gBattleMoveDamage / 100;
+    } 
+    else
+    {
+        gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
+    }
     if (gBattleMoveDamage == 0 && multiplier != 0)
         gBattleMoveDamage = 1;
 
