@@ -1201,7 +1201,8 @@ static void Cmd_critcalc(void)
                 + (gBattleMoves[gCurrentMove].effect == EFFECT_POISON_TAIL)
                 + (holdEffect == HOLD_EFFECT_SCOPE_LENS)
                 + 2 * (holdEffect == HOLD_EFFECT_LUCKY_PUNCH && gBattleMons[gBattlerAttacker].species == SPECIES_CHANSEY)
-                + 2 * (holdEffect == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_FARFETCHD);
+                + 2 * (holdEffect == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_FARFETCHD)
+                + 2 * (holdEffect == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_MLLOY);
 
     if (critChance >= ARRAY_COUNT(sCriticalHitChance))
         critChance = ARRAY_COUNT(sCriticalHitChance) - 1;
@@ -1249,9 +1250,20 @@ void AI_CalcDmg(u8 attacker, u8 defender)
     if (gProtectStructs[attacker].helpingHand)
         gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
 }
-
+//solid rock and filter
 static void ModulateDmgByType(u8 multiplier)
 {
+    if((gBattleMons[gBattlerTarget].ability == ABILITY_FILTER 
+    || gBattleMons[gBattlerTarget].ability == ABILITY_SOLID_ROCK)
+    && multiplier == TYPE_MUL_SUPER_EFFECTIVE)
+    {
+        gBattleMoveDamage = gBattleMoveDamage * multiplier * 75;
+        gBattleMoveDamage = gBattleMoveDamage / 100;
+    } 
+    else
+    {
+        gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
+    }
     gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
     if (gBattleMoveDamage == 0 && multiplier != 0)
         gBattleMoveDamage = 1;
@@ -6874,7 +6886,11 @@ static void Cmd_confuseifrepeatingattackends(void)
 
 static void Cmd_setmultihitcounter(void)
 {
-    if (gBattlescriptCurrInstr[1])
+    if (gBattleMons[gBattlerAttacker].ability == ABILITY_SKILL_LINK)
+    {
+        gMultiHitCounter = 5;
+    }
+    else if (gBattlescriptCurrInstr[1])
     {
         gMultiHitCounter = gBattlescriptCurrInstr[1];
     }
