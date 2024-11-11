@@ -93,8 +93,8 @@
 #define ABILITY_DEFIANT 89 //tbd
 #define ABILITY_COMPETITIVE 90 //tbd
 #define ABILITY_QUICK_FEET 91 //tbd ole
-#define ABILITY_OVERCOAT 92 //tbd
-#define ABILITY_MAGIC_GUARD 93 //tbd partly in
+#define ABILITY_OVERCOAT 92
+#define ABILITY_MAGIC_GUARD 93
 #define ABILITY_BAD_DREAMS 94 //tbd
 #define ABILITY_UNNERVE 95 //tbd
 #define ABILITY_CURSED_BODY 96 
