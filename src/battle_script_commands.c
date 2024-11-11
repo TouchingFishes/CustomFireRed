@@ -1255,7 +1255,7 @@ static void ModulateDmgByType(u8 multiplier)
 {
     if((gBattleMons[gBattlerTarget].ability == ABILITY_FILTER 
     || gBattleMons[gBattlerTarget].ability == ABILITY_SOLID_ROCK)
-    && multiplier >= 2)
+    && multiplier >= 20)
     {
         gBattleMoveDamage = gBattleMoveDamage * multiplier / 13;
         //gBattleMoveDamage = gBattleMoveDamage / 100;
