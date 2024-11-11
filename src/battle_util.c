@@ -2340,7 +2340,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                         effect = 1;
                     }
                     break;
-                case ABILITY_MAGMA_ARMOR:
+                case ABILITY_ANTI_FREEZE:
                     if (gBattleMons[battler].status1 & STATUS1_FREEZE)
                     {
                         StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);

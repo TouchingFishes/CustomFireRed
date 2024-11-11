@@ -2312,7 +2312,7 @@ void SetMoveEffect(bool8 primary, u8 certain)
                 break;
             if (noSunCanFreeze == FALSE)
                 break;
-            if (gBattleMons[gEffectBattler].ability == ABILITY_MAGMA_ARMOR)
+            if (gBattleMons[gEffectBattler].ability == ABILITY_ANTI_FREEZE)
                 break;
 
             CancelMultiTurnMoves(gEffectBattler);
