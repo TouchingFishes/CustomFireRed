@@ -101,7 +101,7 @@
 #define ABILITY_AFTERMATH 97 
 #define ABILITY_EARTH_EATER 98
 #define ABILITY_FORM_CHANGE 99 //stance change & tbd
-#define ABILITY_REGENERATOR 100 //tbd
+#define ABILITY_REMIGE_ARMOR 100
 #define ABILITY_SLUSH_RUSH 101 
 #define ABILITY_SAND_FORCE 102 //tbd ole
 #define ABILITY_SCRAPPY 103 //tbd ole
