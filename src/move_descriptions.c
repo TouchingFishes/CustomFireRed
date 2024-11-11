@@ -370,6 +370,11 @@ const u8 gMoveDescription_GigatonSlam[] = _("A severely damaging\nattack that ma
 const u8 gMoveDescription_TwinBeam[] = _("Two beams are\nfired to quickly hit\nhit the foe twice\nin one turn.");
 const u8 gMoveDescription_MirrorShot[] = _("Glass is hurled in\nthe foe's face to\ninflict damage and\nlower its accuracy.");
 const u8 gMoveDescription_BurningSand[] = _("The foe is attacked\nwith scorching sand.\nIt may suffer a\nburn.");
+const u8 gMoveDescription_OminousWind[] = _("An ominous wind is\nused to attack. It\nmay also raise all\nthe user's stats.");
+const u8 gMoveDescription_ChargeBeam[] = _("The foe is attacked\nby electric beams.\nIt may also raise\nthe user's SP. ATK.");
+const u8 gMoveDescription_RockWrecker[] = _("A severely damaging\nattack that makes\nthe user rest on\nthe next turn.");
+const u8 gMoveDescription_PowerGem[] = _("A magical attack\nthat utilizes the\ninnate energy of\ngems.");
+const u8 gMoveDescription_NightSlash[] = _("The foe is slashed\nwith claws, etc.\nIt has a high\ncritical-hit ratio.");
 
 
 
@@ -743,4 +748,9 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_TWIN_BEAM     - 1] = gMoveDescription_TwinBeam,
     [MOVE_MIRROR_SHOT   - 1] = gMoveDescription_MirrorShot,
     [MOVE_BURNING_SAND  - 1] = gMoveDescription_BurningSand,
+    [MOVE_OMINOUS_WIND  - 1] = gMoveDescription_OminousWind,
+    [MOVE_CHARGE_BEAM   - 1] = gMoveDescription_ChargeBeam,
+    [MOVE_ROCK_WRECKER  - 1] = gMoveDescription_RockWrecker,
+    [MOVE_POWER_GEM     - 1] = gMoveDescription_PowerGem,
+    [MOVE_NIGHT_SLASH   - 1] = gMoveDescription_NightSlash,
 };

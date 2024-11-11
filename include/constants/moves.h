@@ -372,8 +372,13 @@
 #define MOVE_TWIN_BEAM 367
 #define MOVE_MIRROR_SHOT 368
 #define MOVE_BURNING_SAND 369
+#define MOVE_OMINOUS_WIND 370
+#define MOVE_CHARGE_BEAM 371
+#define MOVE_ROCK_WRECKER 372
+#define MOVE_POWER_GEM 373
+#define MOVE_NIGHT_SLASH 374
 
-#define MOVES_COUNT 370
+#define MOVES_COUNT 375
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
