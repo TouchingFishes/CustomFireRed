@@ -1995,6 +1995,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                         effect++;
                     }
                     break;
+                //notes: battler is the mon using the ability
                 case ABILITY_BAD_DREAMS:
                     BattleScriptPushCursorAndCallback(BattleScript_BadDreamsActivates);
                     effect++;
