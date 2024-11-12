@@ -3278,7 +3278,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_SLOW,
         .eggGroups = {EGG_GROUP_MONSTER, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_SOLID_ROCK, ABILITY_NONE},
+        .abilities = {ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
@@ -8472,12 +8472,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_DELCATTY] =
     {
-        .baseHP = 70,
-        .baseAttack = 65,
-        .baseDefense = 65,
-        .baseSpeed = 70,
-        .baseSpAttack = 55,
-        .baseSpDefense = 55,
+        .baseHP = 80, //70
+        .baseAttack = 75, //65
+        .baseDefense = 75, //65
+        .baseSpeed = 90, //70
+        .baseSpAttack = 65, //55
+        .baseSpDefense = 65, //55
         .types = {TYPE_NORMAL, TYPE_NORMAL},
         .catchRate = 60,
         .expYield = 138,
