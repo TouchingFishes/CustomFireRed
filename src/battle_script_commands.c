@@ -1260,15 +1260,15 @@ static void ModulateDmgByType(u8 multiplier)
         gBattleMoveDamage = gBattleMoveDamage * multiplier / 13;
         //gBattleMoveDamage = gBattleMoveDamage / 100;
     } 
-    else if(gBattleMons[gBattlerAttacker].ability == ABILITY_TINTED_LENS 
-    && multiplier < 10)
-    {
-        gBattleMoveDamage = gBattleMoveDamage * multiplier / 5;
-    } 
     else
     {
         gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
     }
+    if(gBattleMons[gBattlerAttacker].ability == ABILITY_TINTED_LENS 
+    && multiplier < 10)
+    {
+        gBattleMoveDamage = gBattleMoveDamage * 2;
+    } 
     gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
     if (gBattleMoveDamage == 0 && multiplier != 0)
         gBattleMoveDamage = 1;
@@ -1462,15 +1462,15 @@ static void ModulateDmgByType2(u8 multiplier, u16 move, u8 *flags)
         gBattleMoveDamage = gBattleMoveDamage * multiplier / 13;
         //gBattleMoveDamage = gBattleMoveDamage / 100;
     } 
-    else if(gBattleMons[gBattlerAttacker].ability == ABILITY_TINTED_LENS 
-    && multiplier < 10)
-    {
-        gBattleMoveDamage = gBattleMoveDamage * multiplier / 5;
-    } 
     else
     {
         gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
     }
+    if(gBattleMons[gBattlerAttacker].ability == ABILITY_TINTED_LENS 
+    && multiplier < 10)
+    {
+        gBattleMoveDamage = gBattleMoveDamage * 2;
+    } 
     if (gBattleMoveDamage == 0 && multiplier != 0)
         gBattleMoveDamage = 1;
 
