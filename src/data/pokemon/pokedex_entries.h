@@ -5733,30 +5733,30 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DOUBLADE] =
+    [NATIONAL_DEX_DOUBLADE] = //vamp1
     {
         .categoryName = _("SWORD"), 
-        .height = 8,
-        .weight = 45,
+        .height = 5,
+        .weight = 80,
         .description = gDoubladePokedexText,
         .unusedDescription = gDoubladePokedexTextUnused,
-        .pokemonScale = 366,
-        .pokemonOffset = 7,
-        .trainerScale = 257,
+        .pokemonScale = 432,
+        .pokemonOffset = 13,
+        .trainerScale = 256,
         .trainerOffset = 0,
     },
     
-    [NATIONAL_DEX_AEGISLASH] =
+    [NATIONAL_DEX_AEGISLASH] = //vamp2
     {
         .categoryName = _("HERALDRY"),
-        .height = 17,
-        .weight = 530,
+        .height = 15,
+        .weight = 560,
         .description = gAegislashPokedexText,
         .unusedDescription = gAegislashPokedexTextUnused,
-        .pokemonScale = 259,
-        .pokemonOffset = 0,
-        .trainerScale = 290,
-        .trainerOffset = 1,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
     },
 
     [NATIONAL_DEX_GIBLE] =
