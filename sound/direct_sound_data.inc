@@ -2068,8 +2068,8 @@ Cry_Lucario::
 	.incbin "sound/direct_sound_samples/cries/lucario.bin"
 	
 	.align 2
-Cry_Honedge::
-	.incbin "sound/direct_sound_samples/cries/honedge.bin"
+Cry_Mimikyu::
+	.incbin "sound/direct_sound_samples/cries/mimikyu.bin"
 	
 	.align 2
 Cry_Doublade::

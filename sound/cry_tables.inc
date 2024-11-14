@@ -441,7 +441,7 @@ gCryTable::
 	cry Cry_Vespiquen
 	cry Cry_Riolu
 	cry Cry_Lucario
-	cry Cry_Honedge
+	cry Cry_Mimikyu
 	cry Cry_Doublade
 	cry Cry_Aegislash
 	cry Cry_Gible
@@ -901,7 +901,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Vespiquen
 	cry_reverse Cry_Riolu
 	cry_reverse Cry_Lucario
-	cry_reverse Cry_Honedge
+	cry_reverse Cry_Mimikyu
 	cry_reverse Cry_Doublade
 	cry_reverse Cry_Aegislash
 	cry_reverse Cry_Gible

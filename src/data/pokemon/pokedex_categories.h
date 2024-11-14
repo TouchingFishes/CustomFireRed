@@ -786,6 +786,7 @@ static const u16 sDexCategory_UrbanPkmn_Page2[] = {
 static const u16 sDexCategory_UrbanPkmn_Page3[] = {
     SPECIES_SHUPPET,
     SPECIES_BANETTE,
+    SPECIES_MIMIKYU,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page4[] = {
@@ -876,7 +877,6 @@ static const u16 sDexCategory_RarePkmn_Page3[] = {
 };
 
 static const u16 sDexCategory_RarePkmn_Page4[] = {
-    SPECIES_HONEDGE,
     SPECIES_DOUBLADE,
     SPECIES_AEGISLASH,
 };

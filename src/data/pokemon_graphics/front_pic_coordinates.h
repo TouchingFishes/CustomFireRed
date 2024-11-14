@@ -2326,10 +2326,10 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(48, 56),
         .y_offset = 7,
     },
-    [SPECIES_HONEDGE] =
+    [SPECIES_MIMIKYU] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(48, 40),
+        .y_offset = 12,
     },
     [SPECIES_DOUBLADE] =
     {

@@ -3091,12 +3091,12 @@ const u8 gLucarioPokedexText[] = _(
 
 const u8 gLucarioPokedexTextUnused[] = _("");
 
-const u8 gHonedgePokedexText[] = _(
-    "If anyone dares to grab its hilt, it\n"
-    "wraps a blue cloth around that person's\n"
-    "arm and drains that person's life away.");
+const u8 gMimikyuPokedexText[] = _(
+    "A lonely Pokémon, it hides its terrifying\n"
+    "appearance beneath an old rag so it can\n"
+    "get closer to people and other Pokémon.");
 
-const u8 gHonedgePokedexTextUnused[] = _("");
+const u8 gMimikyuPokedexTextUnused[] = _("");
 
 const u8 gDoubladePokedexText[] = _(
     "When Honedge evolves, it divides into\n"

@@ -5720,16 +5720,16 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
     
-    [NATIONAL_DEX_HONEDGE] =
+    [NATIONAL_DEX_MIMIKYU] =
     {
-        .categoryName = _("SWORD"),
-        .height = 8,
-        .weight = 20,
-        .description = gHonedgePokedexText,
-        .unusedDescription = gHonedgePokedexTextUnused,
-        .pokemonScale = 366,
-        .pokemonOffset = 7,
-        .trainerScale = 257,
+        .categoryName = _("DISGUISE"),
+        .height = 2,
+        .weight = 7,
+        .description = gMimikyuPokedexText,
+        .unusedDescription = gMimikyuPokedexTextUnused,
+        .pokemonScale = 682,
+        .pokemonOffset = 24,
+        .trainerScale = 256,
         .trainerOffset = 0,
     },
 

@@ -6514,8 +6514,8 @@ static const u16 sLucarioLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sHonedgeLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_TACKLE),
+static const u16 sMimikyuLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_SCRATCH),
     LEVEL_UP_MOVE(1, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(5, MOVE_FURY_CUTTER),
     LEVEL_UP_MOVE(8, MOVE_METAL_SOUND),
