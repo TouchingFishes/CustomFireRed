@@ -442,8 +442,8 @@ gCryTable::
 	cry Cry_Riolu
 	cry Cry_Lucario
 	cry Cry_Mimikyu
-	cry Cry_Doublade
-	cry Cry_Aegislash
+	cry Cry_Krolucada
+	cry Cry_Krolucard
 	cry Cry_Gible
 	cry Cry_Gabite
 	cry Cry_Garchomp
@@ -902,8 +902,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Riolu
 	cry_reverse Cry_Lucario
 	cry_reverse Cry_Mimikyu
-	cry_reverse Cry_Doublade
-	cry_reverse Cry_Aegislash
+	cry_reverse Cry_Krolucada
+	cry_reverse Cry_Krolucard
 	cry_reverse Cry_Gible
 	cry_reverse Cry_Gabite
 	cry_reverse Cry_Garchomp

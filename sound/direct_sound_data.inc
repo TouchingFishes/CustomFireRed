@@ -2072,12 +2072,12 @@ Cry_Mimikyu::
 	.incbin "sound/direct_sound_samples/cries/mimikyu.bin"
 	
 	.align 2
-Cry_Doublade::
-	.incbin "sound/direct_sound_samples/cries/doublade.bin"
+Cry_Krolucada::
+	.incbin "sound/direct_sound_samples/cries/krolucada.bin"
 	
 	.align 2
-Cry_Aegislash::
-	.incbin "sound/direct_sound_samples/cries/aegislash.bin"
+Cry_Krolucard::
+	.incbin "sound/direct_sound_samples/cries/krolucard.bin"
 	
 	.align 2
 Cry_Gible::

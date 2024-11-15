@@ -95,11 +95,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_VENUSAUR] =
     {
-        .baseHP = 80,
-        .baseAttack = 82,
+        .baseHP = 85, //80
+        .baseAttack = 87, //82
         .baseDefense = 83,
         .baseSpeed = 80,
-        .baseSpAttack = 110, //100
+        .baseSpAttack = 100, //100
         .baseSpDefense = 100,
         .types = {TYPE_GRASS, TYPE_POISON},
         .catchRate = 45,
@@ -1168,9 +1168,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_WIGGLYTUFF] =
     {
-        .baseHP = 140,
+        .baseHP = 150, //140
         .baseAttack = 80, //70
-        .baseDefense = 80, //45
+        .baseDefense = 70, //45
         .baseSpeed = 45,
         .baseSpAttack = 75,
         .baseSpDefense = 50,
@@ -1981,7 +1981,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_MACHAMP] =
     {
         .baseHP = 90,
-        .baseAttack = 140,
+        .baseAttack = 140, //130
         .baseDefense = 80,
         .baseSpeed = 55,
         .baseSpAttack = 65,
@@ -12820,7 +12820,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
-    [SPECIES_DOUBLADE] = //VAMP1 original stats based on noibat
+    [SPECIES_KROLUCADA] = //original stats based on noibat
     {
         .baseHP = 40,
         .baseAttack = 30,
@@ -12844,12 +12844,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_NONE}, //{ABILITY_NO_GUARD, ABILITY_NONE},
+        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
-    [SPECIES_AEGISLASH] = //VAMP2 original stats based on noivern
+    [SPECIES_KROLUCARD] = //original stats based on noivern
     {
         .baseHP = 85,
         .baseAttack = 80, //70

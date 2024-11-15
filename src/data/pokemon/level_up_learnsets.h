@@ -6530,7 +6530,7 @@ static const u16 sMimikyuLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDoubladeLevelUpLearnset[] = {
+static const u16 sKrolucadaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(1, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(5, MOVE_FURY_CUTTER),
@@ -6546,7 +6546,7 @@ static const u16 sDoubladeLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAegislashLevelUpLearnset[] = {
+static const u16 sKrolucardLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_KINGS_SHIELD),
     LEVEL_UP_MOVE(1, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(1, MOVE_FURY_CUTTER),

@@ -3089,11 +3089,11 @@ static const u16 sTutorLearnsets[] =
                     | TUTOR(MOVE_MIMIC)
                     | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_DOUBLADE] = TUTOR(MOVE_DOUBLE_EDGE)
+    [SPECIES_KROLUCADA] = TUTOR(MOVE_DOUBLE_EDGE)
                     | TUTOR(MOVE_MIMIC)
                     | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_AEGISLASH] = TUTOR(MOVE_DOUBLE_EDGE)
+    [SPECIES_KROLUCARD] = TUTOR(MOVE_DOUBLE_EDGE)
                         | TUTOR(MOVE_MIMIC)
                         | TUTOR(MOVE_SUBSTITUTE),
 

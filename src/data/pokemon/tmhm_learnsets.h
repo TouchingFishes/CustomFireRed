@@ -10707,7 +10707,7 @@ static const u32 sTMHMLearnsets[][2] =
                                             | TMHM(TM43_SECRET_POWER)
                                             | TMHM(TM44_REST)),
 
-    [SPECIES_DOUBLADE]         = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_KROLUCADA]         = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                             | TMHM(TM06_TOXIC)
                                             | TMHM(TM10_HIDDEN_POWER)
                                             | TMHM(TM11_SUNNY_DAY)
@@ -10722,7 +10722,7 @@ static const u32 sTMHMLearnsets[][2] =
                                             | TMHM(TM43_SECRET_POWER)
                                             | TMHM(TM44_REST)),
 
-    [SPECIES_AEGISLASH]        = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_KROLUCARD]        = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                             | TMHM(TM06_TOXIC)
                                             | TMHM(TM10_HIDDEN_POWER)
                                             | TMHM(TM11_SUNNY_DAY)

@@ -5733,26 +5733,26 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DOUBLADE] = //vamp1
+    [NATIONAL_DEX_KROLUCADA] = 
     {
-        .categoryName = _("SWORD"), 
+        .categoryName = _("REVILED"), 
         .height = 5,
         .weight = 80,
-        .description = gDoubladePokedexText,
-        .unusedDescription = gDoubladePokedexTextUnused,
+        .description = gKrolucadaPokedexText,
+        .unusedDescription = gKrolucadaPokedexTextUnused,
         .pokemonScale = 432,
         .pokemonOffset = 13,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
     
-    [NATIONAL_DEX_AEGISLASH] = //vamp2
+    [NATIONAL_DEX_KROLUCARD] = 
     {
-        .categoryName = _("HERALDRY"),
+        .categoryName = _("APOCRYPHAL"),
         .height = 15,
         .weight = 560,
-        .description = gAegislashPokedexText,
-        .unusedDescription = gAegislashPokedexTextUnused,
+        .description = gKrolucardPokedexText,
+        .unusedDescription = gKrolucardPokedexTextUnused,
         .pokemonScale = 268,
         .pokemonOffset = 2,
         .trainerScale = 271,

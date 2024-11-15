@@ -3098,19 +3098,19 @@ const u8 gMimikyuPokedexText[] = _(
 
 const u8 gMimikyuPokedexTextUnused[] = _("");
 
-const u8 gDoubladePokedexText[] = _(
-    "When Honedge evolves, it divides into\n"
-    "two swords. The complex attack patterns\n"
-    "of its two swords are nearly unstoppable.");
+const u8 gKrolucadaPokedexText[] = _(
+    "Krolucada is a very rare sight in Kanto.\n"
+    "Experts think that it arrived by boat. It\n"
+    "loves tropical fruits, especially mango.");
 
-const u8 gDoubladePokedexTextUnused[] = _("");
+const u8 gKrolucadaPokedexTextUnused[] = _("");
 
-const u8 gAegislashPokedexText[] = _(
-    "In this defensive stance, Aegislash uses\n"
-    "its steel body and a force field of\n"
-    "spectral power to withstand damage.");
+const u8 gKrolucardPokedexText[] = _(
+    "This terrifying Pokémon uses its cunning\n"
+    "and the pattern of its wings to frighten\n"
+    "foes. It abhors insects.");
 
-const u8 gAegislashPokedexTextUnused[] = _("");
+const u8 gKrolucardPokedexTextUnused[] = _("");
 
 const u8 gGiblePokedexText[] = _(
     "It nests in horizontal holes warmed by\n"

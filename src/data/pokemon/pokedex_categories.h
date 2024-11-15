@@ -875,10 +875,10 @@ static const u16 sDexCategory_RarePkmn_Page3[] = {
     SPECIES_LARVESTA,
     SPECIES_VOLCARONA
 };
-
+//change this
 static const u16 sDexCategory_RarePkmn_Page4[] = {
-    SPECIES_DOUBLADE,
-    SPECIES_AEGISLASH,
+    SPECIES_KROLUCADA,
+    SPECIES_KROLUCARD,
 };
 
 static const u16 sDexCategory_RarePkmn_Page5[] = {
