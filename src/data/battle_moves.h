@@ -4706,17 +4706,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
     },
 
-    [MOVE_KINGS_SHIELD] =
+    [MOVE_DRAIN_LIFE] =
     {
-        .effect = EFFECT_PROTECT,
-        .power = 0,
-        .type = TYPE_STEEL,
-        .accuracy = 0,
-        .pp = 10,
+        .effect = EFFECT_ABSORB,
+        .power = 60,
+        .type = TYPE_DARK,
+        .accuracy = 100,
+        .pp = 15,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_USER,
-        .priority = 3,
-        .flags = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
     },
 
     [MOVE_H_SPACE_FURY] =

@@ -6547,7 +6547,6 @@ static const u16 sKrolucadaLevelUpLearnset[] = {
 };
 
 static const u16 sKrolucardLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_KINGS_SHIELD),
     LEVEL_UP_MOVE(1, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(1, MOVE_FURY_CUTTER),
     LEVEL_UP_MOVE(1, MOVE_METAL_SOUND),
@@ -6558,6 +6557,8 @@ static const u16 sKrolucardLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE(1, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE(1, MOVE_BRICK_BREAK),
+    LEVEL_UP_MOVE(3, MOVE_POWER_GEM),
+    LEVEL_UP_MOVE(4, MOVE_DRAIN_LIFE),
     LEVEL_UP_END
 };
 

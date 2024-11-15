@@ -382,7 +382,7 @@ gBattleAnims_Moves::
 	.4byte Move_AURA_SPHERE
 	.4byte Move_DARK_VOID
 	.4byte Move_FIERY_DANCE
-	.4byte Move_KINGS_SHIELD
+	.4byte Move_DRAIN_LIFE
 	.4byte Move_H_SPACE_FURY
 	.4byte Move_BARRIER_BASH
 	.4byte Move_LUMINA_CRASH
@@ -1729,10 +1729,37 @@ Move_DEFENSE_CURL:
 	waitforvisualfinish
 	end
 
-Move_KINGS_SHIELD::
-	loadspritegfx ANIM_TAG_PROTECT  @protect
-	createvisualtask AnimTask_BlendParticle, 5, ANIM_TAG_PROTECT, 0x0, 0xC, 0xC, 0x318C   @Gray
-	goto Move_PROTECT
+Move_DRAIN_LIFE::
+	loadspritegfx ANIM_TAG_SHARP_TEETH
+	loadspritegfx ANIM_TAG_ORBS
+	delay 1
+	loadspritegfx ANIM_TAG_BLUE_STAR
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_DEF_PARTNER
+	splitbgprio_foes ANIM_TARGET
+	setalpha 12, 8
+	delay 1
+	playsewithpan SE_M_BITE, SOUND_PAN_TARGET
+	createsprite gSharpTeethSpriteTemplate, ANIM_ATTACKER, 2, 0, -32, 0, 0, 819, 10
+	createsprite gSharpTeethSpriteTemplate, ANIM_ATTACKER, 2, 0, 32, 4, 0, -819, 10
+	delay 10
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, ANIM_TARGET, 2
+	playsewithpan SE_M_ABSORB, SOUND_PAN_TARGET
+	delay 2
+	createvisualtask AnimTask_ShakeMon, 5, ANIM_TARGET, 0, 5, 5, 1
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, F_PAL_BG, 1, 0, 7, RGB_BLACK
+	waitforvisualfinish
+	call MegaDrainAbsorbEffect
+	waitforvisualfinish
+	delay 15
+	call HealingEffect
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, F_PAL_BG, 1, 7, 0, RGB_BLACK
+	waitforvisualfinish
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	end
 
 Move_PROTECT:
 	loadspritegfx ANIM_TAG_PROTECT
@@ -11774,8 +11801,7 @@ RockWrecker_2:
 	end
 
 Move_POWER_GEM:
-	loadspritegfx ANIM_TAG_RED_ORB
-	loadspritegfx ANIM_TAG_ROCKS
+	loadspritegfx ANIM_TAG_POWER_GEM
 	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 5, 1, 1, 0, 7, RGB_BLACK
 	waitforvisualfinish
 	playsewithpan SE_M_TAKE_DOWN, SOUND_PAN_ATTACKER
@@ -11786,25 +11812,25 @@ Move_POWER_GEM:
 	delay 4
 	createvisualtask AnimTask_ScaleMonAndRestore, 5, -7, -7, 11, ANIM_ATTACKER, 0
 	playsewithpan SE_M_REVERSAL, SOUND_PAN_ATTACKER
-	createsprite gAncientPowerRockSpriteTemplate, ANIM_ATTACKER, 2, 26, 0
-	createsprite gAncientPowerRockSpriteTemplate, ANIM_ATTACKER, 2, 26, 42
-	createsprite gAncientPowerRockSpriteTemplate, ANIM_ATTACKER, 2, 26, 84
-	createsprite gAncientPowerRockSpriteTemplate, ANIM_ATTACKER, 2, 26, 126
-	createsprite gAncientPowerRockSpriteTemplate, ANIM_ATTACKER, 2, 26, 168
-	createsprite gAncientPowerRockSpriteTemplate, ANIM_ATTACKER, 2, 26, 210
+	createsprite gPowerGemOrbSpriteTemplate, ANIM_ATTACKER, 2, 26, 0
+	createsprite gPowerGemOrbSpriteTemplate, ANIM_ATTACKER, 2, 26, 42
+	createsprite gPowerGemOrbSpriteTemplate, ANIM_ATTACKER, 2, 26, 84
+	createsprite gPowerGemOrbSpriteTemplate, ANIM_ATTACKER, 2, 26, 126
+	createsprite gPowerGemOrbSpriteTemplate, ANIM_ATTACKER, 2, 26, 168
+	createsprite gPowerGemOrbSpriteTemplate, ANIM_ATTACKER, 2, 26, 210
 	delay 52
 	setarg 7, -1
 	playsewithpan SE_M_REFLECT, SOUND_PAN_ATTACKER
 	createvisualtask AnimTask_ScaleMonAndRestore, 5, -7, -7, 11, ANIM_ATTACKER, 0
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 0
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 32
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 64
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 96
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 128
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 160
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 192
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_TARGET, 2, 224
-	createsprite gHiddenPowerOrbSpriteTemplate, ANIM_ATTACKER, 5, 1, 1, 7, 0, RGB_BLACK
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 0
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 32
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 64
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 96
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 128
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 160
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 192
+	createsprite gPowerGemOrbScatterSpriteTemplate, ANIM_TARGET, 2, 224
+	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 5, 1, 1, 7, 0, RGB_BLACK
 	waitforvisualfinish
 	end
 
