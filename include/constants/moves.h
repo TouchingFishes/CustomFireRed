@@ -377,8 +377,11 @@
 #define MOVE_ROCK_WRECKER 372
 #define MOVE_POWER_GEM 373
 #define MOVE_NIGHT_SLASH 374
+#define MOVE_GUNK_SHOT 375
+#define MOVE_X_SCISSOR 376
+#define MOVE_GRASS_KNOT 377
 
-#define MOVES_COUNT 375
+#define MOVES_COUNT 378
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

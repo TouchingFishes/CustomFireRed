@@ -375,6 +375,9 @@ const u8 gMoveDescription_ChargeBeam[] = _("The foe is attacked\nby electric bea
 const u8 gMoveDescription_RockWrecker[] = _("A severely damaging\nattack that makes\nthe user rest on\nthe next turn.");
 const u8 gMoveDescription_PowerGem[] = _("A magical attack\nthat utilizes the\ninnate energy of\ngems.");
 const u8 gMoveDescription_NightSlash[] = _("The foe is slashed\nwith claws, etc.\nIt has a high\ncritical-hit ratio.");
+const u8 gMoveDescription_GunkShot[] = _("Shoots filthy gar-\nbage at the foe.\nIt may poison the\ntarget.");
+const u8 gMoveDescription_XScissor[] = _("Slashes the foe\nwith crossed scy-\nthes or claws to\ndeal damage.");
+const u8 gMoveDescription_GrassKnot[] = _("A snare attack that\ninflicts more dam-\nage on heavier\nfoes.");
 
 
 
@@ -753,4 +756,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_ROCK_WRECKER  - 1] = gMoveDescription_RockWrecker,
     [MOVE_POWER_GEM     - 1] = gMoveDescription_PowerGem,
     [MOVE_NIGHT_SLASH   - 1] = gMoveDescription_NightSlash,
+    [MOVE_GUNK_SHOT     - 1] = gMoveDescription_GunkShot,
+    [MOVE_X_SCISSOR     - 1] = gMoveDescription_XScissor,
+    [MOVE_GRASS_KNOT    - 1] = gMoveDescription_GrassKnot,
 };

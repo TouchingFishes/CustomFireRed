@@ -374,5 +374,8 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_ROCK_WRECKER]  = _("ROCK WRECKER"),
     [MOVE_POWER_GEM]     = _("POWER GEM"),
     [MOVE_NIGHT_SLASH]   = _("NIGHT SLASH"),
+    [MOVE_GUNK_SHOT]     = _("GUNK SHOT"),
+    [MOVE_X_SCISSOR]     = _("X-SCISSOR"),
+    [MOVE_GRASS_KNOT]    = _("GRASS KNOT"),
 
 };

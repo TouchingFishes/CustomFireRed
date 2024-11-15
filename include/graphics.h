@@ -4315,6 +4315,14 @@ extern const u32 gBattleAnimBgTilemap_Fissure[];
 extern const u32 gBattleAnimBgTilemap_SurfOpponent[];
 extern const u32 gBattleAnimBgTilemap_SurfPlayer[];
 extern const u32 gBattleAnimBgTilemap_SurfContest[];
+extern const u32 gBattleAnimBgImage_FocusBlast[];
+extern const u32 gBattleAnimBgPalette_FocusBlast[];
+extern const u32 gBattleAnimBgTilemap_FocusBlast[];
+extern const u32 gBattleAnimBgPalette_GunkShot[];
+extern const u32 gBattleAnimBgImage_Hurricane[];
+extern const u32 gBattleAnimBgPalette_Hurricane[];
+extern const u32 gBattleAnimBgTilemap_Hurricane[];
+extern const u32 gBattleAnimBgPalette_RockWrecker[];
 
 // dark
 extern const u32 gMetalShineGfx[];

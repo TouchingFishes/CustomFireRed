@@ -395,6 +395,9 @@ gBattleAnims_Moves::
 	.4byte Move_ROCK_WRECKER
 	.4byte Move_POWER_GEM
 	.4byte Move_NIGHT_SLASH
+	.4byte Move_GUNK_SHOT
+	.4byte Move_X_SCISSOR
+	.4byte Move_GRASS_KNOT
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
@@ -11746,18 +11749,16 @@ SparkBeam:
 	return	
 	
 
-Move_ROCK_WRECKER::
+Move_ROCK_WRECKER:
 	jumpargeq 7, 1, RockWrecker_1
-	monbg ANIM_DEF_PARTNER
-	setalpha 12, 8
-	fadetobgfromset BG_GUILLOTINE_OPPONENT, BG_GUILLOTINE_PLAYER, BG_GUILLOTINE_CONTESTS
-	waitbgfadein
+	fadetobg BG_ROCK_WRECKER
+	waitbgfadeout
+	createvisualtask AnimTask_StartSlidingBg, 5, -1024, 0, 1, -1
 	goto RockWrecker_2
 RockWrecker_1:
-	monbg ANIM_DEF_PARTNER
-	setalpha 12, 8
-	fadetobgfromset BG_GUILLOTINE_OPPONENT, BG_GUILLOTINE_PLAYER, BG_GUILLOTINE_CONTESTS
-	waitbgfadein
+	fadetobg BG_ROCK_WRECKER
+	waitbgfadeout
+	createvisualtask AnimTask_StartSlidingBg, 5, -1024, 0, 0, -1
 	loadspritegfx ANIM_TAG_ROCKS
 	loadspritegfx ANIM_TAG_IMPACT
 	createsprite gHorizontalLungeSpriteTemplate, 2, 2, 4, 6
@@ -11773,10 +11774,7 @@ RockWrecker_1:
 	createsprite gRockFragmentSpriteTemplate, 130, 6, 0, 5, 20, -18, 14, 2
 	createsprite gRockFragmentSpriteTemplate, 130, 6, -5, 0, -20, -18, 14, 2
 	waitforvisualfinish
-	clearmonbg ANIM_DEF_PARTNER
-	blendoff
-	restorebg
-	waitbgfadein
+	call UnsetPsychicBackground
 	end
 RockWrecker_2:
 	loadspritegfx ANIM_TAG_ROCKS
@@ -11794,11 +11792,28 @@ RockWrecker_2:
 	createsprite gRockFragmentSpriteTemplate 130, 6, 0, 5, 20, -18, 14, 2
 	createsprite gRockFragmentSpriteTemplate 130, 6, -5, 0, -20, -18, 14, 2
 	waitforvisualfinish
-	clearmonbg ANIM_DEF_PARTNER
-	blendoff
-	restorebg
-	waitbgfadein
+	call UnsetPsychicBackground
 	end
+
+SetHighSpeedBg:
+	createvisualtask AnimTask_GetAttackerSide, 2
+	jumprettrue SetHighSpeedBgPlayer
+	fadetobg BG_HIGHSPEED_OPPONENT
+	goto SetHighSpeedBgFade
+SetHighSpeedBgPlayer:
+	fadetobg BG_HIGHSPEED_PLAYER
+SetHighSpeedBgFade:
+	waitbgfadeout
+	createvisualtask AnimTask_StartSlidingBg, 5, -2304, 0, 1, -1
+	waitbgfadein
+	return
+
+UnsetHighSpeedBg:
+	restorebg
+	waitbgfadeout
+	setarg 7, -1
+	waitbgfadein
+	return
 
 Move_POWER_GEM:
 	loadspritegfx ANIM_TAG_POWER_GEM
@@ -11860,5 +11875,96 @@ Move_NIGHT_SLASH:
 	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 0, 1, 3, 12, 0, RGB_BLACK
 	waitforvisualfinish
 	end
+
+Move_GUNK_SHOT:
+	loadspritegfx ANIM_TAG_WATER_ORB
+	loadspritegfx ANIM_TAG_POISON_BUBBLE
+	loadspritegfx ANIM_TAG_WATER_IMPACT
+	loadspritegfx ANIM_TAG_POISON_BUBBLE
+	monbg ANIM_DEF_PARTNER
+	splitbgprio ANIM_TARGET
+	setalpha 12, 8
+	call SetGunkShotBG
+	createvisualtask AnimTask_ShakeMon, 5, 5, ANIM_ATTACKER, 0, 2, 40, 1
+	delay 6
+	panse SE_M_HYDRO_PUMP, SOUND_PAN_ATTACKER, SOUND_PAN_TARGET, 2, 0
+	createvisualtask AnimTask_StartSinAnimTimer, 5, 1, 100
+	call GunkShotParticles
+	call GunkShotParticles
+	call GunkShotParticles
+	createvisualtask AnimTask_ShakeMon, 5, ANIM_TARGET, 3, 0, 27, 1
+	loopsewithpan SE_M_BUBBLE3, SOUND_PAN_TARGET, 3, 15
+	call GunkShotImpact
+	call GunkShotParticles
+	call GunkShotParticles
+	call GunkShotImpact
+	call GunkShotParticles
+	call GunkShotParticles
+	call GunkShotImpact
+	call GunkShotParticles
+	call GunkShotParticles
+	call GunkShotImpact
+	call GunkShotParticles
+	call GunkShotParticles
+	call GunkShotImpact
+	delay 1
+	delay 1
+	call GunkShotImpact
+	call PoisonBubblesEffect
+	waitforvisualfinish
+	call UnsetHighSpeedBg
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	end
+GunkShotParticles:
+	createsprite gGunkShoParticlesSpriteTemplate, 3, 4, 10, 10, 0, 16
+	createsprite gGunkShoParticlesSpriteTemplate, 3, 4, 10, 10, 0, -16
+	delay 1
+	createsprite gGunkShoParticlesSpriteTemplate, 3, 4, 10, 10, 0, 16
+	createsprite gGunkShoParticlesSpriteTemplate, 3, 4, 10, 10, 0, -16
+	delay 1
+	return
+GunkShotImpact:
+	createsprite gGunkShotImpactSpriteTemplate, 4, 4, 0, 15, 1, 1
+	createsprite gGunkShotImpactSpriteTemplate, 4, 4, 0, -15, 1, 1
+	return
+SetGunkShotBG:
+	fadetobg BG_GUNK_SHOT
+	goto SetHighSpeedBgFade
+
+Move_X_SCISSOR:
+	loadspritegfx ANIM_TAG_CUT
+	monbg ANIM_TARGET
+	setalpha 12, 8
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_ATTACKER, 24, 6, 1, 5
+	createvisualtask AnimTask_TraceMonBlended, 2, 0, 4, 7, 3
+	createsprite gCuttingSliceSpriteTemplate, ANIM_ATTACKER, 2, 40, -32, 0
+	createsprite gCuttingSliceSpriteTemplate, ANIM_ATTACKER, 2, 40, -32, 1
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	delay 5
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 0, 3, 10, 1
+	createsprite gComplexPaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, 31, 3, 1, RGB_BLACK, 10, 0, 0
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	waitforvisualfinish
+	clearmonbg ANIM_TARGET
+	blendoff
+	end
+
+Move_GRASS_KNOT:
+	loadspritegfx ANIM_TAG_RAZOR_LEAF
+	loadspritegfx ANIM_TAG_IMPACT
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 5, 0, 20, 0, 0, 4
+	createsprite gGrassKnotSpriteTemplate, 130, 6, -18, 19, 40, 8, 160, 0
+	delay 4
+	createsprite gBasicHitSplatSpriteTemplate, 130, 4, -8, 8, 1, 2
+	createvisualtask AnimTask_RotateMonSpriteToSide, 2, 4, 6, 384, ANIM_TARGET, 2
+	playsewithpan SE_M_VITAL_THROW2 SOUND_PAN_TARGET
+	waitforvisualfinish
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 3, 0, 1, 4
+	end
+
+
+
+
 
 
