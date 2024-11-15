@@ -11739,9 +11739,9 @@ Move_CHARGE_BEAM:
 	end
 
 SparkBeam:
-	createsprite gElectricitySpriteTemplate, ANIM_ATTACKER, 3, 0, 0, 0, 0
+	createsprite gSparkBeamSpriteTemplate, ANIM_ATTACKER, 3, 0, 0, 0, 0
 	delay 1
-	createsprite gElectricitySpriteTemplate, ANIM_ATTACKER, 3, 0, 0, 0, 0
+	createsprite gSparkBeamSpriteTemplate, ANIM_ATTACKER, 3, 0, 0, 0, 0
 	delay 1
 	return	
 	
