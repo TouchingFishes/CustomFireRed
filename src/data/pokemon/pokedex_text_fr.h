@@ -2926,80 +2926,70 @@ const u8 gGemgeistPokedexTextUnused[] = _("");
 const u8 gToxibroPokedexText[] = _(
     "Although it is normally zoned out, its\n"
     "expression abruptly sharpens on occasion.\n"
-    "The cause seems to lie in Slowpoke's diet,\n"
-    "which also give their tails a spicy flavor.");
+    "The cause seems to be its weird diet.");
   
 const u8 gToxibroPokedexTextUnused[] = _("");
 
 const u8 gGeowattPokedexText[] = _(
     "It fires rocks charged with electricity.\n"
     "Even if the rock isn't fired that\n"
-    "accurately, just grazing an opponent\n"
-    "will cause numbness and fainting.");
+    "accurately, it can still stun its foe.");
   
 const u8 gGeowattPokedexTextUnused[] = _("");
 
 const u8 gClodsirePokedexText[] = _(
-    "When attacked, this Pokémon will\n"
-    "retaliate by sticking thick spines out\n"
-    "from its body. It's a risky move\n"
-    "that puts everything on the line.");
+    "When attacked, this Pokémon will strike\n"
+    "back by sticking thick poisonous spines\n"
+    "out from its body.");
   
 const u8 gClodsirePokedexTextUnused[] = _("");
 
 const u8 gCursolaPokedexText[] = _(
-    "Its shell is overflowing with its\n"
-    "heightened otherworldly energy. The\n"
-    "ectoplasm serves as protection for this\n"
-    "Pokémon's core spirit.");
+    "Its shell is overflowing with ectoplasm.\n"
+    "It serves as reliable protection for this\n"
+    "Pokémon's frail core spirit.");
   
 const u8 gCursolaPokedexTextUnused[] = _("");
 
 const u8 gCorsoreefPokedexText[] = _(
-    "Corsoreef is known for its intricate coral\n"
-    "formations. It is often found in shallow\n"
-    "waters, where it provides shelter for\n"
-    "other aquatic Pokémon.");
+    "Corsoreef is known for its complex coral\n"
+    "formations. It resides in dangerous parts\n"
+    "of the ocean sheltering other Pokémon.");
   
 const u8 gCorsoreefPokedexTextUnused[] = _("");
 
 const u8 gVenipedePokedexText[] = _(
     "Using the feelers on its head and tail,\n"
     "it picks up vibrations in the air to\n"
-    "determine its prey's location and state.\n"
-    "It is brutally aggressive.");
+    "determine its prey's location and state.");
   
 const u8 gVenipedePokedexTextUnused[] = _("");
 
 const u8 gWhirlipedePokedexText[] = _(
     "Storing energy for evolution, it sits.\n"
     "But when attacked, it spins its body at\n"
-    "high speed like a wheel and then\n"
-    "crashes furiously into its opponent.");
+    "high speed like a wheel.");
   
 const u8 gWhirlipedePokedexTextUnused[] = _("");
 
 const u8 gScolipedePokedexText[] = _(
     "With quick movements, it chases down\n"
     "its foes, attacking relentlessly with its\n"
-    "horns until it prevails. Then it finishes\n"
-    "them off with deadly poison.");
+    "horns until it prevails.");
   
 const u8 gScolipedePokedexTextUnused[] = _("");
 
 const u8 gMienfooPokedexText[] = _(
-    "They have mastered elegant combos.\n"
-    "As they concentrate, their battle moves\n"
-    "become swifter and more precise. What it\n"
-    "lacks in power, it makes up for in quantity.");
+    "They have mastered elegant combos. As\n"
+    "they concentrate, their battle moves be-\n"
+    "come swifter and more precise.");
   
 const u8 gMienfooPokedexTextUnused[] = _("");
 
 const u8 gMienshaoPokedexText[] = _(
-    "They use the long fur on their arms as\n"
-    "a whip to strike their opponents. Its arm\n"
-    "attacks come with such rapidity that they\n"
-    "cannot even be seen.");
+    "They use the long fur on their arms as a\n"
+    "whip to strike their opponents. Its arm\n"
+    "attacks are extremely hard to avoid.");
   
 const u8 gMienshaoPokedexTextUnused[] = _("");
 
@@ -3011,105 +3001,93 @@ const u8 gBunearyPokedexText[] = _(
 const u8 gBunearyPokedexTextUnused[] = _("");
 
 const u8 gLopunnyPokedexText[] = _(
-    "An extremely cautious Pokémon.\n"
-    "It is very conscious of its looks and\n"
-    "never fails to groom its ears.\n"
-    "It runs with sprightly jumps.");
+    "An extremely cautious Pokémon. It is\n"
+    "very conscious of its looks and never\n"
+    "fails to groom its ears.");
   
 const u8 gLopunnyPokedexTextUnused[] = _("");
 
 const u8 gWimpodPokedexText[] = _(
-    "This Pokémon is a coward. As it desperately\n"
-    "dashes off, the flailing of its many legs\n"
-    "leaves a sparkling clean path in its wake.\n"
-    "It lives on beaches and seabeds.");
+    "This Pokémon is a coward. While dashing\n"
+    "off, the flailing of its many legs leaves\n"
+    "a sparkling clean path in its wake.");
   
 const u8 gWimpodPokedexTextUnused[] = _("");
 
 const u8 gGolisopodPokedexText[] = _(
     "It battles skillfully with its six arms,\n"
     "with a flashing slash of its giant sharp\n"
-    "claws, it cleaves seawater--or even\n"
-    "air--right in two.");
+    "claws, it cleaves seawater right in two.");
   
 const u8 gGolisopodPokedexTextUnused[] = _("");
 
 const u8 gMilceryPokedexText[] = _(
     "This Pokémon was born from sweet-smelling\n"
-    "particles in the air. Its body is made\n"
-    "of cream.");
+    "particles in the air. Its body is made of\n"
+    "delicious cream.");
   
 const u8 gMilceryPokedexTextUnused[] = _("");
 
 const u8 gAlcremiePokedexText[] = _(
-    "It launches swarms of missiles,\n"
-    "each made of cream and loaded with\n"
-    "100,000 kilocalories. Get hit by one of\n"
-    "these, and your head will swim.");
+    "It launches swarms of missiles, each made\n"
+    "of cream and loaded with 100,00 kilocalo-\n"
+    "ries.");
   
 const u8 gAlcremiePokedexTextUnused[] = _("");
 
 const u8 gVanillitePokedexText[] = _(
     "The temperature of their breath is -50ºC.\n"
     "They create snow crystals and make snow\n"
-    "fall in the areas around them. Vanillite is\n"
-    "treasured by households in warm regions.");
+    "fall in the areas around them.");
   
 const u8 gVanillitePokedexTextUnused[] = _("");
 
 const u8 gVanillishPokedexText[] = _(
     "Vanillish has existed since the Ice Age.\n"
     "It controls particles of ice, freezes its\n"
-    "opponents, and then shatters them with\n"
-    "a headbutt.");
+    "opponents, and then shatters them.");
   
 const u8 gVanillishPokedexTextUnused[] = _("");
 
 const u8 gVanilluxePokedexText[] = _(
     "Each of its two heads has a brain, and\n"
     "when they are in agreement, it attacks\n"
-    "its enemies by exhaling a violent blizzard.\n"
-    "It makes snow clouds inside its body.");
+    "its enemies by exhaling violent blizzards.");
   
 const u8 gVanilluxePokedexTextUnused[] = _("");
 
 const u8 gPawmiPokedexText[] = _(
     "The pads of its paws are electricity-\n"
-    "discharging organs. Pawmi fires\n"
-    "electricity from its forepaws while\n"
-    "standing unsteadily on its hind legs.");
+    "discharging organs. Pawmi fires elec-\n"
+    "tricity from its forepaws.");
   
 const u8 gPawmiPokedexTextUnused[] = _("");
 
 const u8 gPawmotPokedexText[] = _(
-    "This Pokémon normally is slow to\n"
-    "react, but once it enters battle, it\n"
-    "will strike down its enemies with\n"
-    "lightning-fast movements.");
+    "This Pokémon normally is slow to react,\n"
+    "but once it battles, it will strike down\n"
+    "its enemies with lightning-fast attacks.");
   
 const u8 gPawmotPokedexTextUnused[] = _("");
 
 const u8 gFomantisPokedexText[] = _(
     "During the day, it sleeps and soaks up\n"
-    "light. They give off a sweet and refreshing\n"
-    "scent. Cutiefly often gather near the tall\n"
-    "grass where Fomantis are hiding.");
+    "light. They give off a sweet and alluring\n"
+    "scent. Insects often gather close to it.");
 
 const u8 gFomantisPokedexTextUnused[] = _("");
 
 const u8 gLurantisPokedexText[] = _(
     "It requires a lot of effort to maintain\n"
-    "Lurantis's vivid coloring, but some\n"
-    "collectors enjoy this work and treat it\n"
-    "as their hobby.");
+    "Lurantis's vivid coloring, but some col-\n"
+    "lectors enjoy putting in the effort.");
   
 const u8 gLurantisPokedexTextUnused[] = _("");
 
 const u8 gGekoponPokedexText[] = _(
-    "Gekopon is known for its unique ability to\n"
-    "adapt to its environment. It can change\n"
-    "its color and shape to blend in and avoid\n"
-    "detection.");
+    "This is a placeholder Pokémon. Its traits\n"
+    "and behavior have yet to be defined, but\n"
+    "it is an essential part of the ecosystem.");
   
 const u8 gGekoponPokedexTextUnused[] = _("");
 
@@ -3310,25 +3288,22 @@ const u8 gKrolucardPokedexText[] = _(
 const u8 gKrolucardPokedexTextUnused[] = _("");
 
 const u8 gDeinoPokedexText[] = _(
-    "Lacking sight, it's unaware of its\n"
-    "surroundings, so it bumps into things and\n"
-    "eats anything that moves. Approaching\n"
-    "it carelessly is dangerous.");
+    "Lacking sight, it's unaware of its sur-\n"
+    "roundings, so it bumps into things and\n"
+    "eats anything that moves.");
 
 const u8 gDeinoPokedexTextUnused[] = _("");
 
 const u8 gZweilousPokedexText[] = _(
     "After it has eaten up all the food in its\n"
     "territory, it moves on to another area.\n"
-    "Whichever head eats more than the other\n"
-    "gets to be the leader.");
+    "Its heads both try to be the leader.");
 
 const u8 gZweilousPokedexTextUnused[] = _("");
 
 const u8 gHydreigonPokedexText[] = _(
     "This brutal Pokémon travels the skies on\n"
-    "its six wings. The heads on their arms do\n"
-    "not have brains. They use all three heads\n"
+    "its six wings. They use all three heads\n"
     "to consume and destroy everything.");
 
 const u8 gHydreigonPokedexTextUnused[] = _("");
