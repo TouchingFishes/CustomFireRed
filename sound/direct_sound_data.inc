@@ -1970,6 +1970,106 @@ Cry_Bitemare::
 	.align 2
 Cry_Gemgeist::
 	.incbin "sound/direct_sound_samples/cries/sableye.bin"
+
+	.align 2
+Cry_Toxibro::
+	.incbin "sound/direct_sound_samples/cries/slowbro.bin"
+
+	.align 2
+Cry_Geowatt::
+	.incbin "sound/direct_sound_samples/cries/geowatt.bin"
+
+	.align 2
+Cry_Clodsire::
+	.incbin "sound/direct_sound_samples/cries/clodsire.bin"
+
+	.align 2
+Cry_Cursola::
+	.incbin "sound/direct_sound_samples/cries/cursola.bin"
+
+	.align 2
+Cry_Corsoreef::
+	.incbin "sound/direct_sound_samples/cries/corsoreef.bin"
+
+	.align 2
+Cry_Venipede::
+	.incbin "sound/direct_sound_samples/cries/venipede.bin"
+
+	.align 2
+Cry_Whirlipede::
+	.incbin "sound/direct_sound_samples/cries/whirlipede.bin"
+
+	.align 2
+Cry_Scolipede::
+	.incbin "sound/direct_sound_samples/cries/scolipede.bin"
+
+	.align 2
+Cry_Mienfoo::
+	.incbin "sound/direct_sound_samples/cries/mienfoo.bin"
+
+	.align 2
+Cry_Mienshao::
+	.incbin "sound/direct_sound_samples/cries/mienshao.bin"
+
+	.align 2
+Cry_Buneary::
+	.incbin "sound/direct_sound_samples/cries/buneary.bin"
+
+	.align 2
+Cry_Lopunny::
+	.incbin "sound/direct_sound_samples/cries/lopunny.bin"
+
+	.align 2
+Cry_Wimpod::
+	.incbin "sound/direct_sound_samples/cries/wimpod.bin"
+
+	.align 2
+Cry_Golisopod::
+	.incbin "sound/direct_sound_samples/cries/golisopod.bin"
+
+	.align 2
+Cry_Milcery::
+	.incbin "sound/direct_sound_samples/cries/milcery.bin"
+
+	.align 2
+Cry_Alcremie::
+	.incbin "sound/direct_sound_samples/cries/alcremie.bin"
+
+	.align 2
+Cry_Vanillite::
+	.incbin "sound/direct_sound_samples/cries/vanillite.bin"
+
+	.align 2
+Cry_Vanillish::
+	.incbin "sound/direct_sound_samples/cries/vanillish.bin"
+
+	.align 2
+Cry_Vanilluxe::
+	.incbin "sound/direct_sound_samples/cries/vanilluxe.bin"
+
+	.align 2
+Cry_Pawmi::
+	.incbin "sound/direct_sound_samples/cries/pawmi.bin"
+
+	.align 2
+Cry_Pawmot::
+	.incbin "sound/direct_sound_samples/cries/pawmot.bin"
+
+	.align 2
+Cry_Fomantis::
+	.incbin "sound/direct_sound_samples/cries/fomantis.bin"
+
+	.align 2
+Cry_Lurantis::
+	.incbin "sound/direct_sound_samples/cries/lurantis.bin"
+
+	.align 2
+Cry_Gekopon::
+	.incbin "sound/direct_sound_samples/cries/gekopon.bin"
+
+	.align 2
+Cry_Placeholdermon::
+	.incbin "sound/direct_sound_samples/cries/placeholdermon.bin"
 	
 	.align 2
 Cry_Voltrel::
@@ -2078,6 +2178,18 @@ Cry_Krolucada::
 	.align 2
 Cry_Krolucard::
 	.incbin "sound/direct_sound_samples/cries/krolucard.bin"
+	
+.align 2
+Cry_Deino::
+	.incbin "sound/direct_sound_samples/cries/deino.bin"
+	
+	.align 2
+Cry_Zweilous::
+	.incbin "sound/direct_sound_samples/cries/zweilous.bin"
+	
+	.align 2
+Cry_Hydreigon::
+	.incbin "sound/direct_sound_samples/cries/hydreigon.bin"
 	
 	.align 2
 Cry_Gible::

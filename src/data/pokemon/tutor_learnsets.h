@@ -2988,6 +2988,42 @@ static const u16 sTutorLearnsets[] =
     [SPECIES_GEMGEIST] = TUTOR(MOVE_DOUBLE_EDGE)
                     | TUTOR(MOVE_MIMIC)
                     | TUTOR(MOVE_SUBSTITUTE),
+    
+    [SPECIES_TOXIBRO] = TUTOR(MOVE_MEGA_PUNCH)
+                    | TUTOR(MOVE_MEGA_KICK)
+                    | TUTOR(MOVE_BODY_SLAM)
+                    | TUTOR(MOVE_DOUBLE_EDGE)
+                    | TUTOR(MOVE_COUNTER)
+                    | TUTOR(MOVE_SEISMIC_TOSS)
+                    | TUTOR(MOVE_MIMIC)
+                    | TUTOR(MOVE_DREAM_EATER)
+                    | TUTOR(MOVE_THUNDER_WAVE)
+                    | TUTOR(MOVE_SUBSTITUTE),
+
+    [SPECIES_GEOWATT] = 0,
+    [SPECIES_CLODSIRE] = 0,
+    [SPECIES_CURSOLA] = 0,
+    [SPECIES_CORSOREEF] = 0,
+    [SPECIES_VENIPEDE] = 0,
+    [SPECIES_WHIRLIPEDE] = 0,
+    [SPECIES_SCOLIPEDE] = 0,
+    [SPECIES_MIENFOO] = 0,
+    [SPECIES_MIENSHAO] = 0,
+    [SPECIES_BUNEARY] = 0,
+    [SPECIES_LOPUNNY] = 0,
+    [SPECIES_WIMPOD] = 0,
+    [SPECIES_GOLISOPOD] = 0,
+    [SPECIES_MILCERY] = 0,
+    [SPECIES_ALCREMIE] = 0,
+    [SPECIES_VANILLITE] = 0,
+    [SPECIES_VANILLISH] = 0,
+    [SPECIES_VANILLUXE] = 0,
+    [SPECIES_PAWMI] = 0,
+    [SPECIES_PAWMOT] = 0,
+    [SPECIES_FOMANTIS] = 0,
+    [SPECIES_LURANTIS] = 0,
+    [SPECIES_GEKOPON] = 0,
+    [SPECIES_PLACEHOLDERMON] = 0,
 
     [SPECIES_VOLTREL] = TUTOR(MOVE_DOUBLE_EDGE)
                     | TUTOR(MOVE_MIMIC)
@@ -3096,6 +3132,10 @@ static const u16 sTutorLearnsets[] =
     [SPECIES_KROLUCARD] = TUTOR(MOVE_DOUBLE_EDGE)
                         | TUTOR(MOVE_MIMIC)
                         | TUTOR(MOVE_SUBSTITUTE),
+
+    [SPECIES_DEINO] = 0,
+    [SPECIES_ZWEILOUS] = 0,
+    [SPECIES_HYDREIGON] = 0,
 
     [SPECIES_GIBLE] = TUTOR(MOVE_DOUBLE_EDGE)
                     | TUTOR(MOVE_MIMIC)

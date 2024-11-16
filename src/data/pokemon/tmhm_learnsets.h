@@ -10091,6 +10091,66 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM05_FLASH)
                                         | TMHM(HM06_ROCK_SMASH)),
+
+    [SPECIES_TOXIBRO]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+                                        | TMHM(TM03_WATER_PULSE)
+                                        | TMHM(TM04_CALM_MIND)
+                                        | TMHM(TM06_TOXIC)
+                                        | TMHM(TM07_HAIL)
+                                        | TMHM(TM10_HIDDEN_POWER)
+                                        | TMHM(TM11_SUNNY_DAY)
+                                        | TMHM(TM13_ICE_BEAM)
+                                        | TMHM(TM14_BLIZZARD)
+                                        | TMHM(TM15_HYPER_BEAM)
+                                        | TMHM(TM17_PROTECT)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM20_SAFEGUARD)
+                                        | TMHM(TM21_FRUSTRATION)
+                                        | TMHM(TM23_IRON_TAIL)
+                                        | TMHM(TM26_EARTHQUAKE)
+                                        | TMHM(TM27_RETURN)
+                                        | TMHM(TM28_DIG)
+                                        | TMHM(TM29_PSYCHIC)
+                                        | TMHM(TM30_SHADOW_BALL)
+                                        | TMHM(TM31_BRICK_BREAK)
+                                        | TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM35_FLAMETHROWER)
+                                        | TMHM(TM38_FIRE_BLAST)
+                                        | TMHM(TM42_FACADE)
+                                        | TMHM(TM43_SECRET_POWER)
+                                        | TMHM(TM44_REST)
+                                        | TMHM(TM45_ATTRACT)
+                                        | TMHM(TM48_SKILL_SWAP)
+                                        | TMHM(HM03_SURF)
+                                        | TMHM(HM04_STRENGTH)
+                                        | TMHM(HM05_FLASH)
+                                        | TMHM(HM06_ROCK_SMASH)
+                                        | TMHM(HM08_DIVE)),
+
+    [SPECIES_GEOWATT]      = TMHM_LEARNSET(0),
+    [SPECIES_CLODSIRE]     = TMHM_LEARNSET(0),
+    [SPECIES_CURSOLA]      = TMHM_LEARNSET(0),
+    [SPECIES_CORSOREEF]    = TMHM_LEARNSET(0),
+    [SPECIES_VENIPEDE]     = TMHM_LEARNSET(0),
+    [SPECIES_WHIRLIPEDE]   = TMHM_LEARNSET(0),
+    [SPECIES_SCOLIPEDE]    = TMHM_LEARNSET(0),
+    [SPECIES_MIENFOO]      = TMHM_LEARNSET(0),
+    [SPECIES_MIENSHAO]     = TMHM_LEARNSET(0),
+    [SPECIES_BUNEARY]      = TMHM_LEARNSET(0),
+    [SPECIES_LOPUNNY]      = TMHM_LEARNSET(0),
+    [SPECIES_WIMPOD]       = TMHM_LEARNSET(0),
+    [SPECIES_GOLISOPOD]    = TMHM_LEARNSET(0),
+    [SPECIES_MILCERY]      = TMHM_LEARNSET(0),
+    [SPECIES_ALCREMIE]     = TMHM_LEARNSET(0),
+    [SPECIES_VANILLITE]    = TMHM_LEARNSET(0),
+    [SPECIES_VANILLISH]    = TMHM_LEARNSET(0),
+    [SPECIES_VANILLUXE]    = TMHM_LEARNSET(0),
+    [SPECIES_PAWMI]        = TMHM_LEARNSET(0),
+    [SPECIES_PAWMOT]       = TMHM_LEARNSET(0),
+    [SPECIES_FOMANTIS]     = TMHM_LEARNSET(0),
+    [SPECIES_LURANTIS]     = TMHM_LEARNSET(0),
+    [SPECIES_GEKOPON]      = TMHM_LEARNSET(0),
+    [SPECIES_PLACEHOLDERMON]= TMHM_LEARNSET(0),                                    
     
     [SPECIES_VOLTREL]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM02_DRAGON_CLAW)
@@ -10736,6 +10796,12 @@ static const u32 sTMHMLearnsets[][2] =
                                             | TMHM(TM42_FACADE)
                                             | TMHM(TM43_SECRET_POWER)
                                             | TMHM(TM44_REST)),
+
+    [SPECIES_DEINO]            = TMHM_LEARNSET(0),
+
+    [SPECIES_ZWEILOUS]         = TMHM_LEARNSET(0),
+
+    [SPECIES_HYDREIGON]        = TMHM_LEARNSET(0),
 
     [SPECIES_GIBLE]            = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                             | TMHM(TM06_TOXIC)

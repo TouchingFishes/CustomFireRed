@@ -417,6 +417,31 @@ gCryTable::
 	cry Cry_Mlloy
 	cry Cry_Bitemare
 	cry Cry_Gemgeist
+	cry Cry_Toxibro
+	cry Cry_Geowatt
+	cry Cry_Clodsire
+	cry Cry_Cursola
+	cry Cry_Corsoreef
+	cry Cry_Venipede
+	cry Cry_Whirlipede
+	cry Cry_Scolipede
+	cry Cry_Mienfoo
+	cry Cry_Mienshao
+	cry Cry_Buneary
+	cry Cry_Lopunny
+	cry Cry_Wimpod
+	cry Cry_Golisopod
+	cry Cry_Milcery
+	cry Cry_Alcremie
+	cry Cry_Vanillite
+	cry Cry_Vanillish
+	cry Cry_Vanilluxe
+	cry Cry_Pawmi
+	cry Cry_Pawmot
+	cry Cry_Fomantis
+	cry Cry_Lurantis
+	cry Cry_Gekopon
+	cry Cry_Placeholdermon
 	cry Cry_Voltrel
 	cry Cry_Voltrean
 	cry Cry_Fletchling
@@ -444,6 +469,9 @@ gCryTable::
 	cry Cry_Mimikyu
 	cry Cry_Krolucada
 	cry Cry_Krolucard
+	cry Cry_Deino
+	cry Cry_Zweilous
+	cry Cry_Hydreigon
 	cry Cry_Gible
 	cry Cry_Gabite
 	cry Cry_Garchomp
@@ -877,6 +905,31 @@ gCryTable_Reverse::
 	cry_reverse Cry_Mlloy
 	cry_reverse Cry_Bitemare
 	cry_reverse Cry_Gemgeist
+	cry_reverse Cry_Toxibro
+	cry_reverse Cry_Geowatt
+	cry_reverse Cry_Clodsire
+	cry_reverse Cry_Cursola
+	cry_reverse Cry_Corsoreef
+	cry_reverse Cry_Venipede
+	cry_reverse Cry_Whirlipede
+	cry_reverse Cry_Scolipede
+	cry_reverse Cry_Mienfoo
+	cry_reverse Cry_Mienshao
+	cry_reverse Cry_Buneary
+	cry_reverse Cry_Lopunny
+	cry_reverse Cry_Wimpod
+	cry_reverse Cry_Golisopod
+	cry_reverse Cry_Milcery
+	cry_reverse Cry_Alcremie
+	cry_reverse Cry_Vanillite
+	cry_reverse Cry_Vanillish
+	cry_reverse Cry_Vanilluxe
+	cry_reverse Cry_Pawmi
+	cry_reverse Cry_Pawmot
+	cry_reverse Cry_Fomantis
+	cry_reverse Cry_Lurantis
+	cry_reverse Cry_Gekopon
+	cry_reverse Cry_Placeholdermon
 	cry_reverse Cry_Voltrel
 	cry_reverse Cry_Voltrean
 	cry_reverse Cry_Fletchling
@@ -904,6 +957,9 @@ gCryTable_Reverse::
 	cry_reverse Cry_Mimikyu
 	cry_reverse Cry_Krolucada
 	cry_reverse Cry_Krolucard
+	cry_reverse Cry_Deino
+	cry_reverse Cry_Zweilous
+	cry_reverse Cry_Hydreigon
 	cry_reverse Cry_Gible
 	cry_reverse Cry_Gabite
 	cry_reverse Cry_Garchomp
