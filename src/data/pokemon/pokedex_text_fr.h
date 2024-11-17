@@ -3030,8 +3030,8 @@ const u8 gMilceryPokedexTextUnused[] = _("");
 
 const u8 gAlcremiePokedexText[] = _(
     "It launches swarms of missiles, each made\n"
-    "of cream and loaded with 100,00 kilocalo-\n"
-    "ries.");
+    "of cream and loaded with 100,00 kilo-\n"
+    "calories.");
   
 const u8 gAlcremiePokedexTextUnused[] = _("");
 
