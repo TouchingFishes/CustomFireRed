@@ -1130,9 +1130,9 @@ PalletTown_ProfessorOaksLab_EventScript_ChoseStarter::
 	call EventScript_RestorePrevTextColor
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
-	givemon SPECIES_MEGANIUM, 75
+	givemon PLAYER_STARTER_SPECIES, 5
 	copyvar VAR_STARTER_MON, PLAYER_STARTER_NUM
-	bufferspeciesname STR_VAR_1, SPECIES_MEGANIUM
+	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	message PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
 	waitmessage
 	playfanfare MUS_OBTAIN_KEY_ITEM

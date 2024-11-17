@@ -2028,12 +2028,12 @@ Cry_Golisopod::
 	.incbin "sound/direct_sound_samples/cries/golisopod.bin"
 
 	.align 2
-Cry_Milcery::
-	.incbin "sound/direct_sound_samples/cries/milcery.bin"
+Cry_Decibelle::
+	.incbin "sound/direct_sound_samples/cries/decibelle.bin"
 
 	.align 2
-Cry_Alcremie::
-	.incbin "sound/direct_sound_samples/cries/alcremie.bin"
+Cry_Falinks::
+	.incbin "sound/direct_sound_samples/cries/falinks.bin"
 
 	.align 2
 Cry_Vanillite::

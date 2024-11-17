@@ -2276,15 +2276,15 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 5,
     },
-    [SPECIES_MILCERY] =
-    {
-        .size = MON_COORDS_SIZE(40, 40),
-        .y_offset = 15,
-    },
-    [SPECIES_ALCREMIE] =
+    [SPECIES_DECIBELLE] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 2,
+        .y_offset = 0,
+    },
+    [SPECIES_FALINKS] =
+    {
+        .size = MON_COORDS_SIZE(56, 48),
+        .y_offset = 8,
     },
     [SPECIES_VANILLITE] =
     {

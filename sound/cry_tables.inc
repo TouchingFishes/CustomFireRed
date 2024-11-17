@@ -431,8 +431,8 @@ gCryTable::
 	cry Cry_Lopunny
 	cry Cry_Wimpod
 	cry Cry_Golisopod
-	cry Cry_Milcery
-	cry Cry_Alcremie
+	cry Cry_Decibelle
+	cry Cry_Falinks
 	cry Cry_Vanillite
 	cry Cry_Vanillish
 	cry Cry_Vanilluxe
@@ -919,8 +919,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Lopunny
 	cry_reverse Cry_Wimpod
 	cry_reverse Cry_Golisopod
-	cry_reverse Cry_Milcery
-	cry_reverse Cry_Alcremie
+	cry_reverse Cry_Decibelle
+	cry_reverse Cry_Falinks
 	cry_reverse Cry_Vanillite
 	cry_reverse Cry_Vanillish
 	cry_reverse Cry_Vanilluxe

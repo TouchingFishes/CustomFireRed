@@ -5590,28 +5590,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MILCERY] =
+    [NATIONAL_DEX_DECIBELLE] =
     {
-        .categoryName = _("CREAM"),
-        .height = 2,
-        .weight = 3,
-        .description = gMilceryPokedexText,
-        .unusedDescription = gMilceryPokedexTextUnused,
+        .categoryName = _("WIND-CHIME"),
+        .height = 8,
+        .weight = 140,
+        .description = gDecibellePokedexText,
+        .unusedDescription = gDecibellePokedexTextUnused,
         .pokemonScale = 682,
         .pokemonOffset = 24,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ALCREMIE] =
+    [NATIONAL_DEX_FALINKS] =
     {
-        .categoryName = _("CREAM"),
-        .height = 3,
-        .weight = 5,
-        .description = gAlcremiePokedexText,
-        .unusedDescription = gAlcremiePokedexTextUnused,
-        .pokemonScale = 530,
-        .pokemonOffset = 13,
+        .categoryName = _("FORMATION"),
+        .height = 30,
+        .weight = 620,
+        .description = gFalinksPokedexText,
+        .unusedDescription = gFalinksPokedexTextUnused,
+        .pokemonScale = 275,
+        .pokemonOffset = 7,
         .trainerScale = 256,
         .trainerOffset = 0,
     },

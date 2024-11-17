@@ -10140,8 +10140,33 @@ static const u32 sTMHMLearnsets[][2] =
     [SPECIES_LOPUNNY]      = TMHM_LEARNSET(0),
     [SPECIES_WIMPOD]       = TMHM_LEARNSET(0),
     [SPECIES_GOLISOPOD]    = TMHM_LEARNSET(0),
-    [SPECIES_MILCERY]      = TMHM_LEARNSET(0),
-    [SPECIES_ALCREMIE]     = TMHM_LEARNSET(0),
+
+    [SPECIES_DECIBELLE]    = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
+                                        | TMHM(TM06_TOXIC)
+                                        | TMHM(TM10_HIDDEN_POWER)
+                                        | TMHM(TM11_SUNNY_DAY)
+                                        | TMHM(TM12_TAUNT)
+                                        | TMHM(TM16_LIGHT_SCREEN)
+                                        | TMHM(TM17_PROTECT)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM20_SAFEGUARD)
+                                        | TMHM(TM21_FRUSTRATION)
+                                        | TMHM(TM27_RETURN)
+                                        | TMHM(TM29_PSYCHIC)
+                                        | TMHM(TM30_SHADOW_BALL)
+                                        | TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM33_REFLECT)
+                                        | TMHM(TM34_SHOCK_WAVE)
+                                        | TMHM(TM41_TORMENT)
+                                        | TMHM(TM42_FACADE)
+                                        | TMHM(TM43_SECRET_POWER)
+                                        | TMHM(TM44_REST)
+                                        | TMHM(TM45_ATTRACT)
+                                        | TMHM(TM48_SKILL_SWAP)
+                                        | TMHM(TM49_SNATCH)
+                                        | TMHM(HM05_FLASH)),
+
+    [SPECIES_FALINKS]      = TMHM_LEARNSET(0),
     [SPECIES_VANILLITE]    = TMHM_LEARNSET(0),
     [SPECIES_VANILLISH]    = TMHM_LEARNSET(0),
     [SPECIES_VANILLUXE]    = TMHM_LEARNSET(0),

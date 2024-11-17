@@ -3022,19 +3022,19 @@ const u32 gMonShinyPalette_Golisopod[] = INCBIN_U32("graphics/pokemon/golisopod/
 const u8 gMonIcon_Golisopod[] = INCBIN_U8("graphics/pokemon/golisopod/icon.4bpp");
 const u8 gMonFootprint_Golisopod[] = INCBIN_U8("graphics/pokemon/golisopod/footprint.1bpp");
 
-const u32 gMonFrontPic_Milcery[] = INCBIN_U32("graphics/pokemon/milcery/front.4bpp.lz");
-const u32 gMonPalette_Milcery[] = INCBIN_U32("graphics/pokemon/milcery/normal.gbapal.lz");
-const u32 gMonBackPic_Milcery[] = INCBIN_U32("graphics/pokemon/milcery/back.4bpp.lz");
-const u32 gMonShinyPalette_Milcery[] = INCBIN_U32("graphics/pokemon/milcery/shiny.gbapal.lz");
-const u8 gMonIcon_Milcery[] = INCBIN_U8("graphics/pokemon/milcery/icon.4bpp");
-const u8 gMonFootprint_Milcery[] = INCBIN_U8("graphics/pokemon/milcery/footprint.1bpp");
+const u32 gMonFrontPic_Decibelle[] = INCBIN_U32("graphics/pokemon/decibelle/front.4bpp.lz");
+const u32 gMonPalette_Decibelle[] = INCBIN_U32("graphics/pokemon/decibelle/normal.gbapal.lz");
+const u32 gMonBackPic_Decibelle[] = INCBIN_U32("graphics/pokemon/decibelle/back.4bpp.lz");
+const u32 gMonShinyPalette_Decibelle[] = INCBIN_U32("graphics/pokemon/decibelle/shiny.gbapal.lz");
+const u8 gMonIcon_Decibelle[] = INCBIN_U8("graphics/pokemon/decibelle/icon.4bpp");
+const u8 gMonFootprint_Decibelle[] = INCBIN_U8("graphics/pokemon/decibelle/footprint.1bpp");
 
-const u32 gMonFrontPic_Alcremie[] = INCBIN_U32("graphics/pokemon/alcremie/front.4bpp.lz");
-const u32 gMonPalette_Alcremie[] = INCBIN_U32("graphics/pokemon/alcremie/normal.gbapal.lz");
-const u32 gMonBackPic_Alcremie[] = INCBIN_U32("graphics/pokemon/alcremie/back.4bpp.lz");
-const u32 gMonShinyPalette_Alcremie[] = INCBIN_U32("graphics/pokemon/alcremie/shiny.gbapal.lz");
-const u8 gMonIcon_Alcremie[] = INCBIN_U8("graphics/pokemon/alcremie/icon.4bpp");
-const u8 gMonFootprint_Alcremie[] = INCBIN_U8("graphics/pokemon/alcremie/footprint.1bpp");
+const u32 gMonFrontPic_Falinks[] = INCBIN_U32("graphics/pokemon/falinks/front.4bpp.lz");
+const u32 gMonPalette_Falinks[] = INCBIN_U32("graphics/pokemon/falinks/normal.gbapal.lz");
+const u32 gMonBackPic_Falinks[] = INCBIN_U32("graphics/pokemon/falinks/back.4bpp.lz");
+const u32 gMonShinyPalette_Falinks[] = INCBIN_U32("graphics/pokemon/falinks/shiny.gbapal.lz");
+const u8 gMonIcon_Falinks[] = INCBIN_U8("graphics/pokemon/falinks/icon.4bpp");
+const u8 gMonFootprint_Falinks[] = INCBIN_U8("graphics/pokemon/falinks/footprint.1bpp");
 
 const u32 gMonFrontPic_Vanillite[] = INCBIN_U32("graphics/pokemon/vanillite/front.4bpp.lz");
 const u32 gMonPalette_Vanillite[] = INCBIN_U32("graphics/pokemon/vanillite/normal.gbapal.lz");

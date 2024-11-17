@@ -131,6 +131,7 @@ static const u16 sDexCategory_GrasslandPkmn_Page21[] = {
     SPECIES_GROWLITHE,
     SPECIES_ARCANINE,
     SPECIES_CHIMECHO,
+    SPECIES_DECIBELLE,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page22[] = {
@@ -313,6 +314,7 @@ static const u16 sDexCategory_ForestPkmn_Page22[] = {
 static const u16 sDexCategory_ForestPkmn_Page23[] = {
     SPECIES_PINSIR,
     SPECIES_HERACROSS,
+    SPECIES_FALINKS,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page24[] = {
@@ -859,8 +861,8 @@ static const u16 sDexCategory_UrbanPkmn_Page8[] = {
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page9[] = {
-    SPECIES_MILCERY,
-    SPECIES_ALCREMIE,
+    SPECIES_PORYGON,
+    SPECIES_PORYGON2,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page10[] = {
@@ -872,8 +874,6 @@ static const u16 sDexCategory_UrbanPkmn_Page10[] = {
 static const u16 sDexCategory_UrbanPkmn_Page11[] = {
     SPECIES_VOLTORB,
     SPECIES_ELECTRODE,
-    SPECIES_PORYGON,
-    SPECIES_PORYGON2,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page12[] = {

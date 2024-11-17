@@ -3013,8 +3013,11 @@ static const u16 sTutorLearnsets[] =
     [SPECIES_LOPUNNY] = 0,
     [SPECIES_WIMPOD] = 0,
     [SPECIES_GOLISOPOD] = 0,
-    [SPECIES_MILCERY] = 0,
-    [SPECIES_ALCREMIE] = 0,
+    [SPECIES_DECIBELLE] = TUTOR(MOVE_DOUBLE_EDGE)
+                       | TUTOR(MOVE_MIMIC)
+                       | TUTOR(MOVE_DREAM_EATER)
+                       | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_FALINKS] = 0,
     [SPECIES_VANILLITE] = 0,
     [SPECIES_VANILLISH] = 0,
     [SPECIES_VANILLUXE] = 0,

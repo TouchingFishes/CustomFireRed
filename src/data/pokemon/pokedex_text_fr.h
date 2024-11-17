@@ -3021,19 +3021,19 @@ const u8 gGolisopodPokedexText[] = _(
   
 const u8 gGolisopodPokedexTextUnused[] = _("");
 
-const u8 gMilceryPokedexText[] = _(
-    "This Pokémon was born from sweet-smelling\n"
-    "particles in the air. Its body is made of\n"
-    "delicious cream.");
+const u8 gDecibellePokedexText[] = _(
+    "This Pokémon's heavenly chimes can calm\n"
+    "down the most distressed souls. Its hard\n"
+    "metal shell, allows it to remain safe.");
   
-const u8 gMilceryPokedexTextUnused[] = _("");
+const u8 gDecibellePokedexTextUnused[] = _("");
 
-const u8 gAlcremiePokedexText[] = _(
-    "It launches swarms of missiles, each made\n"
-    "of cream and loaded with 100,00 kilo-\n"
-    "calories.");
+const u8 gFalinksPokedexText[] = _(
+    "Falinks live under a strict hierarchy.\n"
+    "Five of them are troopers, and one is the\n"
+    "brass. The brass's orders are absolute.");
   
-const u8 gAlcremiePokedexTextUnused[] = _("");
+const u8 gFalinksPokedexTextUnused[] = _("");
 
 const u8 gVanillitePokedexText[] = _(
     "The temperature of their breath is -50ºC.\n"
