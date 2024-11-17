@@ -30,6 +30,7 @@
 #include "constants/event_objects.h"
 #include "constants/maps.h"
 #include "constants/metatile_behaviors.h"
+#include "constants/items.h"
 
 #define SIGNPOST_POKECENTER 0
 #define SIGNPOST_POKEMART 1
@@ -70,6 +71,7 @@ static s8 GetWarpEventAtMapPosition(struct MapHeader * mapHeader, struct MapPosi
 static bool8 TryDoorWarp(struct MapPosition * position, u16 metatileBehavior, u8 playerDirection);
 static s8 GetWarpEventAtPosition(struct MapHeader * mapHeader, u16 x, u16 y, u8 z);
 static const u8 *GetCoordEventScriptAtPosition(struct MapHeader * mapHeader, u16 x, u16 y, u8 z);
+bool8 CheckBagHasItem(u16 itemId, u16 count);
 
 struct FieldInput gFieldInputRecord;
 
@@ -602,7 +604,8 @@ static const u8 *GetInteractedWaterScript(struct MapPosition *unused1, u8 metati
 {
     if (MetatileBehavior_IsFastWater(metatileBehavior) == TRUE && PartyHasMonWithSurf() == TRUE)
         return EventScript_CurrentTooFast;
-    if (FlagGet(FLAG_BADGE05_GET) == TRUE && PartyHasMonWithSurf() == TRUE && IsPlayerFacingSurfableFishableWater() == TRUE)
+    //this might need to be && in order to check for badge 5 before surfing
+    if ((FlagGet(FLAG_BADGE05_GET) == TRUE || PartyHasMonWithSurf() == TRUE || CheckBagHasItem(ITEM_HM03 ,1)) && IsPlayerFacingSurfableFishableWater() == TRUE)
         return EventScript_UseSurf;
 
     if (MetatileBehavior_IsWaterfall(metatileBehavior) == TRUE)
