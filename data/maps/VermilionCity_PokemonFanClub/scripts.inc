@@ -113,6 +113,16 @@ VermilionCity_PokemonFanClub_EventScript_Seel::
 	release
 	end
 
+VermilionCity_PokemonFanClub_EventScript_Poliwrath::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
+	msgbox VermilionCity_PokemonFanClub_Text_Poliwrath
+	waitmoncry
+	release
+	end	
+
 VermilionCity_PokemonFanClub_EventScript_RulesSign1::
 	msgbox VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers, MSGBOX_SIGN
 	end
@@ -120,3 +130,68 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign1::
 VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 	msgbox VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack, MSGBOX_SIGN
 	end
+
+VermillionCity_PokemonFanClub_EventScript_EggCaptain::
+@	goto_if_questlog EventScript_ReleaseEnd
+@	special QuestLog_CutRecording
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_TOGEPI_EGG, VermillionCity_PokemonFanClub_EventScript_PostEggComment
+	goto_if_set FLAG_NO_ROOM_FOR_TOGEPI_EGG, VermillionCity_PokemonFanClub_EventScript_ReturnForEgg
+	msgbox VermillionCity_PokemonFanClub_Text_LetMeTakeLookAtMons
+	specialvar VAR_RESULT, GetLeadMonFriendship
+	goto_if_eq VAR_RESULT, 6, VermillionCity_PokemonFanClub_EventScript_LeadMonMaxFriendship
+	msgbox VermillionCity_PokemonFanClub_Text_HmmISeeIsee
+	release
+	end
+
+VermillionCity_PokemonFanClub_EventScript_MonDaisyComment::
+	famechecker FAMECHECKER_DAISY, 2
+	msgbox VermillionCity_PokemonFanClub_Text_CuteMonRemindsMeOfDaisy
+	release
+	end
+
+VermillionCity_PokemonFanClub_EventScript_LeadMonMaxFriendship::
+	msgbox VermillionCity_PokemonFanClub_Text_TreatMonRightHaveThis
+	goto VermillionCity_PokemonFanClub_EventScript_TryGiveEgg
+	end
+
+VermillionCity_PokemonFanClub_EventScript_TryGiveEgg::
+	getpartysize
+	goto_if_eq VAR_RESULT, PARTY_SIZE, VermillionCity_PokemonFanClub_EventScript_NoRoomForEgg
+	setflag FLAG_GOT_TOGEPI_EGG
+	giveegg SPECIES_TOGEPI
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message VermillionCity_PokemonFanClub_Text_ReceivedEggFromMan
+	waitfanfare
+	waitmessage
+	call EventScript_RestorePrevTextColor
+	goto VermillionCity_PokemonFanClub_EventScript_PostEggComment
+	end
+
+@ If the player has a Togepi/Togetic from this game (assumed to be the one the man gave you) then comment on it
+@ Otherwise make normal comment
+VermillionCity_PokemonFanClub_EventScript_PostEggComment::
+	bufferspeciesname STR_VAR_2, SPECIES_TOGEPI
+	setvar VAR_0x8004, SPECIES_TOGEPI
+	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
+	goto_if_eq VAR_RESULT, TRUE, VermillionCity_PokemonFanClub_EventScript_MonDaisyComment
+	bufferspeciesname STR_VAR_2, SPECIES_TOGETIC
+	setvar VAR_0x8004, SPECIES_TOGETIC
+	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
+	goto_if_eq VAR_RESULT, TRUE, VermillionCity_PokemonFanClub_EventScript_MonDaisyComment
+	msgbox VermillionCity_PokemonFanClub_Text_GladIMetSomeoneLikeYou
+	release
+	end
+
+VermillionCity_PokemonFanClub_EventScript_NoRoomForEgg::
+	setflag FLAG_NO_ROOM_FOR_TOGEPI_EGG
+	msgbox VermillionCity_PokemonFanClub_Text_DontHaveSpaceInYourParty
+	release
+	end
+
+VermillionCity_PokemonFanClub_EventScript_ReturnForEgg::
+	goto VermillionCity_PokemonFanClub_EventScript_TryGiveEgg
+	end
+

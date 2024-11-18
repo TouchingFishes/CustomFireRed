@@ -14,7 +14,7 @@ FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis::
     .string "Oh, impressive.\n"
     .string "You treat your POKéMON right.\p"
     .string "I think you can be entrusted with\n"
-    .string "this.\p"
+    .string "this. Since I am too old to raise it.\p"
     .string "Please, I'd like you to have this.$"
 
 FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan::
@@ -35,7 +35,7 @@ FiveIsland_WaterLabyrinth_Text_YouveComeBackForTheEgg::
 
 FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou::
     .string "I received that EGG while I was\n"
-    .string "traveling.\p"
+    .string "training on a faraway island.\p"
     .string "I'm glad I met someone like you.$"
 
 FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy::

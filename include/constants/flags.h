@@ -794,9 +794,9 @@
 #define FLAG_OAKS_RATING_IS_VIA_PC                       0x2FF
 
 // Unused?
-#define FLAG_GOT_VANILLITE       0x300 //now used for vanillite guy in cerulean mart
-#define FLAG_0x301               0x301
-#define FLAG_0x302               0x302
+#define FLAG_GOT_VANILLITE           0x300 //now used for vanillite guy in cerulean mart
+#define FLAG_GOT_RIOLU_EGG           0x301 //now used in waterlabyrinth egg event
+#define FLAG_NO_ROOM_FOR_RIOLU_EGG   0x302 //now used in waterlabyrinth egg event
 #define FLAG_0x303               0x303
 #define FLAG_0x304               0x304
 #define FLAG_0x305               0x305
