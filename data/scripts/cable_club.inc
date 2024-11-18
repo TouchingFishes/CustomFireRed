@@ -1118,13 +1118,7 @@ CableClub_EventScript_CloseGameCornerBarrier::
 	return
 
 CableClub_OnResume::
-	specialvar VAR_0x8001, IsWirelessAdapterConnected
-    goto_if_eq VAR_0x8001, FALSE, CableClub_OnResume_DisableUnionRoomNurseText
 	special InitUnionRoom
-	end
-
-CableClub_OnResume_DisableUnionRoomNurseText:
-	setflag FLAG_NURSE_UNION_ROOM_REMINDER
 	end
 
 JoyfulGameCorner_EventScript_InfoMan2::
