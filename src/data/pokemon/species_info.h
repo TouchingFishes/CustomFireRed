@@ -762,7 +762,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_RAICHU] =
     {
-        .baseHP = 60,
+        .baseHP = 70, //60
         .baseAttack = 90,
         .baseDefense = 55,
         .baseSpeed = 110, //100
@@ -1488,7 +1488,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DUGTRIO] =
     {
         .baseHP = 35,
-        .baseAttack = 80,
+        .baseAttack = 90, //80
         .baseDefense = 50,
         .baseSpeed = 120,
         .baseSpAttack = 50,
@@ -2930,7 +2930,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
-        .abilities = {ABILITY_AFTERMATH, ABILITY_STATIC},
+        .abilities = {ABILITY_AFTERMATH, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -2959,7 +2959,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_MINERAL, EGG_GROUP_MINERAL},
-        .abilities = {ABILITY_AFTERMATH, ABILITY_STATIC},
+        .abilities = {ABILITY_AFTERMATH, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
