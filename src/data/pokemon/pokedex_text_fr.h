@@ -2993,33 +2993,33 @@ const u8 gMienshaoPokedexText[] = _(
   
 const u8 gMienshaoPokedexTextUnused[] = _("");
 
-const u8 gBunearyPokedexText[] = _(
-    "You can tell how it feels by the way\n"
-    "it rolls its ears. When it senses\n"
-    "danger, it perks them up.");
+const u8 gMismagiusPokedexText[] = _(
+    "Its cries sound like incantations.\n"
+    "Those hearing it are tormented by\n"
+    "headaches and hallucinations.");
   
-const u8 gBunearyPokedexTextUnused[] = _("");
+const u8 gMismagiusPokedexTextUnused[] = _("");
 
-const u8 gLopunnyPokedexText[] = _(
-    "An extremely cautious Pokémon. It is\n"
-    "very conscious of its looks and never\n"
-    "fails to groom its ears.");
+const u8 gShinxPokedexText[] = _(
+    "It rapidly contracts and relaxes its\n"
+    "muscles to generate electricity. Its\n"
+    "body shines if endangered.");
   
-const u8 gLopunnyPokedexTextUnused[] = _("");
+const u8 gShinxPokedexTextUnused[] = _("");
 
-const u8 gWimpodPokedexText[] = _(
-    "This Pokémon is a coward. While dashing\n"
-    "off, the flailing of its many legs leaves\n"
-    "a sparkling clean path in its wake.");
+const u8 gLuxioPokedexText[] = _(
+    "Strong electricity courses through the\n"
+    "tips of its sharp claws. A light scratch\n"
+    "has enough amperage to cause fainting.");
   
-const u8 gWimpodPokedexTextUnused[] = _("");
+const u8 gLuxioPokedexTextUnused[] = _("");
 
-const u8 gGolisopodPokedexText[] = _(
-    "It battles skillfully with its six arms,\n"
-    "with a flashing slash of its giant sharp\n"
-    "claws, it cleaves seawater right in two.");
+const u8 gLuxrayPokedexText[] = _(
+    "It has eyes which can see through any-\n"
+    "thing. Luxray's ability to see through\n"
+    "objects comes in handy while hunting.");
   
-const u8 gGolisopodPokedexTextUnused[] = _("");
+const u8 gLuxrayPokedexTextUnused[] = _("");
 
 const u8 gDecibellePokedexText[] = _(
     "This Pokémon's heavenly chimes can calm\n"

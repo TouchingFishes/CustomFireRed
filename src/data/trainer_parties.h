@@ -636,7 +636,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassAnn[] = {
     {
         .iv = 0,
         .lvl = 18,
-        .species = SPECIES_NIDORAN_F,
+        .species = SPECIES_FLAAFFY,
     },
 };
 
@@ -5778,8 +5778,8 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderSabrina[] = {
     {
         .iv = 255,
         .lvl = 40,
-        .species = SPECIES_MR_MIME,
-        .moves = {MOVE_PSYCHIC, MOVE_MAGICAL_LEAF, MOVE_BATON_PASS, MOVE_CALM_MIND},
+        .species = SPECIES_MISMAGIUS,
+        .moves = {MOVE_PSYCHIC, MOVE_MAGICAL_LEAF, MOVE_SHADOW_BALL, MOVE_CALM_MIND},
     },
     {
         .iv = 255,
@@ -6873,7 +6873,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GentlemanLamar[] = {
     {
         .iv = 0,
         .lvl = 17,
-        .species = SPECIES_ELECTRIKE,
+        .species = SPECIES_LUXRAY,
     },
     {
         .iv = 0,
@@ -7172,7 +7172,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_YoungsterTimmy4[] = {
     {
         .iv = 120,
         .lvl = 52,
-        .species = SPECIES_MANECTRIC,
+        .species = SPECIES_LUXRAY,
     },
     {
         .iv = 120,
@@ -9277,7 +9277,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CamperChris4[] = {
     {
         .iv = 120,
         .lvl = 54,
-        .species = SPECIES_MANECTRIC,
+        .species = SPECIES_LUXRAY,
     },
     {
         .iv = 120,

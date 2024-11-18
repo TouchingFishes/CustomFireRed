@@ -5538,56 +5538,56 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BUNEARY] =
+    [NATIONAL_DEX_MISMAGIUS] =
     {
-        .categoryName = _("RABBIT"),
-        .height = 4,
-        .weight = 55,
-        .description = gBunearyPokedexText,
-        .unusedDescription = gBunearyPokedexTextUnused,
-        .pokemonScale = 491,
-        .pokemonOffset = 16,
+        .categoryName = _("MAGICAL"),
+        .height = 9,
+        .weight = 44,
+        .description = gMismagiusPokedexText,
+        .unusedDescription = gMismagiusPokedexTextUnused,
+        .pokemonScale = 338,
+        .pokemonOffset = 8,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOPUNNY] =
+    [NATIONAL_DEX_SHINX] =
     {
-        .categoryName = _("RABBIT"),
-        .height = 12,
-        .weight = 333,
-        .description = gLopunnyPokedexText,
-        .unusedDescription = gLopunnyPokedexTextUnused,
-        .pokemonScale = 282,
-        .pokemonOffset = 4,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-    },
-
-    [NATIONAL_DEX_WIMPOD] =
-    {
-        .categoryName = _("TURN TAIL"),
+        .categoryName = _("FLASH"),
         .height = 5,
-        .weight = 120,
-        .description = gWimpodPokedexText,
-        .unusedDescription = gWimpodPokedexTextUnused,
+        .weight = 95,
+        .description = gShinxPokedexText,
+        .unusedDescription = gShinxPokedexTextUnused,
         .pokemonScale = 432,
-        .pokemonOffset = 13,
+        .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GOLISOPOD] =
+    [NATIONAL_DEX_LUXIO] =
     {
-        .categoryName = _("HARD SCALE"),
-        .height = 20,
-        .weight = 1080,
-        .description = gGolisopodPokedexText,
-        .unusedDescription = gGolisopodPokedexTextUnused,
-        .pokemonScale = 261,
-        .pokemonOffset = 1,
-        .trainerScale = 334,
-        .trainerOffset = 4,
+        .categoryName = _("SPARK"),
+         .height = 9,
+        .weight = 305,
+        .description = gLuxioPokedexText,
+        .unusedDescription = gLuxioPokedexTextUnused,
+        .pokemonScale = 338,
+        .pokemonOffset = 10,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_LUXRAY] =
+    {
+        .categoryName = _("GLEAM EYES"),
+        .height = 14,
+        .weight = 420,
+        .description = gLuxrayPokedexText,
+        .unusedDescription = gLuxrayPokedexTextUnused,
+        .pokemonScale = 265,
+        .pokemonOffset = 2,
+        .trainerScale = 262,
+        .trainerOffset = 0,
     },
 
     [NATIONAL_DEX_DECIBELLE] =

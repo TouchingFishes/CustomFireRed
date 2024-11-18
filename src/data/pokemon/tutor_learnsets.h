@@ -3083,23 +3083,29 @@ static const u16 sTutorLearnsets[] =
                        | TUTOR(MOVE_METRONOME)
                        | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_BUNEARY] = TUTOR(MOVE_BODY_SLAM)
-                      | TUTOR(MOVE_DOUBLE_EDGE)
-                      | TUTOR(MOVE_MIMIC)
-                      | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_MISMAGIUS] = TUTOR(MOVE_DOUBLE_EDGE)
+                         | TUTOR(MOVE_MIMIC)
+                         | TUTOR(MOVE_DREAM_EATER)
+                         | TUTOR(MOVE_THUNDER_WAVE)
+                         | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_LOPUNNY] = TUTOR(MOVE_BODY_SLAM)
-                     | TUTOR(MOVE_DOUBLE_EDGE)
-                     | TUTOR(MOVE_MIMIC)
-                     | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_SHINX] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_MIMIC)
+                        | TUTOR(MOVE_THUNDER_WAVE)
+                        | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_WIMPOD] = 0,
+    [SPECIES_LUXIO] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_MIMIC)
+                        | TUTOR(MOVE_THUNDER_WAVE)
+                        | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_GOLISOPOD] = TUTOR(MOVE_SWORDS_DANCE)
-                      | TUTOR(MOVE_BODY_SLAM)
-                      | TUTOR(MOVE_DOUBLE_EDGE)
-                      | TUTOR(MOVE_MIMIC)
-                      | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_LUXRAY] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_MIMIC)
+                        | TUTOR(MOVE_THUNDER_WAVE)
+                        | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_DECIBELLE] = TUTOR(MOVE_DOUBLE_EDGE)
                        | TUTOR(MOVE_MIMIC)

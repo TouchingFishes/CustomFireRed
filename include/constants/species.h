@@ -457,10 +457,10 @@
 #define SPECIES_SCOLIPEDE 448 //unsure
 #define SPECIES_MIENFOO 449 //unsure 
 #define SPECIES_MIENSHAO 450 //unsure
-#define SPECIES_BUNEARY 451 //unsure
-#define SPECIES_LOPUNNY 452 //unsure
-#define SPECIES_WIMPOD 453 //unsure
-#define SPECIES_GOLISOPOD 454 //unsure
+#define SPECIES_MISMAGIUS 451 //unsure
+#define SPECIES_SHINX 452 
+#define SPECIES_LUXIO 453 
+#define SPECIES_LUXRAY 454 
 #define SPECIES_DECIBELLE 455 
 #define SPECIES_FALINKS 456 
 #define SPECIES_VANILLITE 457

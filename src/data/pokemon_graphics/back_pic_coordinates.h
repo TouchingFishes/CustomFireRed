@@ -2256,25 +2256,25 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(56, 56),
         .y_offset = 7,
     },
-    [SPECIES_BUNEARY] =
+    [SPECIES_MISMAGIUS] =
+    {
+        .size = MON_COORDS_SIZE(56, 64),
+        .y_offset = 3,
+    },
+    [SPECIES_SHINX] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 8,
+    },
+    [SPECIES_LUXIO] =
     {
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 4,
     },
-    [SPECIES_LOPUNNY] =
-    {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 5,
-    },
-    [SPECIES_WIMPOD] =
-    {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
-    },
-    [SPECIES_GOLISOPOD] =
+    [SPECIES_LUXRAY] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 13,
+        .y_offset = 0,
     },
     [SPECIES_DECIBELLE] =
     {

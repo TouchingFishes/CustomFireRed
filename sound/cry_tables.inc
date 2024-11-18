@@ -427,10 +427,10 @@ gCryTable::
 	cry Cry_Scolipede
 	cry Cry_Mienfoo
 	cry Cry_Mienshao
-	cry Cry_Buneary
-	cry Cry_Lopunny
-	cry Cry_Wimpod
-	cry Cry_Golisopod
+	cry Cry_Mismagius
+	cry Cry_Shinx
+	cry Cry_Luxio
+	cry Cry_Luxray
 	cry Cry_Decibelle
 	cry Cry_Falinks
 	cry Cry_Vanillite
@@ -915,10 +915,10 @@ gCryTable_Reverse::
 	cry_reverse Cry_Scolipede
 	cry_reverse Cry_Mienfoo
 	cry_reverse Cry_Mienshao
-	cry_reverse Cry_Buneary
-	cry_reverse Cry_Lopunny
-	cry_reverse Cry_Wimpod
-	cry_reverse Cry_Golisopod
+	cry_reverse Cry_Mismagius
+	cry_reverse Cry_Shinx
+	cry_reverse Cry_Luxio
+	cry_reverse Cry_Luxray
 	cry_reverse Cry_Decibelle
 	cry_reverse Cry_Falinks
 	cry_reverse Cry_Vanillite

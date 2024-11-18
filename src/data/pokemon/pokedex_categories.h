@@ -293,10 +293,9 @@ static const u16 sDexCategory_ForestPkmn_Page19[] = {
 };
 
 static const u16 sDexCategory_ForestPkmn_Page20[] = {
-    SPECIES_BUNEARY,
-    SPECIES_LOPUNNY,
-    SPECIES_PAWMI,
-    SPECIES_PAWMOT,
+    SPECIES_SHINX,
+    SPECIES_LUXIO,
+    SPECIES_LUXRAY,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page21[] = {
@@ -309,6 +308,8 @@ static const u16 sDexCategory_ForestPkmn_Page21[] = {
 static const u16 sDexCategory_ForestPkmn_Page22[] = {
     SPECIES_FOMANTIS,
     SPECIES_LURANTIS,
+    SPECIES_PAWMI,
+    SPECIES_PAWMOT,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page23[] = {
@@ -584,7 +585,6 @@ static const u16 sDexCategory_CavePkmn_Page4[] = {
 };
 
 static const u16 sDexCategory_CavePkmn_Page5[] = {
-    SPECIES_MISDREAVUS,
     SPECIES_DUNSPARCE,
     SPECIES_DUNDRAG,
     SPECIES_DUNLONG,
@@ -617,8 +617,8 @@ static const u16 sDexCategory_CavePkmn_Page9[] = {
 };
 
 static const u16 sDexCategory_CavePkmn_Page10[] = {
-    SPECIES_WIMPOD,
-    SPECIES_GOLISOPOD,
+    SPECIES_MISDREAVUS,
+    SPECIES_MISMAGIUS,
 };
 
 static const u16 sDexCategory_CavePkmn_Page11[] = {

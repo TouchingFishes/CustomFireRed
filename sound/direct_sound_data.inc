@@ -2012,20 +2012,20 @@ Cry_Mienshao::
 	.incbin "sound/direct_sound_samples/cries/mienshao.bin"
 
 	.align 2
-Cry_Buneary::
-	.incbin "sound/direct_sound_samples/cries/buneary.bin"
+Cry_Mismagius::
+	.incbin "sound/direct_sound_samples/cries/mismagius.bin"
 
 	.align 2
-Cry_Lopunny::
-	.incbin "sound/direct_sound_samples/cries/lopunny.bin"
+Cry_Shinx::
+	.incbin "sound/direct_sound_samples/cries/shinx.bin"
 
 	.align 2
-Cry_Wimpod::
-	.incbin "sound/direct_sound_samples/cries/wimpod.bin"
+Cry_Luxio::
+	.incbin "sound/direct_sound_samples/cries/luxio.bin"
 
 	.align 2
-Cry_Golisopod::
-	.incbin "sound/direct_sound_samples/cries/golisopod.bin"
+Cry_Luxray::
+	.incbin "sound/direct_sound_samples/cries/luxray.bin"
 
 	.align 2
 Cry_Decibelle::
