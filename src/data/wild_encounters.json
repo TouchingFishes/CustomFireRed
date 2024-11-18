@@ -1081,12 +1081,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CATERPIE"
+                "species": "SPECIES_SPINARAK"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_WEEDLE"
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_SPINARAK"
               },
               {
                 "min_level": 4,
