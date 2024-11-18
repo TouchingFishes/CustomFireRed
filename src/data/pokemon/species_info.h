@@ -9161,14 +9161,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_EARTH_EATER, ABILITY_NONE},
+        .abilities = {ABILITY_OBLIVIOUS, ABILITY_SAP_SIPPER},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
     [SPECIES_CAMERUPT] =
     {
-        .baseHP = 80, //70 
+        .baseHP = 95, //70 
         .baseAttack = 100,
         .baseDefense = 70,
         .baseSpeed = 40,
@@ -9190,7 +9190,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_EARTH_EATER, ABILITY_NONE},
+        .abilities = {ABILITY_OBLIVIOUS, ABILITY_SAP_SIPPER},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,

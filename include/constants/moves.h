@@ -375,11 +375,11 @@
 #define MOVE_OMINOUS_WIND 370
 #define MOVE_CHARGE_BEAM 371
 #define MOVE_ROCK_WRECKER 372
-#define MOVE_POWER_GEM 373
+#define MOVE_POWER_GEM 373 //gemgeist
 #define MOVE_NIGHT_SLASH 374
-#define MOVE_GUNK_SHOT 375
+#define MOVE_GUNK_SHOT 375 //weezing + muk
 #define MOVE_X_SCISSOR 376
-#define MOVE_GRASS_KNOT 377
+#define MOVE_GRASS_KNOT 377 //tnagela
 
 #define MOVES_COUNT 378
 

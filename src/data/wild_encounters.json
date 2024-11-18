@@ -17188,12 +17188,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_PIDGEY"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 16,
@@ -21563,17 +21563,17 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_KAKUNA"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_CATERPIE"
+                "species": "SPECIES_BELLSPROUT"
               },
               {
                 "min_level": 8,
@@ -21871,7 +21871,7 @@
               {
                 "min_level": 11,
                 "max_level": 11,
-                "species": "SPECIES_KAKUNA"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 12,
@@ -21881,7 +21881,7 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 9,
@@ -21891,7 +21891,7 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 13,
@@ -22718,7 +22718,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_BALTOY"
               },
               {
                 "min_level": 5,
