@@ -501,7 +501,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassJanice[] = {
     {
         .iv = 0,
         .lvl = 9,
-        .species = SPECIES_PIDGEY,
+        .species = SPECIES_HOOTHOOT,
     },
 };
 
@@ -2083,7 +2083,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_FishermanDale[] = {
     {
         .iv = 0,
         .lvl = 17,
-        .species = SPECIES_GOLDEEN,
+        .species = SPECIES_BARBOACH,
     },
     {
         .iv = 0,
@@ -2106,7 +2106,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_FishermanBarny[] = {
     {
         .iv = 0,
         .lvl = 17,
-        .species = SPECIES_BALTOY,
+        .species = SPECIES_BARBOACH,
     },
     {
         .iv = 0,
@@ -2119,7 +2119,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_FishermanNed[] = {
     {
         .iv = 0,
         .lvl = 22,
-        .species = SPECIES_GOLDEEN,
+        .species = SPECIES_BARBOACH,
     },
     {
         .iv = 0,
@@ -2142,7 +2142,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_FishermanChip[] = {
     {
         .iv = 0,
         .lvl = 24,
-        .species = SPECIES_TENTACOOL,
+        .species = SPECIES_REMORAID,
     },
 };
 
@@ -2168,7 +2168,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_FishermanElliot[] = {
     {
         .iv = 0,
         .lvl = 21,
-        .species = SPECIES_GOLDEEN,
+        .species = SPECIES_BARBOACH,
     },
     {
         .iv = 0,
@@ -2186,7 +2186,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_FishermanRonald[] = {
     {
         .iv = 0,
         .lvl = 28,
-        .species = SPECIES_GOLDEEN,
+        .species = SPECIES_OCTILLERY,
     },
     {
         .iv = 0,
