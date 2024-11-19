@@ -5061,7 +5061,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SANDSHREW"
+                "species": "SPECIES_ARON"
               },
               {
                 "min_level": 17,
@@ -5224,7 +5224,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_MAWILE"
               },
               {
                 "min_level": 16,
@@ -17787,7 +17787,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_ROSELIA"
+                "species": "SPECIES_IMPIDIMP"
               },
               {
                 "min_level": 15,
@@ -17802,7 +17802,7 @@
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_ROSELIA"
+                "species": "SPECIES_IMPIDIMP"
               }
             ]
           }
@@ -17910,7 +17910,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_SHINX"
               },
               {
                 "min_level": 17,
@@ -18023,7 +18023,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_SHINX"
               },
               {
                 "min_level": 16,
@@ -22214,7 +22214,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_BALTOY"
+                "species": "SPECIES_MANTINE"
               },
               {
                 "min_level": 25,
@@ -22718,7 +22718,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BALTOY"
+                "species": "SPECIES_MAGIKARP"
               },
               {
                 "min_level": 5,
@@ -22758,7 +22758,7 @@
               {
                 "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_PSYDUCK"
+                "species": "SPECIES_GOLDUCK"
               }
             ]
           }
