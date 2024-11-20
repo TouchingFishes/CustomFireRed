@@ -357,29 +357,29 @@
 #define MOVE_DOOM_DESIRE 353
 #define MOVE_PSYCHO_BOOST 354
 
-#define MOVE_DEFEND_ORDER 355
-#define MOVE_HEAL_ORDER 356
-#define MOVE_ATTACK_ORDER 357
-#define MOVE_DRAIN_PUNCH 358
-#define MOVE_AURA_SPHERE 359
-#define MOVE_DARK_VOID 360
-#define MOVE_FIERY_DANCE 361
-#define MOVE_DRAIN_LIFE 362
-#define MOVE_H_SPACE_FURY 363
-#define MOVE_BARRIER_BASH 364
-#define MOVE_LUMINA_CRASH 365
-#define MOVE_GIGATON_SLAM 366
-#define MOVE_TWIN_BEAM 367
+#define MOVE_DEFEND_ORDER 355 //vespiquen
+#define MOVE_HEAL_ORDER 356 //vespiquen
+#define MOVE_ATTACK_ORDER 357 //vespiquen
+#define MOVE_DRAIN_PUNCH 358 //grimmsnarl
+#define MOVE_AURA_SPHERE 359 //lucario
+#define MOVE_DARK_VOID 360 //darkrai
+#define MOVE_FIERY_DANCE 361 //volcarona
+#define MOVE_DRAIN_LIFE 362 //krolucard
+#define MOVE_H_SPACE_FURY 363 //hoopa
+#define MOVE_BARRIER_BASH 364 //wyrdeer
+#define MOVE_LUMINA_CRASH 365 //espathra
+#define MOVE_GIGATON_SLAM 366 //tinkaton
+#define MOVE_TWIN_BEAM 367 //girafarig
 #define MOVE_MIRROR_SHOT 368
 #define MOVE_BURNING_SAND 369
 #define MOVE_OMINOUS_WIND 370
 #define MOVE_CHARGE_BEAM 371
-#define MOVE_ROCK_WRECKER 372
+#define MOVE_ROCK_WRECKER 372 //rhydon
 #define MOVE_POWER_GEM 373 //gemgeist
-#define MOVE_NIGHT_SLASH 374
+#define MOVE_NIGHT_SLASH 374 //weavile, persian
 #define MOVE_GUNK_SHOT 375 //weezing + muk
-#define MOVE_X_SCISSOR 376
-#define MOVE_GRASS_KNOT 377 //tnagela
+#define MOVE_X_SCISSOR 376 // pinsir, gligar, paras
+#define MOVE_GRASS_KNOT 377 //tangela
 
 #define MOVES_COUNT 378
 

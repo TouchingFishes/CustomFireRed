@@ -1929,7 +1929,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_LAIRON"
+                "species": "SPECIES_FALINKS"
               },
               {
                 "min_level": 43,
@@ -1949,7 +1949,7 @@
               {
                 "min_level": 44,
                 "max_level": 44,
-                "species": "SPECIES_LAIRON"
+                "species": "SPECIES_FALINKS"
               },
               {
                 "min_level": 44,
@@ -2087,7 +2087,7 @@
               {
                 "min_level": 46,
                 "max_level": 46,
-                "species": "SPECIES_ARBOK"
+                "species": "SPECIES_FALINKS"
               },
               {
                 "min_level": 46,
