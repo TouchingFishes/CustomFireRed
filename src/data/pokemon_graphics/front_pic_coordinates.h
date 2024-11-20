@@ -2324,7 +2324,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_GEKOPON] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 5,
+        .y_offset = 0,
     },
     [SPECIES_PLACEHOLDERMON] =
     {

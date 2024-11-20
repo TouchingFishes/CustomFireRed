@@ -2094,7 +2094,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_VOLCARONA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 3,
+        .y_offset = 14, //3
     },
     [SPECIES_AXEW] =
     {
@@ -2324,7 +2324,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_GEKOPON] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 13,
+        .y_offset = 0,
     },
     [SPECIES_PLACEHOLDERMON] =
     {
