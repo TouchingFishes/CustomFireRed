@@ -12812,7 +12812,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PLACEHOLDERMON] =
+    [SPECIES_EUXINOS] =
     {
         .baseHP = 80,
         .baseAttack = 125, //105

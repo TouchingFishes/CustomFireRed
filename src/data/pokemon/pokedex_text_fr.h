@@ -3091,12 +3091,12 @@ const u8 gGekoponPokedexText[] = _(
   
 const u8 gGekoponPokedexTextUnused[] = _("");
 
-const u8 gPlaceholdermonPokedexText[] = _(
+const u8 gEuxinosPokedexText[] = _(
     "This is a placeholder Pokémon. Its traits\n"
     "and behavior have yet to be defined, but\n"
     "it is an essential part of the ecosystem.");
   
-const u8 gPlaceholdermonPokedexTextUnused[] = _("");
+const u8 gEuxinosPokedexTextUnused[] = _("");
 
 const u8 gVoltrelPokedexText[] = _(
     "When its wings catch the wind, the\n"

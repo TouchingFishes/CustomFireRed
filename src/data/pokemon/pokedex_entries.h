@@ -5720,13 +5720,13 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PLACEHOLDERMON] =
+    [NATIONAL_DEX_EUXINOS] =
     {
         .categoryName = _("PLACEHOLDER"),
         .height = 5,
         .weight = 100,
-        .description = gPlaceholdermonPokedexText,
-        .unusedDescription = gPlaceholdermonPokedexTextUnused,
+        .description = gEuxinosPokedexText,
+        .unusedDescription = gEuxinosPokedexTextUnused,
         .pokemonScale = 490,
         .pokemonOffset = 0,
         .trainerScale = 256,

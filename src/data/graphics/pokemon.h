@@ -3092,12 +3092,12 @@ const u32 gMonShinyPalette_Gekopon[] = INCBIN_U32("graphics/pokemon/gekopon/shin
 const u8 gMonIcon_Gekopon[] = INCBIN_U8("graphics/pokemon/gekopon/icon.4bpp");
 const u8 gMonFootprint_Gekopon[] = INCBIN_U8("graphics/pokemon/gekopon/footprint.1bpp");
 
-const u32 gMonFrontPic_Placeholdermon[] = INCBIN_U32("graphics/pokemon/placeholdermon/front.4bpp.lz");
-const u32 gMonPalette_Placeholdermon[] = INCBIN_U32("graphics/pokemon/placeholdermon/normal.gbapal.lz");
-const u32 gMonBackPic_Placeholdermon[] = INCBIN_U32("graphics/pokemon/placeholdermon/back.4bpp.lz");
-const u32 gMonShinyPalette_Placeholdermon[] = INCBIN_U32("graphics/pokemon/placeholdermon/shiny.gbapal.lz");
-const u8 gMonIcon_Placeholdermon[] = INCBIN_U8("graphics/pokemon/placeholdermon/icon.4bpp");
-const u8 gMonFootprint_Placeholdermon[] = INCBIN_U8("graphics/pokemon/placeholdermon/footprint.1bpp");
+const u32 gMonFrontPic_Euxinos[] = INCBIN_U32("graphics/pokemon/euxinos/front.4bpp.lz");
+const u32 gMonPalette_Euxinos[] = INCBIN_U32("graphics/pokemon/euxinos/normal.gbapal.lz");
+const u32 gMonBackPic_Euxinos[] = INCBIN_U32("graphics/pokemon/euxinos/back.4bpp.lz");
+const u32 gMonShinyPalette_Euxinos[] = INCBIN_U32("graphics/pokemon/euxinos/shiny.gbapal.lz");
+const u8 gMonIcon_Euxinos[] = INCBIN_U8("graphics/pokemon/euxinos/icon.4bpp");
+const u8 gMonFootprint_Euxinos[] = INCBIN_U8("graphics/pokemon/euxinos/footprint.1bpp");
 
 const u32 gMonFrontPic_Voltrel[] = INCBIN_U32("graphics/pokemon/voltrel/front.4bpp.lz");
 const u32 gMonPalette_Voltrel[] = INCBIN_U32("graphics/pokemon/voltrel/normal.gbapal.lz");

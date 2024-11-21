@@ -441,7 +441,7 @@ gCryTable::
 	cry Cry_Fomantis
 	cry Cry_Lurantis
 	cry Cry_Gekopon
-	cry Cry_Placeholdermon
+	cry Cry_Euxinos
 	cry Cry_Voltrel
 	cry Cry_Voltrean
 	cry Cry_Fletchling
@@ -929,7 +929,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Fomantis
 	cry_reverse Cry_Lurantis
 	cry_reverse Cry_Gekopon
-	cry_reverse Cry_Placeholdermon
+	cry_reverse Cry_Euxinos
 	cry_reverse Cry_Voltrel
 	cry_reverse Cry_Voltrean
 	cry_reverse Cry_Fletchling

@@ -542,6 +542,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassCrissy[] = {
         .lvl = 31,
         .species = SPECIES_PARASECT,
     },
+    {
+        .iv = 0,
+        .lvl = 31,
+        .species = SPECIES_VANILLISH,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_LassMiriam[] = {
@@ -675,7 +680,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassAndrea[] = {
     {
         .iv = 0,
         .lvl = 24,
-        .species = SPECIES_EEVEE,
+        .species = SPECIES_VANILLITE,
     },
 };
 
@@ -988,7 +993,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerKelsey[] = {
     {
         .iv = 0,
         .lvl = 15,
-        .species = SPECIES_ODDISH,
+        .species = SPECIES_SUNKERN,
     },
     {
         .iv = 0,
@@ -2676,7 +2681,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GamerJasper[] = {
     {
         .iv = 0,
         .lvl = 18,
-        .species = SPECIES_BELLSPROUT,
+        .species = SPECIES_SUNKERN,
     },
     {
         .iv = 0,
@@ -3345,7 +3350,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BirdKeeperPerry[] = {
     {
         .iv = 0,
         .lvl = 25,
-        .species = SPECIES_SPEAROW,
+        .species = SPECIES_HOOTHOOT,
     },
     {
         .iv = 0,
@@ -3396,7 +3401,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BirdKeeperDonald[] = {
     {
         .iv = 0,
         .lvl = 33,
-        .species = SPECIES_FARFETCHD,
+        .species = SPECIES_FLETCHINDER,
     },
 };
 
@@ -6906,7 +6911,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GentlemanBrooks[] = {
     {
         .iv = 0,
         .lvl = 23,
-        .species = SPECIES_PIKACHU,
+        .species = SPECIES_LUXIO,
     },
 };
 
@@ -6914,7 +6919,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GentlemanLamar[] = {
     {
         .iv = 0,
         .lvl = 17,
-        .species = SPECIES_LUXRAY,
+        .species = SPECIES_PIKACHU,
     },
     {
         .iv = 0,
@@ -7499,31 +7504,42 @@ static const struct TrainerMonNoItemCustomMoves sParty_BikerGoon[] = {
     {
         .iv = 0,
         .lvl = 37,
-        .species = SPECIES_KOFFING,
-        .moves = {MOVE_HAZE, MOVE_SMOKESCREEN, MOVE_SLUDGE, MOVE_TACKLE},
+        .species = SPECIES_WEEZING,
+        .moves = {MOVE_SLUDGE, MOVE_SMOKESCREEN, MOVE_TOXIC, MOVE_PROTECT},
     },
     {
         .iv = 0,
         .lvl = 37,
-        .species = SPECIES_GRIMER,
-        .moves = {MOVE_ACID_ARMOR, MOVE_SCREECH, MOVE_MINIMIZE, MOVE_SLUDGE},
+        .species = SPECIES_WEEZING,
+        .moves = {MOVE_SLUDGE, MOVE_SHOCK_WAVE, MOVE_SHADOW_BALL, MOVE_PROTECT},
+    },
+    {
+        .iv = 0,
+        .lvl = 37,
+        .species = SPECIES_GOLBAT,
+        .moves = {MOVE_WING_ATTACK, MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_DOUBLE_TEAM},
     },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_BikerGoon2[] = {
     {
         .iv = 0,
-        .lvl = 38,
-        .species = SPECIES_KOFFING,
-        .moves = {MOVE_HAZE, MOVE_SMOKESCREEN, MOVE_SLUDGE, MOVE_TACKLE},
+        .lvl = 41,
+        .species = SPECIES_TOXICROAK,
+        .moves = {MOVE_FAINT_ATTACK, MOVE_BRICK_BREAK, MOVE_PURSUIT, MOVE_SLUDGE_BOMB},
     },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_BikerGoon3[] = {
     {
         .iv = 0,
-        .lvl = 38,
-        .species = SPECIES_GRIMER,
+        .lvl = 39,
+        .species = SPECIES_MUK,
+    },
+    {
+        .iv = 0,
+        .lvl = 39,
+        .species = SPECIES_FLAREON,
     },
 };
 
@@ -11422,12 +11438,22 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionRematchCharmander[]
 static const struct TrainerMonNoItemDefaultMoves sParty_CueBallPaxton[] = {
     {
         .iv = 50,
-        .lvl = 39,
-        .species = SPECIES_WEEZING,
+        .lvl = 41,
+        .species = SPECIES_DODRIO,
     },
     {
         .iv = 50,
         .lvl = 39,
+        .species = SPECIES_MACHOKE,
+    },
+    {
+        .iv = 50,
+        .lvl = 41,
         .species = SPECIES_MUK,
+    },
+    {
+        .iv = 50,
+        .lvl = 43,
+        .species = SPECIES_HOUNDOOM,
     },
 };

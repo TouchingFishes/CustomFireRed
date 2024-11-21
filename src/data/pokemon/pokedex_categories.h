@@ -726,7 +726,7 @@ static const u16 sDexCategory_MountainPkmn_Page15[] = {
 
 static const u16 sDexCategory_MountainPkmn_Page16[] = {
     SPECIES_AERODACTYL,
-    SPECIES_PLACEHOLDERMON,
+    SPECIES_EUXINOS,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page17[] = {

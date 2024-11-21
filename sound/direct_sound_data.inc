@@ -2068,8 +2068,8 @@ Cry_Gekopon::
 	.incbin "sound/direct_sound_samples/cries/gekopon.bin"
 
 	.align 2
-Cry_Placeholdermon::
-	.incbin "sound/direct_sound_samples/cries/placeholdermon.bin"
+Cry_Euxinos::
+	.incbin "sound/direct_sound_samples/cries/euxinos.bin"
 	
 	.align 2
 Cry_Voltrel::

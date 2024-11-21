@@ -6535,7 +6535,7 @@ static const u16 sGekoponLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPlaceholdermonLevelUpLearnset[] = {
+static const u16 sEuxinosLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_SLUDGE_BOMB),
     LEVEL_UP_MOVE(8, MOVE_AGILITY),
     LEVEL_UP_MOVE(15, MOVE_BITE),
