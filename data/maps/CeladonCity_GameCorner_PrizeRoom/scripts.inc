@@ -42,7 +42,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange::
 CeladonCity_GameCorner_PrizeRoom_EventScript_Abra::
 	.ifdef FIRERED
 	setvar VAR_TEMP_1, SPECIES_KECLEON
-	setvar VAR_TEMP_2, 150
+	setvar VAR_TEMP_2, 0 @150
  	.else
 	.ifdef LEAFGREEN
 	setvar VAR_TEMP_1, SPECIES_ABRA
@@ -55,7 +55,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_Abra::
 CeladonCity_GameCorner_PrizeRoom_EventScript_Clefairy::
 	.ifdef FIRERED
 	setvar VAR_TEMP_1, SPECIES_BALTOY
-	setvar VAR_TEMP_2, 500
+	setvar VAR_TEMP_2, 0 @500
 	.else
 	.ifdef LEAFGREEN
 	setvar VAR_TEMP_1, SPECIES_CLEFAIRY
@@ -68,7 +68,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_Clefairy::
 CeladonCity_GameCorner_PrizeRoom_EventScript_DratiniPinsir::
 	.ifdef FIRERED
 	setvar VAR_TEMP_1, SPECIES_NOSEPASS
-	setvar VAR_TEMP_2, 2500
+	setvar VAR_TEMP_2, 0 @2500
 	.else
 	.ifdef LEAFGREEN
 	setvar VAR_TEMP_1, SPECIES_PINSIR
@@ -81,7 +81,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_DratiniPinsir::
 CeladonCity_GameCorner_PrizeRoom_EventScript_ScytherDratini::
 	.ifdef FIRERED
 	setvar VAR_TEMP_1, SPECIES_DEINO
-	setvar VAR_TEMP_2, 5500
+	setvar VAR_TEMP_2, 0 @5500
 	.else
 	.ifdef LEAFGREEN
 	setvar VAR_TEMP_1, SPECIES_DRATINI
@@ -95,7 +95,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ScytherDratini::
 	CeladonCity_GameCorner_PrizeRoom_EventScript_Krolucada::
 	.ifdef FIRERED
 	setvar VAR_TEMP_1, SPECIES_KROLUCADA
-	setvar VAR_TEMP_2, 7500
+	setvar VAR_TEMP_2, 0 @7500
 	.else
 	.ifdef LEAFGREEN
 	goto CeladonCity_GameCorner_PRizeRoom_EventScript_Dratini
@@ -107,7 +107,7 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ScytherDratini::
 CeladonCity_GameCorner_PrizeRoom_EventScript_Porygon::
 	.ifdef FIRERED
 	setvar VAR_TEMP_1, SPECIES_PORYGON
-	setvar VAR_TEMP_2, 9999
+	setvar VAR_TEMP_2, 0 @9999
 	.else
 	.ifdef LEAFGREEN
 	setvar VAR_TEMP_1, SPECIES_PORYGON
