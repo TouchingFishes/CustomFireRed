@@ -5080,6 +5080,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM21_FRUSTRATION)
                                         | TMHM(TM27_RETURN)
+                                        | TMHM(TM28_DIG)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM37_SANDSTORM)
                                         | TMHM(TM40_AERIAL_ACE)
