@@ -953,8 +953,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CamperDrew[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerDiana[] = {
     {
         .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_GOLDEEN,
+        .lvl = 18,
+        .species = SPECIES_PSYDUCK,
+    },
+    {
+        .iv = 0,
+        .lvl = 18,
+        .species = SPECIES_CORSOLA,
     },
 };
 
@@ -1248,17 +1253,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SuperNerdJovan[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_SuperNerdMiguel[] = {
     {
         .iv = 50,
-        .lvl = 12,
+        .lvl = 13,
         .species = SPECIES_GRIMER,
     },
     {
         .iv = 50,
-        .lvl = 12,
+        .lvl = 13,
         .species = SPECIES_SOLOSIS,
     },
     {
         .iv = 50,
-        .lvl = 12,
+        .lvl = 15,
         .species = SPECIES_MAGNEMITE,
     },
 };
@@ -2297,6 +2302,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SwimmerMaleLuis[] = {
         .iv = 0,
         .lvl = 16,
         .species = SPECIES_HORSEA,
+    },
+    {
+        .iv = 0,
+        .lvl = 16,
+        .species = SPECIES_GOLDEEN,
     },
     {
         .iv = 0,
@@ -5683,12 +5693,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderMisty[] = {
     {
         .iv = 255,
         .lvl = 18,
-        .species = SPECIES_PSYDUCK,
-        .moves = {MOVE_CONFUSION, MOVE_YAWN, MOVE_WATER_PULSE, MOVE_NONE},
+        .species = SPECIES_AZUMARILL, 
+        .moves = {MOVE_ROLLOUT, MOVE_DEFENSE_CURL, MOVE_WATER_PULSE, MOVE_TACKLE},
     },
     {
         .iv = 255,
-        .lvl = 18,
+        .lvl = 19,
         .species = SPECIES_MANTINE,
         .moves = {MOVE_TACKLE, MOVE_SUPERSONIC, MOVE_WATER_PULSE, MOVE_NONE},
     },
@@ -5696,7 +5706,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderMisty[] = {
         .iv = 255,
         .lvl = 21,
         .species = SPECIES_STARMIE,
-        .moves = {MOVE_SWIFT, MOVE_RECOVER, MOVE_RAPID_SPIN, MOVE_WATER_PULSE},
+        .moves = {MOVE_SWIFT, MOVE_RECOVER, MOVE_CONFUSION, MOVE_WATER_PULSE},
     },
 };
 
@@ -11539,22 +11549,22 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionRematchCharmander[]
 static const struct TrainerMonNoItemDefaultMoves sParty_CueBallPaxton[] = {
     {
         .iv = 50,
-        .lvl = 41,
+        .lvl = 46,
         .species = SPECIES_DODRIO,
     },
     {
         .iv = 50,
-        .lvl = 39,
+        .lvl = 43,
         .species = SPECIES_MACHOKE,
     },
     {
         .iv = 50,
-        .lvl = 41,
+        .lvl = 46,
         .species = SPECIES_MUK,
     },
     {
         .iv = 50,
-        .lvl = 43,
+        .lvl = 48,
         .species = SPECIES_HOUNDOOM,
     },
 };

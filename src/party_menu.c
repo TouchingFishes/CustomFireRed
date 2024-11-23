@@ -4755,16 +4755,16 @@ bool8 MonKnowsMove(struct Pokemon *mon, u16 move)
     return FALSE;
 }
 
- 
+ //change to firered
 int MoveToHM(u16 move)
 {
     u8 i;
     int item;
     switch (move)
     {
-    case MOVE_SECRET_POWER:
-        item = ITEM_TM43;
-        break;
+    //case MOVE_SECRET_POWER:
+    //    item = ITEM_TM43;
+    //    break;
     case MOVE_CUT:
         item = ITEM_HM01;
         break;
@@ -4786,9 +4786,9 @@ int MoveToHM(u16 move)
     case MOVE_WATERFALL:
         item = ITEM_HM07;
         break;
-    case MOVE_DIVE:
-        item = ITEM_HM08;
-        break;
+    //case MOVE_DIVE:
+    //    item = ITEM_HM08;
+    //    break;
     default:
         item = 0;
         break;
