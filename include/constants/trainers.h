@@ -24,13 +24,13 @@
 #define TRAINER_PIC_RS_AROMA_LADY           3
 #define TRAINER_PIC_RS_RUIN_MANIAC          4
 #define TRAINER_PIC_INTERVIEWER             5
-#define TRAINER_PIC_RS_TUBER_F              6
-#define TRAINER_PIC_RS_TUBER_M              7
+#define TRAINER_PIC_BARRY                   6
+#define TRAINER_PIC_PAXTON                  7
 #define TRAINER_PIC_RS_COOLTRAINER_M        8
 #define TRAINER_PIC_RS_COOLTRAINER_F        9
 #define TRAINER_PIC_HEX_MANIAC             10
 #define TRAINER_PIC_RS_LADY                11
-#define TRAINER_PIC_RS_BEAUTY              12
+#define TRAINER_PIC_PALMER                 12
 #define TRAINER_PIC_RICH_BOY               13
 #define TRAINER_PIC_RS_POKEMANIAC          14
 #define TRAINER_PIC_RS_SWIMMER_M           15
@@ -166,6 +166,9 @@
 #define TRAINER_PIC_RUIN_MANIAC           145
 #define TRAINER_PIC_LADY                  146
 #define TRAINER_PIC_PAINTER               147
+#define TRAINER_PIC_CYNTHIA               148
+#define TRAINER_PIC_KIMONO_GIRL           149
+#define TRAINER_PIC_KIMONO_GIRL_AND_CAT   150
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_RED                    0
@@ -187,12 +190,12 @@
 #define TRAINER_CLASS_RS_AROMA_LADY       4
 #define TRAINER_CLASS_RS_RUIN_MANIAC      5
 #define TRAINER_CLASS_INTERVIEWER         6
-#define TRAINER_CLASS_RS_TUBER_F          7
-#define TRAINER_CLASS_RS_TUBER_M          8
+#define TRAINER_CLASS_BARRY               7
+#define TRAINER_CLASS_PAXTON              8
 #define TRAINER_CLASS_RS_COOLTRAINER      9
 #define TRAINER_CLASS_HEX_MANIAC          10
 #define TRAINER_CLASS_RS_LADY             11
-#define TRAINER_CLASS_RS_BEAUTY           12
+#define TRAINER_CLASS_PALMER              12
 #define TRAINER_CLASS_RICH_BOY            13
 #define TRAINER_CLASS_RS_POKEMANIAC       14
 #define TRAINER_CLASS_RS_SWIMMER_M        15
@@ -209,7 +212,7 @@
 #define TRAINER_CLASS_SR_AND_JR           26
 #define TRAINER_CLASS_POKEFAN             27
 #define TRAINER_CLASS_EXPERT              28
-#define TRAINER_CLASS_RS_YOUNGSTER        29
+#define TRAINER_CLASS_CYNTHIA             29
 #define TRAINER_CLASS_RS_CHAMPION         30
 #define TRAINER_CLASS_RS_FISHERMAN        31
 #define TRAINER_CLASS_TRIATHLETE          32
@@ -294,13 +297,13 @@
 #define FACILITY_CLASS_RS_AROMA_LADY          3
 #define FACILITY_CLASS_RS_RUIN_MANIAC         4
 #define FACILITY_CLASS_INTERVIEWER            5
-#define FACILITY_CLASS_RS_TUBER_F             6
-#define FACILITY_CLASS_RS_TUBER_M             7
+#define FACILITY_CLASS_BARRY                  6
+#define FACILITY_CLASS_PAXTON                 7
 #define FACILITY_CLASS_RS_COOLTRAINER_M       8
 #define FACILITY_CLASS_RS_COOLTRAINER_F       9
 #define FACILITY_CLASS_HEX_MANIAC             10
 #define FACILITY_CLASS_RS_LADY                11
-#define FACILITY_CLASS_RS_BEAUTY              12
+#define FACILITY_CLASS_PALMER                 12
 #define FACILITY_CLASS_RICH_BOY               13
 #define FACILITY_CLASS_RS_POKEMANIAC          14
 #define FACILITY_CLASS_RS_SWIMMER_M           15
@@ -324,7 +327,7 @@
 #define FACILITY_CLASS_POKEFAN_F              33
 #define FACILITY_CLASS_EXPERT_M               34
 #define FACILITY_CLASS_EXPERT_F               35
-#define FACILITY_CLASS_RS_YOUNGSTER           36
+#define FACILITY_CLASS_CYNTHIA                36
 #define FACILITY_CLASS_CHAMPION_STEVEN        37
 #define FACILITY_CLASS_RS_FISHERMAN           38
 #define FACILITY_CLASS_CYCLING_TRIATHLETE_M   39

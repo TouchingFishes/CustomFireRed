@@ -9,13 +9,13 @@
 #define TRAINER_RS_AROMA_LADY                      4
 #define TRAINER_RS_RUIN_MANIAC                     5
 #define TRAINER_INTERVIEWER                        6
-#define TRAINER_RS_TUBER_F                         7
-#define TRAINER_RS_TUBER_M                         8
+#define TRAINER_PAXTON                             7
+#define TRAINER_BARRY                              8
 #define TRAINER_RS_COOLTRAINER_M                   9
 #define TRAINER_RS_COOLTRAINER_F                  10
 #define TRAINER_HEX_MANIAC                        11
 #define TRAINER_RS_LADY                           12
-#define TRAINER_RS_BEAUTY                         13
+#define TRAINER_PALMER                            13
 #define TRAINER_RICH_BOY                          14
 #define TRAINER_RS_POKEMANIAC                     15
 #define TRAINER_RS_SWIMMER_M                      16
@@ -39,8 +39,8 @@
 #define TRAINER_POKEFAN_F                         34
 #define TRAINER_EXPERT_M                          35
 #define TRAINER_EXPERT_F                          36
-#define TRAINER_RS_YOUNGSTER                      37
-#define TRAINER_RS_CHAMPION                       38
+#define TRAINER_CYNTHIA                           37
+#define TRAINER_CHAMP_TROY                        38
 #define TRAINER_RS_FISHERMAN                      39
 #define TRAINER_CYCLING_TRIATHLETE_M              40
 #define TRAINER_CYCLING_TRIATHLETE_F              41
