@@ -32,7 +32,7 @@ RockTunnel_B1F_EventScript_Cooper::
 	end
 
 RockTunnel_B1F_EventScript_Steve::
-	trainerbattle_single TRAINER_POKEMANIAC_STEVE, RockTunnel_B1F_Text_SteveIntro, RockTunnel_B1F_Text_SteveDefeat
+	trainerbattle_single TRAINER_COLLECTOR_STEVE, RockTunnel_B1F_Text_SteveIntro, RockTunnel_B1F_Text_SteveDefeat
 	msgbox RockTunnel_B1F_Text_StevePostBattle, MSGBOX_AUTOCLOSE
 	end
 

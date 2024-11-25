@@ -23,7 +23,7 @@
 #define TRAINER_GUITARIST                         18
 #define TRAINER_KINDLER                           19
 #define TRAINER_RS_CAMPER                         20
-#define TRAINER_BUG_MANIAC                        21
+#define TRAINER_BUG_MANIAC_AARON                  21
 #define TRAINER_RS_PSYCHIC_M                      22
 #define TRAINER_RS_PSYCHIC_F                      23
 #define TRAINER_RS_GENTLEMAN                      24
@@ -117,7 +117,7 @@
 #define TRAINER_BUG_CATCHER_KEIGO                111
 #define TRAINER_BUG_CATCHER_ELIJAH               112
 #define TRAINER_BUG_CATCHER_2                    113
-#define TRAINER_BUG_CATCHER_BRENT                114
+#define TRAINER_BUG_MANIAC_BRENT                 114
 #define TRAINER_BUG_CATCHER_CONNER               115
 #define TRAINER_LASS_JANICE                      116
 #define TRAINER_LASS_SALLY                       117
@@ -168,7 +168,7 @@
 #define TRAINER_POKEMANIAC_MARK                  162
 #define TRAINER_POKEMANIAC_HERMAN                163
 #define TRAINER_POKEMANIAC_COOPER                164
-#define TRAINER_POKEMANIAC_STEVE                 165
+#define TRAINER_COLLECTOR_STEVE                  165
 #define TRAINER_POKEMANIAC_WINSTON               166
 #define TRAINER_POKEMANIAC_DAWSON                167
 #define TRAINER_POKEMANIAC_ASHTON                168
@@ -181,7 +181,7 @@
 #define TRAINER_SUPER_NERD_2                     175
 #define TRAINER_SUPER_NERD_3                     176
 #define TRAINER_SUPER_NERD_ERIK                  177
-#define TRAINER_SUPER_NERD_AVERY                 178
+#define TRAINER_KINDLER_AVERY                    178
 #define TRAINER_SUPER_NERD_DEREK                 179
 #define TRAINER_SUPER_NERD_ZAC                   180
 #define TRAINER_HIKER_MARCOS                     181
@@ -217,8 +217,8 @@
 #define TRAINER_BURGLAR_2                        211
 #define TRAINER_BURGLAR_3                        212
 #define TRAINER_BURGLAR_QUINN                    213
-#define TRAINER_BURGLAR_RAMON                    214
-#define TRAINER_BURGLAR_DUSTY                    215
+#define TRAINER_KINDLER_RAMON                    214
+#define TRAINER_KINDLER_DUSTY                    215
 #define TRAINER_BURGLAR_ARNIE                    216
 #define TRAINER_BURGLAR_4                        217
 #define TRAINER_BURGLAR_SIMON                    218
@@ -291,11 +291,11 @@
 #define TRAINER_ROCKER_LUCA                      285
 #define TRAINER_JUGGLER_DALTON                   286
 #define TRAINER_JUGGLER_NELSON                   287
-#define TRAINER_JUGGLER_KIRK                     288
-#define TRAINER_JUGGLER_SHAWN                    289
+#define TRAINER_NINJA_BOY_KIRK                   288
+#define TRAINER_NINJA_BOY_SHAWN                  289
 #define TRAINER_JUGGLER_GREGORY                  290
 #define TRAINER_JUGGLER_EDWARD                   291
-#define TRAINER_JUGGLER_KAYDEN                   292
+#define TRAINER_NINJA_BOY_KAYDEN                 292
 #define TRAINER_JUGGLER_NATE                     293
 #define TRAINER_TAMER_PHIL                       294
 #define TRAINER_TAMER_EDGAR                      295

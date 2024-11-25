@@ -38,9 +38,9 @@ EventScript_SetCeladonGymTrainers::
 EventScript_SetFuchsiaGymTrainers::
 	settrainerflag TRAINER_TAMER_PHIL
 	settrainerflag TRAINER_TAMER_EDGAR
-	settrainerflag TRAINER_JUGGLER_KIRK
-	settrainerflag TRAINER_JUGGLER_SHAWN
-	settrainerflag TRAINER_JUGGLER_KAYDEN
+	settrainerflag TRAINER_NINJA_BOY_KIRK
+	settrainerflag TRAINER_NINJA_BOY_SHAWN
+	settrainerflag TRAINER_NINJA_BOY_KAYDEN
 	settrainerflag TRAINER_JUGGLER_NATE
 	return
 
@@ -56,12 +56,12 @@ EventScript_SetSaffronGymTrainers::
 
 EventScript_SetCinnabarGymTrainers::
 	settrainerflag TRAINER_SUPER_NERD_ERIK
-	settrainerflag TRAINER_SUPER_NERD_AVERY
+	settrainerflag TRAINER_KINDLER_AVERY
 	settrainerflag TRAINER_SUPER_NERD_DEREK
 	settrainerflag TRAINER_SUPER_NERD_ZAC
 	settrainerflag TRAINER_BURGLAR_QUINN
-	settrainerflag TRAINER_BURGLAR_RAMON
-	settrainerflag TRAINER_BURGLAR_DUSTY
+	settrainerflag TRAINER_KINDLER_RAMON
+	settrainerflag TRAINER_KINDLER_DUSTY
 	return
 
 EventScript_SetViridianGymTrainers::

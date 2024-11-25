@@ -479,14 +479,14 @@ Route11_EventScript_DarianRematch::
 	end
 
 Route9_EventScript_Brent::
-	trainerbattle_single TRAINER_BUG_CATCHER_BRENT, Route9_Text_BrentIntro, Route9_Text_BrentDefeat
+	trainerbattle_single TRAINER_BUG_MANIAC_BRENT, Route9_Text_BrentIntro, Route9_Text_BrentDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route9_EventScript_BrentRematch
 	msgbox Route9_Text_BrentPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route9_EventScript_BrentRematch::
-	trainerbattle_rematch TRAINER_BUG_CATCHER_BRENT, Route9_Text_BrentRematchIntro, Route9_Text_BrentDefeat
+	trainerbattle_rematch TRAINER_BUG_MANIAC_BRENT, Route9_Text_BrentRematchIntro, Route9_Text_BrentDefeat
 	msgbox Route9_Text_BrentPostBattle, MSGBOX_AUTOCLOSE
 	end
 
