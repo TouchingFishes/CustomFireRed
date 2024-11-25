@@ -64,7 +64,7 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_BARRY] = {
         .trainerClass = TRAINER_CLASS_BARRY,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BARRY,
         .trainerName = _("BARRY"),
         .items = {},
