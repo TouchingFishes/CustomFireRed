@@ -12,7 +12,7 @@ Route18_EastEntrance_2F_EventScript_RightBinoculars::
 Route18_EastEntrance_2F_EventScript_Haden::
 	lock
 	faceplayer
-	setvar VAR_0x8008, INGAME_TRADE_LICKITUNG
+	setvar VAR_0x8008, INGAME_TRADE_SKARMORY
 	call EventScript_GetInGameTradeSpeciesInfo
 	goto_if_set FLAG_DID_MARC_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
 	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO

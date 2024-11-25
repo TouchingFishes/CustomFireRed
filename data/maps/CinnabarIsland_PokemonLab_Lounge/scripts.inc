@@ -8,7 +8,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
 CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton::
 	lock
 	faceplayer
-	setvar VAR_0x8008, INGAME_TRADE_ELECTRODE
+	setvar VAR_0x8008, INGAME_TRADE_GEKOPON
 	call EventScript_GetInGameTradeSpeciesInfo
 	goto_if_set FLAG_DID_ESPHERE_TRADE, CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonAlreadyTraded
 	msgbox Trade_Text_DoYouHaveMonWouldYouTradeForMon, MSGBOX_YESNO
@@ -42,7 +42,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonAlreadyTraded::
 CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 	lock
 	faceplayer
-	setvar VAR_0x8008, INGAME_TRADE_TANGELA
+	setvar VAR_0x8008, INGAME_TRADE_SHUCKLE
 	copyvar VAR_0x8004, VAR_0x8008
 	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
 	copyvar VAR_0x8009, VAR_RESULT

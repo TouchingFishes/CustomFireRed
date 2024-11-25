@@ -170,7 +170,38 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RSBlackBelt[] = {DUMMY_T
 static const struct TrainerMonNoItemDefaultMoves sParty_Guitarist[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_Kindler[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSCamper[] = {DUMMY_TRAINER_MON};
-static const struct TrainerMonNoItemDefaultMoves sParty_BugManiac[] = {DUMMY_TRAINER_MON};
+static const struct TrainerMonNoItemCustomMoves sParty_BugManiac[] = {
+    {
+        .iv = 100,
+        .lvl = 48,
+        .species = SPECIES_YANMEGA,
+        .moves = {MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_CALM_MIND},
+    },
+    {
+        .iv = 255,
+        .lvl = 48,
+        .species = SPECIES_SCIZOR,
+        .moves = {MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_FAINT_ATTACK, MOVE_THUNDERBOLT},
+    },
+    {
+        .iv = 255,
+        .lvl = 48,
+        .species = SPECIES_PINSIR,
+        .moves = {MOVE_FLY, MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_FLAMETHROWER},
+    },
+    {
+        .iv = 255,
+        .lvl = 48,
+        .species = SPECIES_VENOMOTH,
+        .moves = {MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_FAINT_ATTACK, MOVE_PSYCHIC},
+    },
+    {
+        .iv = 255,
+        .lvl = 48,
+        .species = SPECIES_VESPIQUEN,
+        .moves = {MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_METAL_CLAW, MOVE_ROCK_TOMB},
+    },
+};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSPsychicM[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSPsychicF[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSGentleman[] = {DUMMY_TRAINER_MON};

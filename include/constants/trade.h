@@ -13,12 +13,12 @@
 #define INGAME_TRADE_MR_MIME   0
 #define INGAME_TRADE_JYNX      1
 #define INGAME_TRADE_NIDORAN   2  // M or F depending on version
-#define INGAME_TRADE_FARFETCHD 3
+#define INGAME_TRADE_SWABLU    3  // used to be Farfetchd
 #define INGAME_TRADE_NIDORINOA 4  // Nidorino or Nidorina depending on version
-#define INGAME_TRADE_LICKITUNG 5
-#define INGAME_TRADE_ELECTRODE 6
-#define INGAME_TRADE_TANGELA   7
-#define INGAME_TRADE_SEEL      8
+#define INGAME_TRADE_SKARMORY  5  //used to be Lickitung
+#define INGAME_TRADE_GEKOPON   6  //used to be Electrode
+#define INGAME_TRADE_SHUCKLE   7  //used to be Tangela
+#define INGAME_TRADE_SPHEAL    8  //used to be Seel
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0

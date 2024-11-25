@@ -211,7 +211,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_BugManiac),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_BugManiac),
     },
     [TRAINER_RS_PSYCHIC_M] = {
         .trainerClass = TRAINER_CLASS_RS_PSYCHIC,
