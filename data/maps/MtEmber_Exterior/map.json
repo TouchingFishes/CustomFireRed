@@ -264,8 +264,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtEmber_Exterior_EventScript_ItemUltraBall",
-      "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_ULTRA_BALL"
+      "script": "MtEmber_Exterior_EventScript_ItemSunStone",
+      "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_SUN_STONE"
     },
     {
       "type": "object",

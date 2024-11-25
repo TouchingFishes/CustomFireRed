@@ -270,8 +270,8 @@ SilphCo_10F_EventScript_ItemCarbos::
 	finditem ITEM_CARBOS
 	end
 
-SilphCo_10F_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+SilphCo_10F_EventScript_ItemMetalCoat::
+	finditem ITEM_METAL_COAT
 	end
 
 SilphCo_10F_EventScript_ItemRareCandy::
@@ -310,8 +310,8 @@ PokemonMansion_2F_EventScript_ItemCalcium::
 	finditem ITEM_CALCIUM
 	end
 
-PokemonMansion_3F_EventScript_ItemMaxPotion::
-	finditem ITEM_MAX_POTION
+PokemonMansion_3F_EventScript_ItemUpGrade::
+	finditem ITEM_UP_GRADE
 	end
 
 PokemonMansion_3F_EventScript_ItemIron::
@@ -598,8 +598,8 @@ ThreeIsland_BerryForest_EventScript_ItemMaxElixir::
 	finditem ITEM_MAX_ELIXIR
 	end
 
-MtEmber_Exterior_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+MtEmber_Exterior_EventScript_ItemSunStone::
+	finditem ITEM_SUN_STONE
 	end
 
 MtEmber_Exterior_EventScript_ItemFireStone::
@@ -610,8 +610,8 @@ MtEmber_Exterior_EventScript_ItemDireHit::
 	finditem ITEM_DIRE_HIT
 	end
 
-FourIsland_IcefallCave_1F_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+FourIsland_IcefallCave_1F_EventScript_ItemMoonStone::
+	finditem ITEM_MOON_STONE
 	end
 
 FourIsland_IcefallCave_1F_EventScript_ItemHM07::

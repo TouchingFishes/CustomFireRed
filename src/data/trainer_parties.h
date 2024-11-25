@@ -284,7 +284,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cynthia[] = {
         .iv = 255,
         .lvl = 77,
         .species = SPECIES_LUCARIO,
-        .heldItem = ITEM_NONE,
+        .heldItem = ITEM_BLACK_BELT,
         .moves = {MOVE_AURA_SPHERE, MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_EXTREME_SPEED},
     },
     {
@@ -465,9 +465,9 @@ static const struct TrainerMonItemCustomMoves sParty_MagmaLeader[] = {
     {
         .iv = 255,
         .lvl = 66,
-        .species = SPECIES_HOUNDOOM,
+        .species = SPECIES_SHIFTRY,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_CRUNCH, MOVE_SLUDGE_BOMB, MOVE_FLAMETHROWER, MOVE_OVERHEAT},
+        .moves = {MOVE_FAINT_ATTACK, MOVE_EXTRASENSORY, MOVE_GIGA_DRAIN, MOVE_AERIAL_ACE},
     },
     {
         .iv = 255,
