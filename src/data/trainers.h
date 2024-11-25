@@ -66,10 +66,10 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BARRY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_BARRY,
-        .trainerName = _(""),
+        .trainerName = _("BARRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Barry),
     },
 // not needed
@@ -127,7 +127,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PALMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PALMER,
-        .trainerName = _(""),
+        .trainerName = _("PALMER"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -366,7 +366,7 @@ const struct Trainer gTrainers[] = {
     //cynthia
     [TRAINER_CYNTHIA] = {
         .trainerClass = TRAINER_CLASS_CYNTHIA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CYNTHIA,
         .trainerName = _(""),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
