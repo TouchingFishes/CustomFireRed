@@ -9,7 +9,7 @@
 #define TRAINER_RS_AROMA_LADY                      4
 #define TRAINER_RS_RUIN_MANIAC                     5
 #define TRAINER_INTERVIEWER                        6
-#define TRAINER_PAXTON                             7
+#define TRAINER_KIMONO_GIRL                        7
 #define TRAINER_BARRY                              8
 #define TRAINER_RS_COOLTRAINER_M                   9
 #define TRAINER_RS_COOLTRAINER_F                  10

@@ -3177,6 +3177,8 @@ extern const u32 gTrainerFrontPic_Cynthia[];
 extern const u32 gTrainerFrontPic_KimonoGirl[];
 extern const u32 gTrainerFrontPic_KimonoGirlAndCat[];
 extern const u32 gTrainerFrontPic_Paxton[];
+extern const u32 gTrainerFrontPic_Sensei[];
+extern const u32 gTrainerFrontPic_CasinoAce[];
 
 extern const u32 gTrainerPalette_AquaLeaderArchie[];
 extern const u32 gTrainerPalette_AquaGruntM[];
@@ -3334,6 +3336,8 @@ extern const u32 gTrainerPalette_Cynthia[];
 extern const u32 gTrainerPalette_KimonoGirl[];
 extern const u32 gTrainerPalette_KimonoGirlAndCat[];
 extern const u32 gTrainerPalette_Paxton[];
+extern const u32 gTrainerPalette_Sensei[];
+extern const u32 gTrainerPalette_CasinoAce[];
 
 extern const u8 gMenuInfoElements_Gfx[];
 extern const u16 gMenuInfoElements1_Pal[];

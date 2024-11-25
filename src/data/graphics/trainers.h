@@ -451,6 +451,12 @@ const u32 gTrainerPalette_KimonoGirl[] = INCBIN_U32("graphics/trainers/palettes/
 const u32 gTrainerFrontPic_KimonoGirlAndCat[] = INCBIN_U32("graphics/trainers/front_pics/kimono_girl_with_cat_front_pic.4bpp.lz");
 const u32 gTrainerPalette_KimonoGirlAndCat[] = INCBIN_U32("graphics/trainers/palettes/kimono_girl_with_cat.gbapal.lz");
 
+const u32 gTrainerFrontPic_Sensei[] = INCBIN_U32("graphics/trainers/front_pics/sensei_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Sensei[] = INCBIN_U32("graphics/trainers/palettes/sensei.gbapal.lz");
+
+const u32 gTrainerFrontPic_CasinoAce[] = INCBIN_U32("graphics/trainers/front_pics/casino_ace_front_pic.4bpp.lz");
+const u32 gTrainerPalette_CasinoAce[] = INCBIN_U32("graphics/trainers/palettes/casino_ace.gbapal.lz");
+
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red_back_pic.4bpp");
 const u8 gTrainerBackPic_Leaf[] = INCBIN_U8("graphics/trainers/back_pics/leaf_back_pic.4bpp");
 const u8 gTrainerBackPic_Pokedude[] = INCBIN_U8("graphics/trainers/back_pics/pokedude_back_pic.4bpp");

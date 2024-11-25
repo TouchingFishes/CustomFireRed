@@ -73,7 +73,7 @@ const struct Trainer gTrainers[] = {
         .party = ITEM_CUSTOM_MOVES(sParty_Barry),
     },
 // not needed
-//    [TRAINER_PAXTON] = {
+//    [TRAINER_KIMONO] = {
 //        .trainerClass = TRAINER_CLASS_PAXTON,
 //        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
 //        .trainerPic = TRAINER_PIC_PAXTON,

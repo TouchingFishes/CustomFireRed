@@ -169,6 +169,8 @@
 #define TRAINER_PIC_CYNTHIA               148
 #define TRAINER_PIC_KIMONO_GIRL           149
 #define TRAINER_PIC_KIMONO_GIRL_AND_CAT   150
+#define TRAINER_PIC_SENSEI                151
+#define TRAINER_PIC_CASINO_ACE            152
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_RED                    0
