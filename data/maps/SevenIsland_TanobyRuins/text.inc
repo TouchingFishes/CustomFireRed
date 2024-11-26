@@ -50,3 +50,53 @@ SevenIsland_TanobyRuins_Text_CliffordPostBattle::
     .string "on your own…\p"
     .string "Yes, you certainly are quite the\n"
     .string "extraordinary person, indeed.$"
+
+SevenIsland_TanobyRuins_Text_CynthiaIntro::
+    .string "What's this? What an uncanny\n"
+    .string "TRAINER resemblance... It's\p"
+    .string "surprising to meet another one who\n"
+    .string "has intense eyes like that POKéMON\p"
+    .string "TRAINER. What's your name?\n"
+    .string "... OK.\p"
+    .string "{PLAYER}, nice to meet\n"
+    .string "you. I'm CYNTHIA, another POKéMON\p"
+    .string "TRAINER. I have an insatiable\n"
+    .string "curiosity for learning about\p"
+    .string "POKéMON myths. Lets see if you're\n"
+    .string "worthy of facing legends!$"
+
+SevenIsland_TanobyRuins_Text_CynthiaDefeat::
+    .string "... Not bad.$"
+
+SevenIsland_TanobyRuins_Text_CynthiaPostBattle::
+    .string "That was beyond my expectations!\n"
+    .string "What an exceptional battle! You\p"
+    .string "certainly bear a resemblance to a\p"
+    .string "TRAINER who himself faced POKéMON\n"
+    .string "of myth and legend.\p"
+    .string "... Oh, pardon me.\n"
+    .string "I was just thinking out loud.$"
+
+SevenIsland_TanobyRuins_Text_CynthiaWantsToGiveGible::
+    .string "You're a great TRAINER, and it\n"
+    .string "would make me happy to see you\l"
+    .string "again sometime.\p"
+    .string "I want you to have this POKéMON\n"
+    .string "so you can grow further still.$"
+
+SevenIsland_TanobyRuins_Text_ObtainedGibleFromCynthia::
+    .string "{PLAYER} obtained a GIBLE from\n"
+    .string "CYNTHIA!$"
+
+SevenIsland_TanobyRuins_Text_ExplainGible::
+    .string "It's a GIBLE. GIBLE are incredible!\n"
+    .string "They're my favourite POKéMON.$"
+
+SevenIsland_TanobyRuins_Text_NotNow::
+    .string "I would like to enjoy the waves\n"
+    .string "for the time being.$"
+
+
+
+
+

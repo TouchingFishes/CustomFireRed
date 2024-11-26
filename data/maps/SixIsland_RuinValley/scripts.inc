@@ -43,3 +43,70 @@ SixIsland_RuinValley_EventScript_IgnoreDottedHoleDoor::
 	msgbox SixIsland_RuinValley_Text_LeftDoorAlone
 	releaseall
 	end
+
+SixIsland_RuinValley_EventScript_Troy::
+	trainerbattle_single TRAINER_CHAMP_TROY, SixIsland_RuinValley_Text_TroyIntro, SixIsland_RuinValley_Text_TroyDefeat, SixIsland_RuinValley_EventScript_DefeatedTroy, NO_MUSIC
+	goto_if_unset FLAG_GOT_BELDUM_FROM_TROY, SixIsland_RuinValley_EventScript_Beldum
+	msgbox SixIsland_RuinValley_Text_TroyPostBattle
+	release
+	end
+	
+SixIsland_RuinValley_EventScript_DefeatedTroy::
+	goto SixIsland_RuinValley_EventScript_Beldum
+	end	
+
+SixIsland_RuinValley_EventScript_Beldum::
+	msgbox SixIsland_RuinValley_Text_TroyWantsToGiveBeldum
+	setvar VAR_TEMP_1, SPECIES_BELDUM
+	givemon SPECIES_BELDUM, 5
+	goto_if_eq VAR_RESULT, 0, SixIsland_RuinValley_EventScript_ReceiveBeldumParty
+	goto_if_eq VAR_RESULT, 1, SixIsland_RuinValley_EventScript_ReceiveBeldumPC
+	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
+	release
+	end
+	
+SixIsland_RuinValley_EventScript_ReceiveBeldumParty::
+	playfanfare MUS_LEVEL_UP
+	message SixIsland_RuinValley_Text_ObtainedBeldumFromTroy
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SixIsland_RuinValley_EventScript_EndReceiveBeldum
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto SixIsland_RuinValley_EventScript_EndReceiveBeldum
+	end
+
+SixIsland_RuinValley_EventScript_ReceiveBeldumPC::
+	playfanfare MUS_LEVEL_UP
+	message SixIsland_RuinValley_Text_ObtainedBeldumFromTroy
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SixIsland_RuinValley_EventScript_BeldumTransferredToPC
+	call EventScript_NameReceivedBoxMon
+	goto SixIsland_RuinValley_EventScript_BeldumTransferredToPC
+	end
+
+SixIsland_RuinValley_EventScript_BeldumTransferredToPC::
+	call EventScript_TransferredToPC
+	goto SixIsland_RuinValley_EventScript_EndReceiveBeldum
+	end
+
+SixIsland_RuinValley_EventScript_EndReceiveBeldum::
+	msgbox SixIsland_RuinValley_Text_ExplainBeldum
+	setflag FLAG_GOT_BELDUM_FROM_TROY
+	release
+	end
+
+SixIsland_RuinValley_EventScript_NotNow::
+	msgbox SixIsland_RuinValley_Text_NotNow
+	release
+	end
+
+
+
+
+	

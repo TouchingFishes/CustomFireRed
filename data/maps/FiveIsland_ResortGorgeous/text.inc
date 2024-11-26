@@ -91,50 +91,6 @@ FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow::
 FiveIsland_ResortGorgeous_Text_SelphysHouse::
     .string "SELPHY'S HOUSE$"
 
-FiveIsland_ResortGorgeous_Text_CynthiaIntro::
-    .string "What's this? What an uncanny\n"
-    .string "TRAINER resemblance... It's\p"
-    .string "surprising to meet another one who\n"
-    .string "has intense eyes like that POKéMON\p"
-    .string "TRAINER. What's your name?\n"
-    .string "... OK.\p"
-    .string "{PLAYER}, nice to meet\n"
-    .string "you. I'm CYNTHIA, another POKéMON\p"
-    .string "TRAINER. I have an insatiable\n"
-    .string "curiosity for learning about\p"
-    .string "POKéMON myths. Lets see if you're\n"
-    .string "worthy of facing legends!$"
 
-FiveIsland_ResortGorgeous_Text_CynthiaDefeat::
-    .string "...$"
-
-FiveIsland_ResortGorgeous_Text_CynthiaPostBattle::
-    .string "That was beyond my expectations!\n"
-    .string "What an exceptional battle! You\p"
-    .string "certainly bear a resemblance to a\p"
-    .string "TRAINER who himself faced POKéMON\n"
-    .string "of myth and legend.\p"
-    .string "... Oh, pardon me..\n"
-    .string "I was just thinking out loud. I\n"
-    .string "love being on holiday here. But\n"
-    .string "the calm makes my mind wander!$"
-
-FiveIsland_ResortGorgeous_Text_CynthiaWantsToGiveGible::
-    .string "You're a great TRAINER, and it\n"
-    .string "would make me happy to see you\l"
-    .string "again sometime.\p"
-    .string "I want you to have this POKéMON\n"
-    .string "so you can grow further still.$"
-
-FiveIsland_ResortGorgeous_Text_ObtainedGibleFromCynthia::
-    .string "{PLAYER} obtained a GIBLE from\n"
-    .string "CYNTHIA!$"
-
-FiveIsland_ResortGorgeous_Text_ExplainGible::
-    .string "It's a GIBLE. GIBLE are incredible!\n"
-    .string "They're my favourite POKéMON.$"
-
-FiveIsland_ResortGorgeous_Text_NotNow::
-    .string "I would like to enjoy the waves\n"
-    .string "for the time being.$"
+    
 

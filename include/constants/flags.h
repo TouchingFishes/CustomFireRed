@@ -798,7 +798,7 @@
 #define FLAG_GOT_RIOLU_EGG           0x301 //now used in waterlabyrinth egg event
 #define FLAG_NO_ROOM_FOR_RIOLU_EGG   0x302 //now used in waterlabyrinth egg event
 #define FLAG_GOT_GIBLE_FROM_CYNTHIA  0x303
-#define FLAG_0x304               0x304
+#define FLAG_GOT_BELDUM_FROM_TROY    0x304
 #define FLAG_0x305               0x305
 #define FLAG_0x306               0x306
 #define FLAG_0x307               0x307

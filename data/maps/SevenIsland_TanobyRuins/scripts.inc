@@ -1,2 +1,70 @@
 SevenIsland_TanobyRuins_MapScripts::
 	.byte 0
+
+SevenIsland_TanobyRuins_EventScript_Cynthia::
+		trainerbattle_single TRAINER_CYNTHIA, SevenIsland_TanobyRuins_Text_CynthiaIntro, SevenIsland_TanobyRuins_Text_CynthiaDefeat, SevenIsland_TanobyRuins_EventScript_DefeatedCynthia, NO_MUSIC
+		goto_if_unset FLAG_GOT_GIBLE_FROM_CYNTHIA, SevenIsland_TanobyRuins_EventScript_Gible
+		msgbox SevenIsland_TanobyRuins_Text_CynthiaPostBattle
+		release
+		end
+	
+SevenIsland_TanobyRuins_EventScript_DefeatedCynthia::
+	goto SevenIsland_TanobyRuins_EventScript_Gible
+	end	
+
+SevenIsland_TanobyRuins_EventScript_Gible::
+	msgbox SevenIsland_TanobyRuins_Text_CynthiaWantsToGiveGible
+	setvar VAR_TEMP_1, SPECIES_GIBLE
+	givemon SPECIES_GIBLE, 5
+	goto_if_eq VAR_RESULT, 0, SevenIsland_TanobyRuins_EventScript_ReceiveGibleParty
+	goto_if_eq VAR_RESULT, 1, SevenIsland_TanobyRuins_EventScript_ReceiveGiblePC
+	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
+	release
+	end
+	
+SevenIsland_TanobyRuins_EventScript_ReceiveGibleParty::
+	playfanfare MUS_LEVEL_UP
+	message SevenIsland_TanobyRuins_Text_ObtainedGibleFromCynthia
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_GIBLE
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SevenIsland_TanobyRuins_EventScript_EndReceiveGible
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto SevenIsland_TanobyRuins_EventScript_EndReceiveGible
+	end
+
+SevenIsland_TanobyRuins_EventScript_ReceiveGiblePC::
+	playfanfare MUS_LEVEL_UP
+	message SevenIsland_TanobyRuins_Text_ObtainedGibleFromCynthia
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_GIBLE
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SevenIsland_TanobyRuins_EventScript_GibleTransferredToPC
+	call EventScript_NameReceivedBoxMon
+	goto SevenIsland_TanobyRuins_EventScript_GibleTransferredToPC
+	end
+
+SevenIsland_TanobyRuins_EventScript_GibleTransferredToPC::
+	call EventScript_TransferredToPC
+	goto SevenIsland_TanobyRuins_EventScript_EndReceiveGible
+	end
+
+SevenIsland_TanobyRuins_EventScript_EndReceiveGible::
+	msgbox SevenIsland_TanobyRuins_Text_ExplainGible
+	setflag FLAG_GOT_GIBLE_FROM_CYNTHIA
+	release
+	end
+
+SevenIsland_TanobyRuins_EventScript_NotNow::
+	msgbox SevenIsland_TanobyRuins_Text_NotNow
+	release
+	end
+
+
+
+	
+
+

@@ -85,3 +85,48 @@ SixIsland_RuinValley_Text_HectorPostBattle::
     .string "engraved on the outside.\p"
     .string "I don't know what they mean,\n"
     .string "though.$"
+
+SixIsland_RuinValley_Text_TroyIntro::
+    .string "Who are you?\n"
+    .string "Nice to meet you {PLAYER}.\p" 
+    .string "I'm amazed someone found me. You\n"
+    .string "probably think of me as just a\p"
+    .string "rock maniac. But you should know\n"
+    .string "that I am also a strong TRAINER.\p"
+    .string "Okay, {PLAYER},\n"
+    .string "if you're going to mount a serious\p"
+    .string "challenge, expect the worst!$"
+
+SixIsland_RuinValley_Text_TroyDefeat::
+    .string "I had no idea you were so strong.$"
+
+SixIsland_RuinValley_Text_TroyPostBattle::
+    .string "Not bad, you have to know that\n"
+    .string "I'm a CHAMPION from a different\p"
+    .string "region.\p"
+    .string "Your POKéMON are very impressive\n"
+    .string "Thanks for that tense battle.$"
+
+SixIsland_RuinValley_Text_TroyWantsToGiveBeldum::
+    .string "I have a favor to ask of you.\n"  
+    .string "I want you to take the POKé BALL.$"
+
+SixIsland_RuinValley_Text_ObtainedBeldumFromTroy::
+    .string "{PLAYER} obtained a BELDUM from\n"
+    .string "TROY!$"
+
+SixIsland_RuinValley_Text_ExplainBeldum::
+    .string "Inside it is a BELDUM,\n"
+    .string "my favorite POKéMON!$"
+
+SixIsland_RuinValley_Text_NotNow::
+    .string "I would like to enjoy the rocks\n"
+    .string "for the time being.$"
+
+
+
+
+
+
+
+    
