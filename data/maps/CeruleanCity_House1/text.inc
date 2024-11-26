@@ -14,9 +14,7 @@ CeruleanCity_House1_Text_ComeVisitAnytime::
     .string "Come visit me anytime you wish.$"
 
 CeruleanCity_House1_Text_AttackStatFlash::
-    .string "The ATTACK stat of all your\n"
-    .string "POKéMON increases a little bit.\p"
-    .string "It also lets you use the move\n"
+    .string "It lets you use the move\n"
     .string "FLASH outside of battle.$"
 
 CeruleanCity_House1_Text_ObeyLv30Cut::
@@ -30,9 +28,7 @@ CeruleanCity_House1_Text_ObeyLv30Cut::
     .string "CUT outside of battle.$"
 
 CeruleanCity_House1_Text_SpeedStatFly::
-    .string "The SPEED stat of all your\n"
-    .string "POKéMON increases a little bit.\p"
-    .string "It also lets you use the move\n"
+    .string "It lets you use the move\n"
     .string "FLY outside of battle.$"
 
 CeruleanCity_House1_Text_ObeyLv50Strength::
@@ -46,9 +42,7 @@ CeruleanCity_House1_Text_ObeyLv50Strength::
     .string "STRENGTH outside of battle.$"
 
 CeruleanCity_House1_Text_DefenseStatSurf::
-    .string "The DEFENSE stat of all your\n"
-    .string "POKéMON increases a little bit.\p"
-    .string "It also lets you use the move\n"
+    .string "It lets you use the move\n"
     .string "SURF outside of battle.$"
 
 CeruleanCity_House1_Text_ObeyLv70RockSmash::
@@ -62,9 +56,7 @@ CeruleanCity_House1_Text_ObeyLv70RockSmash::
     .string "ROCK SMASH outside of battle.$"
 
 CeruleanCity_House1_Text_SpStatsWaterfall::
-    .string "The SP. ATK and SP. DEF stats of\n"
-    .string "all your POKéMON rise a little bit.\p"
-    .string "It also lets you use the move\n"
+    .string "It lets you use the move\n"
     .string "WATERFALL outside of battle.$"
 
 CeruleanCity_House1_Text_AllMonsWillObeyYou::
