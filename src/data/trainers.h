@@ -5202,7 +5202,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_PkmnBreederAlize),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_PkmnBreederAlize),
     },
     [TRAINER_PKMN_RANGER_NICOLAS] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
@@ -5252,7 +5252,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = ITEM_DEFAULT_MOVES(sParty_LadyJacki),
+        .party = ITEM_CUSTOM_MOVES(sParty_LadyJacki),
     },
     [TRAINER_PAINTER_DAISY] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
@@ -5392,7 +5392,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_TeamRocketGrunt45),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_TeamRocketGrunt45), //will be executive, is boss of ice cave
     },
     [TRAINER_TEAM_ROCKET_GRUNT_46] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
@@ -5642,7 +5642,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = ITEM_DEFAULT_MOVES(sParty_LadyGillian),
+        .party = ITEM_CUSTOM_MOVES(sParty_LadyGillian),
     },
     [TRAINER_YOUNGSTER_DESTIN] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
@@ -5652,7 +5652,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_YoungsterDestin),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_YoungsterDestin),
     },
     [TRAINER_SWIMMER_MALE_TOBY] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
@@ -5662,7 +5662,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_SwimmerMaleToby),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_SwimmerMaleToby),
     },
     [TRAINER_TEAM_ROCKET_GRUNT_49] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
@@ -6072,7 +6072,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_RuinManiacLawson),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_RuinManiacLawson),
     },
     [TRAINER_PSYCHIC_LAURA] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
@@ -6082,7 +6082,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_PsychicLaura),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_PsychicLaura),
     },
     [TRAINER_PKMN_BREEDER_BETHANY] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
@@ -7042,7 +7042,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_YoungsterDestin2),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_YoungsterDestin2),
     },
     [TRAINER_PKMN_BREEDER_ALIZE_2] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
@@ -7052,7 +7052,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_PkmnBreederAlize2),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_PkmnBreederAlize2),
     },
     [TRAINER_YOUNG_COUPLE_GIA_JES_2] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,

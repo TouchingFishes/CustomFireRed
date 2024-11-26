@@ -328,7 +328,8 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM45_ATTRACT)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM47_STEEL_WING)
-                                        | TMHM(HM02_FLY)),
+                                        | TMHM(HM02_FLY)
+                                        | TMHM(HM04_STRENGTH)),
 
     [SPECIES_RATTATA]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
