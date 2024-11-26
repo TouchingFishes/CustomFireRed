@@ -65,7 +65,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_SWABLU] = 
     {
-        .nickname = _("CH'DING"),
+        .nickname = _("FLUFFLE"),
         .species = SPECIES_SWABLU,
         .ivs = {20, 25, 21, 24, 15, 20},
         .abilityNum = 0,
@@ -149,7 +149,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_SHUCKLE] = 
     {
-        .nickname = _("TANGENY"),
+        .nickname = _("BLENDY"),
         .species = SPECIES_SHUCKLE,
         .ivs = {22, 17, 25, 16, 23, 20},
         .abilityNum = 0,
@@ -165,7 +165,7 @@ static const struct InGameTrade sInGameTrades[] = {
     },
     [INGAME_TRADE_SPHEAL] = 
     {
-        .nickname = _("SEELOR"),
+        .nickname = _("SPHEALOR"),
         .species = SPECIES_SPHEAL,
         .ivs = {24, 15, 22, 16, 23, 22},
         .abilityNum = 0,
