@@ -103,25 +103,29 @@ SixIsland_RuinValley_Text_TroyDefeat::
 SixIsland_RuinValley_Text_TroyPostBattle::
     .string "Not bad, you have to know that\n"
     .string "I'm a CHAMPION from a different\p"
-    .string "region.\p"
+    .string "region.\n"
     .string "Your POKéMON are very impressive\n"
     .string "Thanks for that tense battle.$"
 
 SixIsland_RuinValley_Text_TroyWantsToGiveBeldum::
     .string "I have a favor to ask of you.\n"  
-    .string "I want you to take the POKé BALL.$"
+    .string "I want you to take this POKéBALL.$"
 
 SixIsland_RuinValley_Text_ObtainedBeldumFromTroy::
     .string "{PLAYER} obtained a BELDUM from\n"
     .string "TROY!$"
 
 SixIsland_RuinValley_Text_ExplainBeldum::
-    .string "Inside it is a BELDUM,\n"
+    .string "Inside of it is a BELDUM,\n"
     .string "my favorite POKéMON!$"
 
 SixIsland_RuinValley_Text_NotNow::
     .string "I would like to enjoy the rocks\n"
     .string "for the time being.$"
+
+
+
+
 
 
 

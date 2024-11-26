@@ -514,8 +514,8 @@ SeafoamIslands_B2F_EventScript_ItemBigPearl::
 	finditem ITEM_BIG_PEARL
 	end
 
-SeafoamIslands_B4F_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+SeafoamIslands_B4F_EventScript_ItemDragonScale::
+	finditem ITEM_DRAGON_SCALE
 	end
 
 FourIsland_EventScript_ItemStarPiece::

@@ -410,7 +410,7 @@ static const struct TrainerMonItemCustomMoves sParty_RSChampion[] = {
         .lvl = 76,
         .species = SPECIES_ARMALDO,
         .heldItem = ITEM_NONE,
-        .moves = {MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_WATER_PULSE, MOVE_SLASH},
+        .moves = {MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_WATER_PULSE, MOVE_X_SCISSOR},
     },
     {
         .iv = 255,

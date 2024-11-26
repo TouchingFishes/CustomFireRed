@@ -71,6 +71,14 @@ ViridianCity_Mart_Items::
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_MASTER_BALL
+	.2byte ITEM_TM13
+	.2byte ITEM_TM19
+	.2byte ITEM_TM24
+	.2byte ITEM_TM26
+	.2byte ITEM_TM29
+	.2byte ITEM_TM30
+	.2byte ITEM_TM35
+	.2byte ITEM_TM40
 	.2byte ITEM_NONE
 	release
 	end

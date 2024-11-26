@@ -233,6 +233,16 @@
       "flag": "FLAG_HIDDEN_ITEM_ROUTE16_LEFTOVERS",
       "quantity": 1,
       "underfoot": true
+    },
+    {
+      "type": "hidden_item",
+      "x": 2,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_MOOMOO_MILK",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE16_MOOMOO_MILK",
+      "quantity": 1,
+      "underfoot": false
     }
   ]
 }

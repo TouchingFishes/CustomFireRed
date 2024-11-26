@@ -68,8 +68,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SeafoamIslands_B4F_EventScript_ItemUltraBall",
-      "flag": "FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL"
+      "script": "SeafoamIslands_B4F_EventScript_ItemDragonScale",
+      "flag": "FLAG_HIDE_SEAFOAM_ISLANDS_B4F_DRAGON_SCALE"
     }
   ],
   "warp_events": [

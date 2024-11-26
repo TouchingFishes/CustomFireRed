@@ -109,4 +109,15 @@ SixIsland_RuinValley_EventScript_NotNow::
 
 
 
+
+
+
+
+
+
+
+
+
 	
+
+

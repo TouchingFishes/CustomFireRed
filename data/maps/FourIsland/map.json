@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -242,7 +242,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -267,8 +269,8 @@
       "x": 6,
       "y": 21,
       "elevation": 3,
-      "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_FOUR_ISLAND_ULTRA_BALL",
+      "item": "ITEM_TM03",
+      "flag": "FLAG_HIDDEN_ITEM_FOUR_ISLAND_WATER_PULSE",
       "quantity": 1,
       "underfoot": false
     },

@@ -351,7 +351,7 @@ static const struct RenewableHiddenItemData sRenewableHiddenItems[] = {
             NO_ITEM
         },
         .common = {
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_FOUR_ISLAND_ULTRA_BALL),
+            HIDDEN_ID(FLAG_HIDDEN_ITEM_FOUR_ISLAND_WATER_PULSE),
             NO_ITEM,
             NO_ITEM,
             NO_ITEM,

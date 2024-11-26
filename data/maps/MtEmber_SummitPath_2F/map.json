@@ -162,6 +162,15 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 28,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_TM35",
+      "flag": "FLAG_HIDDEN_ITEM_MT_EMBER_SUMMIT_PATH_2F_FLAMETHROWER",
+      "quantity": 1,
+      "underfoot": false
+    }
   ]
 }
