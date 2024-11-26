@@ -1418,13 +1418,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassDawn[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_LassPaige[] = {
     {
         .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_SKIPLOOM,
+        .lvl = 21,
+        .species = SPECIES_NIDORAN_F,
+    },
+    {
+        .iv = 0,
+        .lvl = 21,
+        .species = SPECIES_NIDORAN_M,
     },
     {
         .iv = 0,
         .lvl = 23,
-        .species = SPECIES_TEDDIURSA,
+        .species = SPECIES_NIDORINA,
     },
 };
 
@@ -1432,7 +1437,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassAndrea[] = {
     {
         .iv = 0,
         .lvl = 24,
-        .species = SPECIES_GLAMEOW,
+        .species = SPECIES_MEOWTH,
     },
     {
         .iv = 0,
@@ -1441,8 +1446,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassAndrea[] = {
     },
     {
         .iv = 0,
-        .lvl = 24,
-        .species = SPECIES_VANILLITE,
+        .lvl = 25,
+        .species = SPECIES_MEOWTH,
     },
 };
 
@@ -1460,12 +1465,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassMegan[] = {
     {
         .iv = 0,
         .lvl = 19,
-        .species = SPECIES_NIDORAN_M,
+        .species = SPECIES_VANILLITE,
     },
     {
         .iv = 0,
         .lvl = 19,
-        .species = SPECIES_MEOWTH,
+        .species = SPECIES_TEDDIURSA,
     },
     {
         .iv = 0,
@@ -1959,7 +1964,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PokemaniacWinston[] = {
     {
         .iv = 30,
         .lvl = 25,
-        .species = SPECIES_CROCONAW,
+        .species = SPECIES_LICKITUNG,
     },
 };
 
@@ -2066,7 +2071,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SuperNerdGlenn[] = {
     {
         .iv = 0,
         .lvl = 24,
-        .species = SPECIES_MUK,
+        .species = SPECIES_MAGNEMITE,
     },
     {
         .iv = 0,
