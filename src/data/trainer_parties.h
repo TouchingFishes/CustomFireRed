@@ -366,7 +366,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cynthia[] = {
         .lvl = 77,
         .species = SPECIES_TOGETIC,
         .heldItem = ITEM_NONE,
-        .moves = {MOVE_FLY, MOVE_SHOCK_WAVE, MOVE_WATER_PULSE, MOVE_PSYCHIC},
+        .moves = {MOVE_FLY, MOVE_SHOCK_WAVE, MOVE_OMINOUS_WIND, MOVE_PSYCHIC},
     },
     {
         .iv = 255,

@@ -3110,10 +3110,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_TWISTER] =
     {
         .effect = EFFECT_TWISTER,
-        .power = 40,
-        .type = TYPE_DRAGON,
+        .power = 80, //40
+        .type = TYPE_FLYING, //DRAGON
         .accuracy = 100,
-        .pp = 20,
+        .pp = 15, //20
         .secondaryEffectChance = 20,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,

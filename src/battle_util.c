@@ -2226,6 +2226,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 && gDisableStructs[gBattlerAttacker].disabledMove == MOVE_NONE
                 && gBattleMons[gBattlerAttacker].hp != 0
                 && gBattleMons[gBattlerAttacker].pp[gChosenMovePos] != 0
+                && (gBattleMoves[move].flags & FLAG_MAKES_CONTACT)
                 && (Random() % 3) == 0)
                 {
                     gDisableStructs[gBattlerAttacker].disabledMove = gChosenMove;

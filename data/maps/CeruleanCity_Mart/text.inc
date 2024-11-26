@@ -24,9 +24,9 @@ CeruleanCity_Mart_Text_ObtainedVanilliteFromOldTrainer::
 
 CeruleanCity_Mart_Text_ExplainVanillite::
     .string "It's a VANILLLITE.\n"
-    .string "It's a POKéMON with a lot of \p"
-    .string "potential. Train it well! And you\n"
-    .string "will unleash the power it can hold\n"
+    .string "A POKéMON with a lot of potential.\p"
+    .string "Train it well! And you will see\n"
+    .string "the power it can hold yourself.\n"
     .string "I think you will be a good TRAINER\n"
     .string "for VANILLITE!$"
 
