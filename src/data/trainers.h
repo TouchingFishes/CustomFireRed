@@ -6104,6 +6104,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_PkmnBreederAllison),
     },
+    //lauro
     [TRAINER_BUG_CATCHER_GARRET] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -6112,7 +6113,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherGarret),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_BugCatcherGarret),
     },
     [TRAINER_BUG_CATCHER_JONAH] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
