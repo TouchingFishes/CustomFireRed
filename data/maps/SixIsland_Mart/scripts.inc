@@ -14,14 +14,13 @@ SixIsland_Mart_EventScript_Clerk::
 
 	.align 2
 SixIsland_Mart_Items::
-	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_FULL_RESTORE
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_REVIVE
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_DREAM_MAIL
+	.2byte ITEM_TM01
+	.2byte ITEM_TM02
+	.2byte ITEM_TM08
+	.2byte ITEM_TM14
+	.2byte ITEM_TM17
+	.2byte ITEM_TM22
+	.2byte ITEM_TM25
 	.2byte ITEM_NONE
 	release
 	end

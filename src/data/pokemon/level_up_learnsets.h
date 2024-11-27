@@ -286,7 +286,7 @@ static const u16 sSpearowLevelUpLearnset[] = {
 
 static const u16 sFearowLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_PECK),
-    LEVEL_UP_MOVE(1, MOVE_GROWL),
+    LEVEL_UP_MOVE(1, MOVE_FURY_SWIPES),
     LEVEL_UP_MOVE(1, MOVE_LEER),
     LEVEL_UP_MOVE(1, MOVE_FURY_ATTACK),
     LEVEL_UP_MOVE(7, MOVE_LEER),
@@ -294,7 +294,8 @@ static const u16 sFearowLevelUpLearnset[] = {
     LEVEL_UP_MOVE(26, MOVE_PURSUIT),
     LEVEL_UP_MOVE(32, MOVE_MIRROR_MOVE),
     LEVEL_UP_MOVE(40, MOVE_DRILL_PECK),
-    LEVEL_UP_MOVE(47, MOVE_AGILITY),
+    LEVEL_UP_MOVE(47, MOVE_SWORDS_DANCE),
+    LEVEL_UP_MOVE(54, MOVE_AGILITY),
     LEVEL_UP_END
 };
 
@@ -6626,7 +6627,7 @@ static const u16 sFletchinderLevelUpLearnset[] = {
 };
 
 static const u16 sTalonflameLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE(1, MOVE_FLAME_WHEEL),
     LEVEL_UP_MOVE(1, MOVE_PECK),
     LEVEL_UP_MOVE(1, MOVE_GROWL),
     LEVEL_UP_MOVE(1, MOVE_EMBER),
