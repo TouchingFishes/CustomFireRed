@@ -69,7 +69,51 @@ static const struct TrainerMonNoItemDefaultMoves sParty_AquaGruntM[] = {DUMMY_TR
 static const struct TrainerMonNoItemDefaultMoves sParty_AquaGruntF[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSAromaLady[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSRuinManiac[] = {DUMMY_TRAINER_MON};
-static const struct TrainerMonNoItemDefaultMoves sParty_Interviewer[] = {DUMMY_TRAINER_MON};
+//iris
+static const struct TrainerMonItemCustomMoves sParty_Interviewer[] = {
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_HYDREIGON,
+        .heldItem = ITEM_PETAYA_BERRY,
+        .moves = {MOVE_CRUNCH, MOVE_OUTRAGE, MOVE_SURF, MOVE_FIRE_BLAST},
+    },
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_GEKOPON,
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_GIGA_DRAIN, MOVE_THUNDERBOLT, MOVE_REST, MOVE_SLEEP_TALK},
+    },
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_AGGRON,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_ROCK_TOMB, MOVE_DRAGON_CLAW},
+    },
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_HARD_STONE,
+        .moves = {MOVE_AERIAL_ACE, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER},
+    },
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_LAPRAS,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_BLIZZARD, MOVE_SING, MOVE_THUNDER},
+    },
+    {
+        .iv = 255,
+        .lvl = 78,
+        .species = SPECIES_HAXORUS,
+        .heldItem = ITEM_DRAGON_FANG,
+        .moves = {MOVE_DRAGON_CLAW, MOVE_GUILLOTINE, MOVE_EARTHQUAKE, MOVE_X_SCISSOR},
+    },
+};
 static const struct TrainerMonItemCustomMoves sParty_Barry[] = {
     {
         .iv = 255,
