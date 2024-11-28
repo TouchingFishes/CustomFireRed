@@ -6113,7 +6113,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM__MOVES(sParty_BugCatcherGarret),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_BugCatcherGarret),
     },
     [TRAINER_BUG_CATCHER_JONAH] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
