@@ -96,16 +96,16 @@ Route15_Text_AlexPostBattle::
     .string "I was just joking about the money.\n"
     .string "Don't take me all serious.$"
 
-Route15_Text_CeliaIntro::
-    .string "What's cool and happening?\n"
-    .string "Trading POKéMON!$"
+Route15_Text_KeigoIntro::
+    .string "I will show you my cool ninja\n"
+    .string "POKéMON!$"
 
-Route15_Text_CeliaDefeat::
-    .string "I said trade!$"
+Route15_Text_KeigoDefeat::
+    .string "COOL!$"
 
-Route15_Text_CeliaPostBattle::
-    .string "I trade POKéMON with my friends\n"
-    .string "all the time.$"
+Route15_Text_KeigoPostBattle::
+    .string "I still have a lot to learn until\n"
+    .string "I'm a match for KOGA.$"
 
 Route15_Text_YazminIntro::
     .string "Want to play with my POKéMON?$"

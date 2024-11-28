@@ -155,14 +155,14 @@ Route24_EventScript_AliRematch::
 	end
 
 Route24_EventScript_Shane::
-	trainerbattle_single TRAINER_CAMPER_SHANE, Route24_Text_ShaneIntro, Route24_Text_ShaneDefeat
+	trainerbattle_single TRAINER_KINDLER_SHANE, Route24_Text_ShaneIntro, Route24_Text_ShaneDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_ShaneRematch
 	msgbox Route24_Text_ShanePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route24_EventScript_ShaneRematch::
-	trainerbattle_rematch TRAINER_CAMPER_SHANE, Route24_Text_ShaneRematchIntro, Route24_Text_ShaneDefeat
+	trainerbattle_rematch TRAINER_KINDLER_SHANE, Route24_Text_ShaneRematchIntro, Route24_Text_ShaneDefeat
 	msgbox Route24_Text_ShanePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -1091,14 +1091,14 @@ Route14_EventScript_GeraldRematch::
 	end
 
 Route14_EventScript_Donald::
-	trainerbattle_single TRAINER_BIRD_KEEPER_DONALD, Route14_Text_DonaldIntro, Route14_Text_DonaldDefeat
+	trainerbattle_single TRAINER_NINJA_BOY_DONALD, Route14_Text_DonaldIntro, Route14_Text_DonaldDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route14_EventScript_DonaldRematch
 	msgbox Route14_Text_DonaldPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route14_EventScript_DonaldRematch::
-	trainerbattle_rematch TRAINER_BIRD_KEEPER_DONALD, Route14_Text_DonaldRematchIntro, Route14_Text_DonaldDefeat
+	trainerbattle_rematch TRAINER_NINJA_BOY_DONALD, Route14_Text_DonaldRematchIntro, Route14_Text_DonaldDefeat
 	msgbox Route14_Text_DonaldPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -1271,14 +1271,14 @@ Route15_EventScript_YazminRematch::
 	end
 
 Route15_EventScript_Kindra::
-	trainerbattle_single TRAINER_PICNICKER_KINDRA, Route15_Text_KindraIntro, Route15_Text_KindraDefeat
+	trainerbattle_single TRAINER_NINJA_BOY_KINDRA, Route15_Text_KindraIntro, Route15_Text_KindraDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route15_EventScript_KindraRematch
 	msgbox Route15_Text_KindraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route15_EventScript_KindraRematch::
-	trainerbattle_rematch TRAINER_PICNICKER_KINDRA, Route15_Text_KindraRematchIntro, Route15_Text_KindraDefeat
+	trainerbattle_rematch TRAINER_NINJA_BOY_KINDRA, Route15_Text_KindraRematchIntro, Route15_Text_KindraDefeat
 	msgbox Route15_Text_KindraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -1294,16 +1294,16 @@ Route15_EventScript_BeckyRematch::
 	msgbox Route15_Text_BeckyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route15_EventScript_Celia::
-	trainerbattle_single TRAINER_PICNICKER_CELIA, Route15_Text_CeliaIntro, Route15_Text_CeliaDefeat
+Route15_EventScript_Keigo::
+	trainerbattle_single TRAINER_NINJA_BOY_KEIGO, Route15_Text_KeigoIntro, Route15_Text_KeigoDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route15_EventScript_CeliaRematch
-	msgbox Route15_Text_CeliaPostBattle, MSGBOX_AUTOCLOSE
+	goto_if_eq VAR_RESULT, TRUE, Route15_EventScript_KeigoRematch
+	msgbox Route15_Text_KeigoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route15_EventScript_CeliaRematch::
-	trainerbattle_rematch TRAINER_PICNICKER_CELIA, Route15_Text_CeliaRematchIntro, Route15_Text_CeliaDefeat
-	msgbox Route15_Text_CeliaPostBattle, MSGBOX_AUTOCLOSE
+Route15_EventScript_KeigoRematch::
+	trainerbattle_rematch TRAINER_NINJA_BOY_KEIGO, Route15_Text_KeigoRematchIntro, Route15_Text_KeigoDefeat
+	msgbox Route15_Text_KeigoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route15_EventScript_Mya::

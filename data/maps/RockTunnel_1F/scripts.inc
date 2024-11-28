@@ -16,7 +16,7 @@ RockTunnel_1F_EventScript_Lenny::
 	end
 
 RockTunnel_1F_EventScript_Oliver::
-	trainerbattle_single TRAINER_HIKER_OLIVER, RockTunnel_1F_Text_OliverIntro, RockTunnel_1F_Text_OliverDefeat
+	trainerbattle_single TRAINER_KINDLER_OLIVER, RockTunnel_1F_Text_OliverIntro, RockTunnel_1F_Text_OliverDefeat
 	msgbox RockTunnel_1F_Text_OliverPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -70,7 +70,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 44,
       "y": 13,
       "elevation": 3,
@@ -154,7 +154,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 28,
       "y": 6,
       "elevation": 3,
@@ -163,7 +163,7 @@
       "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Route15_EventScript_Celia",
+      "script": "Route15_EventScript_Keigo",
       "flag": "0"
     },
     {

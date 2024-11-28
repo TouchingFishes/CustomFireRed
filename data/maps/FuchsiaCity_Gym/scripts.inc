@@ -60,7 +60,7 @@ FuchsiaCity_Gym_EventScript_Kayden::
 	end
 
 FuchsiaCity_Gym_EventScript_Nate::
-	trainerbattle_single TRAINER_JUGGLER_NATE, FuchsiaCity_Gym_Text_NateIntro, FuchsiaCity_Gym_Text_NateDefeat
+	trainerbattle_single TRAINER_NINJA_BOY_NATE, FuchsiaCity_Gym_Text_NateIntro, FuchsiaCity_Gym_Text_NateDefeat
 	msgbox FuchsiaCity_Gym_Text_NatePostBattle, MSGBOX_AUTOCLOSE
 	end
 

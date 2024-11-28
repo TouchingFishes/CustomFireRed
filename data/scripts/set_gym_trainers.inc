@@ -41,7 +41,7 @@ EventScript_SetFuchsiaGymTrainers::
 	settrainerflag TRAINER_NINJA_BOY_KIRK
 	settrainerflag TRAINER_NINJA_BOY_SHAWN
 	settrainerflag TRAINER_NINJA_BOY_KAYDEN
-	settrainerflag TRAINER_JUGGLER_NATE
+	settrainerflag TRAINER_NINJA_BOY_NATE
 	return
 
 EventScript_SetSaffronGymTrainers::

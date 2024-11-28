@@ -403,9 +403,8 @@ Route15_Text_AlexRematchIntro::
 	.string "Fork over all your cash when you\n"
 	.string "lose to me, kid!$"
 
-Route15_Text_CeliaRematchIntro::
-	.string "What's cool and happening?\n"
-	.string "Trading POKéMON, of course.$"
+Route15_Text_KeigoRematchIntro::
+	.string "Ready for my new ninja moves?$"
 
 Route15_Text_YazminRematchIntro::
 	.string "Want to play with my POKéMON\n"
@@ -681,7 +680,7 @@ Route25_Text_WayneRematchIntro::
 	.string "First, we battle!$"
 
 Route24_Text_ShaneRematchIntro::
-	.string "I saw your feat from the grass!$"
+	.string "I'll blaze you away this time!$"
 
 Route24_Text_EthanRematchIntro::
 	.string "Okay!\n"

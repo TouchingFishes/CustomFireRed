@@ -146,7 +146,7 @@
 #define TRAINER_SAILOR_PHILLIP                   140
 #define TRAINER_SAILOR_DWAYNE                    141
 #define TRAINER_CAMPER_LIAM                      142
-#define TRAINER_CAMPER_SHANE                     143
+#define TRAINER_KINDLER_SHANE                     143
 #define TRAINER_CAMPER_ETHAN                     144
 #define TRAINER_CAMPER_RICKY                     145
 #define TRAINER_CAMPER_JEFF                      146
@@ -196,7 +196,7 @@
 #define TRAINER_HIKER_ALLEN                      190
 #define TRAINER_HIKER_ERIC                       191
 #define TRAINER_HIKER_LENNY                      192
-#define TRAINER_HIKER_OLIVER                     193
+#define TRAINER_KINDLER_OLIVER                   193
 #define TRAINER_HIKER_LUCAS                      194
 #define TRAINER_BIKER_JARED                      195
 #define TRAINER_BIKER_MALIK                      196
@@ -296,7 +296,7 @@
 #define TRAINER_JUGGLER_GREGORY                  290
 #define TRAINER_JUGGLER_EDWARD                   291
 #define TRAINER_NINJA_BOY_KAYDEN                 292
-#define TRAINER_JUGGLER_NATE                     293
+#define TRAINER_NINJA_BOY_NATE                   293
 #define TRAINER_TAMER_PHIL                       294
 #define TRAINER_TAMER_EDGAR                      295
 #define TRAINER_TAMER_JASON                      296
@@ -306,7 +306,7 @@
 #define TRAINER_BIRD_KEEPER_SEBASTIAN            300
 #define TRAINER_BIRD_KEEPER_PERRY                301
 #define TRAINER_BIRD_KEEPER_ROBERT               302
-#define TRAINER_BIRD_KEEPER_DONALD               303
+#define TRAINER_NINJA_BOY_DONALD                 303
 #define TRAINER_BIRD_KEEPER_BENNY                304
 #define TRAINER_BIRD_KEEPER_EDWIN                305
 #define TRAINER_BIRD_KEEPER_CHESTER              306
@@ -482,9 +482,9 @@
 #define TRAINER_PICNICKER_LEAH                   476
 #define TRAINER_CAMPER_JUSTIN                    477
 #define TRAINER_PICNICKER_YAZMIN                 478
-#define TRAINER_PICNICKER_KINDRA                 479
+#define TRAINER_NINJA_BOY_KINDRA                 479
 #define TRAINER_PICNICKER_BECKY                  480
-#define TRAINER_PICNICKER_CELIA                  481
+#define TRAINER_NINJA_BOY_KEIGO                  481
 #define TRAINER_GENTLEMAN_BROOKS                 482
 #define TRAINER_GENTLEMAN_LAMAR                  483
 #define TRAINER_TWINS_ELI_ANNE                   484

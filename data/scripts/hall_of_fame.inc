@@ -21,6 +21,7 @@ EventScript_ResetEliteFourEnd::
 	call EventScript_ResetEliteFour
 	end
 
+@rematches	
 EventScript_ResetEliteFour::
 	clearflag FLAG_DEFEATED_LORELEI
 	clearflag FLAG_DEFEATED_BRUNO
