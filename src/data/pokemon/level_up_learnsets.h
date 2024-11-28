@@ -3254,7 +3254,7 @@ static const u16 sKingdraLevelUpLearnset[] = {
 
 static const u16 sPhanpyLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_ODOR_SLEUTH),
-    LEVEL_UP_MOVE(1, MOVE_TACKLE),
+    LEVEL_UP_MOVE(1, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE(1, MOVE_GROWL),
     LEVEL_UP_MOVE(9, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE(17, MOVE_FLAIL),
@@ -3268,6 +3268,7 @@ static const u16 sPhanpyLevelUpLearnset[] = {
 static const u16 sDonphanLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_ODOR_SLEUTH),
     LEVEL_UP_MOVE(1, MOVE_HORN_ATTACK),
+    LEVEL_UP_MOVE(1, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE(1, MOVE_GROWL),
     LEVEL_UP_MOVE(9, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE(17, MOVE_FLAIL),

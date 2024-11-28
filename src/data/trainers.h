@@ -161,7 +161,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_RSSwimmerM),
+        .party = ITEM_CUSTOM_MOVES(sParty_RSSwimmerM),
     },
     [TRAINER_RS_BLACK_BELT] = {
         .trainerClass = TRAINER_CLASS_RS_BLACK_BELT,
@@ -201,7 +201,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_RSCamper),
+        .party = ITEM_CUSTOM_MOVES(sParty_RSCamper),
     },
     [TRAINER_BUG_MANIAC_AARON] = {
         .trainerClass = TRAINER_CLASS_BUG_MANIAC,

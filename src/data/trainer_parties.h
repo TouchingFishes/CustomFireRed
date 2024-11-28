@@ -209,11 +209,99 @@ static const struct TrainerMonItemCustomMoves sParty_Palmer[] = {
 };
 static const struct TrainerMonNoItemDefaultMoves sParty_RichBoy[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSPokemaniac[] = {DUMMY_TRAINER_MON};
-static const struct TrainerMonNoItemDefaultMoves sParty_RSSwimmerM[] = {DUMMY_TRAINER_MON};
+//sora with ponta
+static const struct TrainerMonItemCustomMoves sParty_RSSwimmerM[] = {
+    {
+        .iv = 255,
+        .lvl = 75,
+        .species = SPECIES_GENGAR,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_MAGICAL_LEAF},
+    },
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_CORSOREEF,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_GRASS_KNOT, MOVE_ANCIENT_POWER, MOVE_SLUDGE_BOMB, MOVE_BODY_SLAM},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .species = SPECIES_DECIBELLE,
+        .heldItem = ITEM_PETAYA_BERRY,
+        .moves = {MOVE_X_SCISSOR, MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE},
+    },
+    {
+        .iv = 255,
+        .lvl = 77,
+        .species = SPECIES_CHARIZARD,
+        .heldItem = ITEM_SOFT_SAND,
+        .moves = {MOVE_ROCK_WRECKER, MOVE_CURSE, MOVE_BRICK_BREAK, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 255,
+        .lvl = 77,
+        .species = SPECIES_DUNLONG,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_MACH_PUNCH, MOVE_AERIAL_ACE, MOVE_FLAMETHROWER, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 255,
+        .lvl = 77,
+        .species = SPECIES_PURUGLY,
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_SLASH, MOVE_BURNING_SAND, MOVE_REST, MOVE_SLEEP_TALK},
+    },
+};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSBlackBelt[] = {DUMMY_TRAINER_MON_IV};
 static const struct TrainerMonNoItemDefaultMoves sParty_Guitarist[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_Kindler[] = {DUMMY_TRAINER_MON};
-static const struct TrainerMonNoItemDefaultMoves sParty_RSCamper[] = {DUMMY_TRAINER_MON};
+//sora without ponta
+static const struct TrainerMonItemCustomMoves sParty_RSCamper[] = {
+    {
+        .iv = 255,
+        .lvl = 75,
+        .species = SPECIES_GENGAR,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_MAGICAL_LEAF},
+    },
+    {
+        .iv = 255,
+        .lvl = 76,
+        .species = SPECIES_CORSOREEF,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_GRASS_KNOT, MOVE_ANCIENT_POWER, MOVE_SLUDGE_BOMB, MOVE_BODY_SLAM},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .species = SPECIES_DECIBELLE,
+        .heldItem = ITEM_PETAYA_BERRY,
+        .moves = {MOVE_X_SCISSOR, MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE},
+    },
+    {
+        .iv = 255,
+        .lvl = 77,
+        .species = SPECIES_GEKOPON,
+        .heldItem = ITEM_SOFT_SAND,
+        .moves = {MOVE_ROCK_WRECKER, MOVE_CURSE, MOVE_BRICK_BREAK, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 255,
+        .lvl = 77,
+        .species = SPECIES_DUNLONG,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_MACH_PUNCH, MOVE_AERIAL_ACE, MOVE_FLAMETHROWER, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 255,
+        .lvl = 79,
+        .species = SPECIES_CHARIZARD,
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_SLASH, MOVE_BURNING_SAND, MOVE_REST, MOVE_SLEEP_TALK},
+    },
+};
 static const struct TrainerMonNoItemCustomMoves sParty_BugManiacAaron[] = {
     {
         .iv = 180,
