@@ -21,7 +21,7 @@
 #define TRAINER_RS_SWIMMER_M                      16
 #define TRAINER_RS_BLACK_BELT                     17
 #define TRAINER_GUITARIST                         18
-#define TRAINER_KINDLER                           19
+#define TRAINER_KINDLER_WERNER                    19
 #define TRAINER_RS_CAMPER                         20
 #define TRAINER_BUG_MANIAC_AARON                  21
 #define TRAINER_RS_PSYCHIC_M                      22
@@ -50,7 +50,7 @@
 #define TRAINER_SWIMMING_TRIATHLETE_F             45
 #define TRAINER_DRAGON_TAMER                      46
 #define TRAINER_RS_BIRD_KEEPER                    47
-#define TRAINER_NINJA_BOY                         48
+#define TRAINER_NINJA_BOY_TAKESHI                 48
 #define TRAINER_BATTLE_GIRL                       49
 #define TRAINER_PARASOL_LADY                      50
 #define TRAINER_RS_SWIMMER_F                      51
@@ -79,7 +79,7 @@
 #define TRAINER_RS_HIKER                          74
 #define TRAINER_RS_YOUNG_COUPLE                   75
 #define TRAINER_OLD_COUPLE                        76
-#define TRAINER_RS_SIS_AND_BRO                    77
+#define TRAINER_ROCKER_MOA                        77
 #define TRAINER_AQUA_ADMIN_MATT                   78
 #define TRAINER_AQUA_ADMIN_SHELLY                 79
 #define TRAINER_MAGMA_ADMIN_TABITHA               80
@@ -110,7 +110,7 @@
 #define TRAINER_BUG_CATCHER_SAMMY                104
 #define TRAINER_BUG_CATCHER_COLTON               105
 #define TRAINER_BUG_CATCHER_GREG                 106
-#define TRAINER_BUG_CATCHER_JAMES                107
+#define TRAINER_KINDLER_JAMES                    107
 #define TRAINER_BUG_CATCHER_KENT                 108
 #define TRAINER_BUG_CATCHER_ROBBY                109
 #define TRAINER_BUG_CATCHER_CALE                 110
@@ -558,7 +558,7 @@
 #define TRAINER_CRUSH_GIRL_TANYA                 552
 #define TRAINER_BLACK_BELT_SHEA                  553
 #define TRAINER_BLACK_BELT_HUGH                  554
-#define TRAINER_CAMPER_BRYCE                     555
+#define TRAINER_KINDLER_BRYCE                    555
 #define TRAINER_PICNICKER_CLAIRE                 556
 #define TRAINER_CRUSH_KIN_MIK_KIA                557
 #define TRAINER_AROMA_LADY_VIOLET                558

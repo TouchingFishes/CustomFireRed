@@ -77,8 +77,8 @@ Route3_Text_CalvinPostBattle::
     .string "winter. That's my policy.$"
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the POKéMON\n"
-    .string "I just caught.$"
+    .string "I'll battle you with my burning\n"
+    .string "POKéMON.$"
 
 Route3_Text_JamesDefeat::
     .string "Done like dinner!$"

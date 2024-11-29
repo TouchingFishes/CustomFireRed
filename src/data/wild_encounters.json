@@ -19852,7 +19852,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SKARMORY"
+                "species": "SPECIES_NATU"
               },
               {
                 "min_level": 31,
@@ -19862,7 +19862,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_SKARMORY"
+                "species": "SPECIES_NATU"
               }
             ]
           }

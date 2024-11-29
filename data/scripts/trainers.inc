@@ -47,14 +47,14 @@ Route3_EventScript_GregRematch::
 	end
 
 Route3_EventScript_James::
-	trainerbattle_single TRAINER_BUG_CATCHER_JAMES, Route3_Text_JamesIntro, Route3_Text_JamesDefeat
+	trainerbattle_single TRAINER_KINDLER_JAMES, Route3_Text_JamesIntro, Route3_Text_JamesDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route3_EventScript_JamesRematch
 	msgbox Route3_Text_JamesPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route3_EventScript_JamesRematch::
-	trainerbattle_rematch TRAINER_BUG_CATCHER_JAMES, Route3_Text_JamesRematchIntro, Route3_Text_JamesDefeat
+	trainerbattle_rematch TRAINER_KINDLER_JAMES, Route3_Text_JamesRematchIntro, Route3_Text_JamesDefeat
 	msgbox Route3_Text_JamesPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -2075,14 +2075,14 @@ OneIsland_KindleRoad_EventScript_HughRematch::
 	end
 
 OneIsland_KindleRoad_EventScript_Bryce::
-	trainerbattle_single TRAINER_CAMPER_BRYCE, OneIsland_KindleRoad_Text_BryceIntro, OneIsland_KindleRoad_Text_BryceDefeat
+	trainerbattle_single TRAINER_KINDLER_BRYCE, OneIsland_KindleRoad_Text_BryceIntro, OneIsland_KindleRoad_Text_BryceDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, OneIsland_KindleRoad_EventScript_BryceRematch
 	msgbox OneIsland_KindleRoad_Text_BrycePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 OneIsland_KindleRoad_EventScript_BryceRematch::
-	trainerbattle_rematch TRAINER_CAMPER_BRYCE, OneIsland_KindleRoad_Text_BryceRematchIntro, OneIsland_KindleRoad_Text_BryceDefeat
+	trainerbattle_rematch TRAINER_KINDLER_BRYCE, OneIsland_KindleRoad_Text_BryceRematchIntro, OneIsland_KindleRoad_Text_BryceDefeat
 	msgbox OneIsland_KindleRoad_Text_BrycePostBattle, MSGBOX_AUTOCLOSE
 	end
 

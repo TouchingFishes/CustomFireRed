@@ -63,6 +63,15 @@ VictoryRoad_2F_EventScript_Daisuke::
 	trainerbattle_single TRAINER_BLACK_BELT_DAISUKE, VictoryRoad_2F_Text_DaisukeIntro, VictoryRoad_2F_Text_DaisukeDefeat
 	msgbox VictoryRoad_2F_Text_DaisukePostBattle, MSGBOX_AUTOCLOSE
 	end
+VictoryRoad_2F_EventScript_Takeshi::
+	trainerbattle_single TRAINER_NINJA_BOY_TAKESHI, VictoryRoad_2F_Text_TakeshiIntro, VictoryRoad_2F_Text_TakeshiDefeat
+	msgbox VictoryRoad_2F_Text_TakeshiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_2F_EventScript_Aaron::
+	trainerbattle_single TRAINER_BUG_MANIAC_AARON, VictoryRoad_2F_Text_AaronIntro, VictoryRoad_2F_Text_AaronDefeat
+	msgbox VictoryRoad_2F_Text_AaronPostBattle, MSGBOX_AUTOCLOSE
+	end
 
 VictoryRoad_2F_EventScript_Nelson::
 	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat

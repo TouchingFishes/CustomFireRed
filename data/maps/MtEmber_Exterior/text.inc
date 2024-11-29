@@ -129,6 +129,15 @@ MtEmber_Exterior_Text_BethPostBattle::
     .string "hardens, and the magma inside flows\l"
     .string "out, caverns are left behind.$"
 
+MtEmber_Exterior_Text_WernerIntro::
+    .string "Hehehe you better watch your step.$"
+
+MtEmber_Exterior_Text_WernerDefeat::
+    .string "I could not take the heat of battle.$"
+
+MtEmber_Exterior_Text_WernerPostBattle::
+    .string "Wow, what a battle!$"
+
 MtEmber_Exterior_Text_JocelynIntro::
     .string "I've been in training so I can mend\n"
     .string "my broken heart…\p"

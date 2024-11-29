@@ -21,6 +21,28 @@ VictoryRoad_2F_Text_DaisukePostBattle::
     .string "If you get stuck, try moving some\n"
     .string "boulders around.$"
 
+VictoryRoad_2F_Text_AaronIntro::
+    .string "This little boy does not want to\n"
+    .string "trade me his POKéMON!$"
+
+VictoryRoad_2F_Text_AaronDefeat::
+    .string "OH NO! MY DEAR BUGS!$"
+
+VictoryRoad_2F_Text_AaronPostBattle::
+    .string "Why did you have to come and ruin\n"
+    .string "my trade talks.$"
+
+VictoryRoad_2F_Text_TakeshiIntro::
+    .string "This weird man wants me to give him\n"
+    .string "my highly skilled Ninja-POKéMON!$"
+
+VictoryRoad_2F_Text_TakeshiDefeat::
+    .string "Hmph!$"
+
+VictoryRoad_2F_Text_TakeshiPostBattle::
+    .string "I hope this guy will finally stop\n"
+    .string "bugging me now.$"
+
 VictoryRoad_2F_Text_NelsonIntro::
     .string "Ah, so you wish to challenge the\n"
     .string "ELITE FOUR?$"

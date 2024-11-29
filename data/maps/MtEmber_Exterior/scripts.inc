@@ -120,6 +120,11 @@ MtEmber_Exterior_EventScript_Beth::
 	msgbox MtEmber_Exterior_Text_BethPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+MtEmber_Exterior_EventScript_Werner::
+	trainerbattle_single TRAINER_KINDLER_WERNER, MtEmber_Exterior_Text_WernerIntro, MtEmber_Exterior_Text_WernerDefeat
+	msgbox MtEmber_Exterior_Text_WernerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 MtEmber_Exterior_EventScript_Jocelyn::
 	trainerbattle_single TRAINER_CRUSH_GIRL_JOCELYN, MtEmber_Exterior_Text_JocelynIntro, MtEmber_Exterior_Text_JocelynDefeat
 	msgbox MtEmber_Exterior_Text_JocelynPostBattle, MSGBOX_AUTOCLOSE
