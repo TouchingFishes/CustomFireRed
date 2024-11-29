@@ -23,7 +23,7 @@
 #define TRAINER_PIC_AQUA_GRUNT_F            2
 #define TRAINER_PIC_RS_AROMA_LADY           3
 #define TRAINER_PIC_RS_RUIN_MANIAC          4
-#define TRAINER_PIC_INTERVIEWER             5
+#define TRAINER_PIC_IRIS                    5
 #define TRAINER_PIC_BARRY                   6
 #define TRAINER_PIC_PAXTON                  7
 #define TRAINER_PIC_RS_COOLTRAINER_M        8

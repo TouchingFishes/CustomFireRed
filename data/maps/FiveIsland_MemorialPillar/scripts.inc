@@ -3,6 +3,11 @@
 FiveIsland_MemorialPillar_MapScripts::
 	.byte 0
 
+FiveIsland_MemorialPillar_EventScript_Iris::
+	trainerbattle_single TRAINER_IRIS, FiveIsland_MemorialPillar_Text_IrisIntro, FiveIsland_MemorialPillar_Text_IrisDefeat
+	msgbox FiveIsland_MemorialPillar_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 FiveIsland_MemorialPillar_EventScript_MemorialMan::
 	lock
 	goto_if_set FLAG_GOT_TM42_AT_MEMORIAL_PILLAR, FiveIsland_MemorialPillar_EventScript_AlreadyGotTM42

@@ -41,6 +41,11 @@ FiveIsland_ResortGorgeous_Movement_SelphyEnterHome::
 	set_invisible
 	step_end
 
+FiveIsland_ResortGorgeous_EventScript_Moa::
+	trainerbattle_single TRAINER_ROCKER_MOA, FiveIsland_ResortGorgeous_Text_MoaIntro, FiveIsland_ResortGorgeous_Text_MoaDefeat
+	msgbox FiveIsland_ResortGorgeous_Text_MoaPostBattle, MSGBOX_AUTOCLOSE
+	end	
+
 FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign::
 	msgbox FiveIsland_ResortGorgeous_Text_SelphysHouse, MSGBOX_SIGN
 	end

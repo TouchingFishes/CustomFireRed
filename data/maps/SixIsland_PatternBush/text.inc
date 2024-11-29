@@ -25,17 +25,41 @@ SixIsland_PatternBush_Text_AllisonPostBattle::
     .string "I just want people to raise their\n"
     .string "POKéMON responsibly.$"
 
-SixIsland_PatternBush_Text_GarretIntro::
-    .string "I caught a BUG POKéMON that lives\n"
-    .string "only around here!$"
+SixIsland_PatternBush_Text_AlderIntro::
+    .string "My name is Alder! I'm a TRAINER with\n"
+    .string "a keen interest in the world. One of\p"
+    .string "my goals is to tell people about how\n"
+    .string "wonderful it is to walk toward the\p"
+    .string "future together with POKéMON\n"
+    .string "Say now, how about a match with the\p"
+    .string "strongest TRAINER around here?$"
 
-SixIsland_PatternBush_Text_GarretDefeat::
-    .string "Heheh…\n"
-    .string "Isn't my POKéMON awesome?$"
+SixIsland_PatternBush_Text_AlderDefeat::
+    .string "After the battle, a fresh wind blew\n" 
+    .string "through my heart... Use the battle\p"
+    .string "with me as a stepping stone and move\n"
+    .string "forward!$"
 
-SixIsland_PatternBush_Text_GarretPostBattle::
-    .string "There's a girl near the BUSH who\n"
-    .string "measures HERACROSS for TRAINERS.$"
+SixIsland_PatternBush_Text_AlderPostBattle::
+    .string "That was beyond my expectations!\n"
+    .string "What an exceptional battle! Well\p"
+    .string "done!$"
+
+SixIsland_PatternBush_Text_AlderWantsToGiveLarvesta::
+    .string "Well done! You certainly are an\n" 
+    .string "unmatched talent! Take this!$"
+
+SixIsland_PatternBush_Text_ObtainedLarvestaFromAlder::
+    .string "{PLAYER} obtained LARVESTA from\n"
+    .string "ALDER!$"
+
+SixIsland_PatternBush_Text_ExplainLarvesta::
+    .string "It's a LARVESTA. Their power equals\n"
+    .string "that of the sun.$"
+
+SixIsland_PatternBush_Text_NotNow::
+    .string "I will explore some more around\n"
+    .string "here.$"
 
 SixIsland_PatternBush_Text_JonahIntro::
     .string "You know, it just doesn't feel right\n"
@@ -52,16 +76,16 @@ SixIsland_PatternBush_Text_JonahPostBattle::
     .string "Or like a ringing bell?$"
 
 SixIsland_PatternBush_Text_VanceIntro::
-    .string "Yeah, yeah, yeah!\n"
-    .string "Look at all the BUG POKéMON!$"
+    .string "I caught a BUG POKéMON that lives\n"
+    .string "only around here!$"
 
 SixIsland_PatternBush_Text_VanceDefeat::
-    .string "I got beat while I was still busy\n"
-    .string "celebrating!$"
+    .string "Heheh…\n"
+    .string "Isn't my POKéMON awesome?$"
 
 SixIsland_PatternBush_Text_VancePostBattle::
-    .string "I'm going to bring my little brother\n"
-    .string "here next time.$"
+    .string "There's a girl near the BUSH who\n"
+    .string "measures HERACROSS for TRAINERS.$"
 
 SixIsland_PatternBush_Text_NashIntro::
     .string "Look, look! There are funny\n"

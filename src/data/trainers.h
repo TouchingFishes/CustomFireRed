@@ -52,15 +52,15 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RSRuinManiac),
     },
-    [TRAINER_INTERVIEWER] = {
-        .trainerClass = TRAINER_CLASS_INTERVIEWER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTERVIEWER,
-        .trainerPic = TRAINER_PIC_INTERVIEWER,
-        .trainerName = _(""),
-        .items = {},
-        .doubleBattle = TRUE,
+    [TRAINER_IRIS] = {
+        .trainerClass = TRAINER_CLASS_DRAGON_TAMER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
+        .trainerPic = TRAINER_PIC_IRIS,
+        .trainerName = _("IRIS"),
+        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
+        .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_Interviewer),
+        .party = ITEM_CUSTOM_MOVES(sParty_Iris),
     },
     [TRAINER_BARRY] = {
         .trainerClass = TRAINER_CLASS_BARRY,
@@ -363,7 +363,6 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_ExpertF),
     },
-    //cynthia
     [TRAINER_CYNTHIA] = {
         .trainerClass = TRAINER_CLASS_CYNTHIA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
@@ -770,7 +769,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_ROCKER,
         .trainerName = _("MOA"),
         .items = {},
-        .doubleBattle = TRUE,
+        .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = ITEM_CUSTOM_MOVES(sParty_RockerMoa),
     },
@@ -6104,16 +6103,15 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_PkmnBreederAllison),
     },
-    //lauro
-    [TRAINER_BUG_CATCHER_GARRET] = {
-        .trainerClass = TRAINER_CLASS_BUG_CATCHER,
+    [TRAINER_ALDER] = {
+        .trainerClass = TRAINER_CLASS_BUG_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        .trainerName = _("GARRET"),
-        .items = {},
+        .trainerPic = TRAINER_PIC_DRAGON_TAMER,
+        .trainerName = _("ALDER"),
+        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_BugCatcherGarret),
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_ChampAlder),
     },
     [TRAINER_BUG_CATCHER_JONAH] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
@@ -6125,10 +6123,10 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherJonah),
     },
-    [TRAINER_BUG_CATCHER_VANCE] = {
-        .trainerClass = TRAINER_CLASS_BUG_CATCHER,
+    [TRAINER_BUG_MANIAC_VANCE] = {
+        .trainerClass = TRAINER_CLASS_BUG_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .trainerName = _("VANCE"),
         .items = {},
         .doubleBattle = FALSE,

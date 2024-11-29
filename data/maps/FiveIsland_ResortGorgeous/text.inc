@@ -10,6 +10,15 @@ FiveIsland_ResortGorgeous_Text_DaisyPostBattle::
     .string "Uh-oh, my paint tubes have\n"
     .string "scattered everywhere!$"
 
+FiveIsland_ResortGorgeous_Text_MoaIntro::
+    .string "RATATATA!$"
+
+FiveIsland_ResortGorgeous_Text_MoaDefeat::
+    .string "Uh-oh…$"
+
+FiveIsland_ResortGorgeous_Text_MoaPostBattle::
+    .string "Wow, you pushed me to my limit!$"    
+
 FiveIsland_ResortGorgeous_Text_CelinaIntro::
     .string "Excuse me!\n"
     .string "I'm trying to paint.\l"

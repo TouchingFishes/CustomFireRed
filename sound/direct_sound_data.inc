@@ -1961,7 +1961,7 @@ Cry_Kujinought::
 
 	.align 2
 Cry_Mlloy::
-	.incbin "sound/direct_sound_samples/cries/farfetchd.bin"
+	.incbin "sound/direct_sound_samples/cries/mlloy.bin"
 		
 	.align 2
 Cry_Bitemare::

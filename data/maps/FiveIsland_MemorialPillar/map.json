@@ -67,7 +67,7 @@
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
       "x": 17,
-      "y": 31,
+      "y": 32,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -90,10 +90,28 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FiveIsland_MemorialPillar_EventScript_ItemMetalCoat",
       "flag": "FLAG_HIDE_FIVE_ISLAND_MEMORIAL_PILLAR_METAL_COAT"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_TRAINER_TOWER_DUDE",
+      "x": 8,
+      "y": 49,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FiveIsland_MemorialPillar_EventScript_Iris",
+      "flag": "0"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

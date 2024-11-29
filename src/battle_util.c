@@ -2223,6 +2223,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
             case ABILITY_CURSED_BODY:
                 if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
                 && TARGET_TURN_DAMAGED
+                && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
                 && gDisableStructs[gBattlerAttacker].disabledMove == MOVE_NONE
                 && gBattleMons[gBattlerAttacker].hp != 0
                 && gBattleMons[gBattlerAttacker].pp[gChosenMovePos] != 0
@@ -2242,6 +2243,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
                 && gBattleMons[gBattlerTarget].hp == 0
                 && gBattleMons[gBattlerAttacker].hp != 0
+                && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
                 && (gBattleMoves[move].flags & FLAG_MAKES_CONTACT))
                 {
                     u32 battler;

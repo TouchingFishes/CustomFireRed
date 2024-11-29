@@ -27,9 +27,66 @@ SixIsland_PatternBush_EventScript_Allison::
 	msgbox SixIsland_PatternBush_Text_AllisonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-SixIsland_PatternBush_EventScript_Garret::
-	trainerbattle_single TRAINER_BUG_CATCHER_GARRET, SixIsland_PatternBush_Text_GarretIntro, SixIsland_PatternBush_Text_GarretDefeat
-	msgbox SixIsland_PatternBush_Text_GarretPostBattle, MSGBOX_AUTOCLOSE
+SixIsland_PatternBush_EventScript_Alder::
+	trainerbattle_single TRAINER_ALDER, SixIsland_PatternBush_Text_AlderIntro, SixIsland_PatternBush_Text_AlderDefeat, SixIsland_PatternBush_EventScript_DefeatedAlder, NO_MUSIC
+	goto_if_unset FLAG_GOT_LARVESTA_FROM_ALDER, SixIsland_PatternBush_EventScript_Larvesta
+	msgbox SixIsland_PatternBush_Text_AlderPostBattle
+	release
+	end
+	
+SixIsland_PatternBush_EventScript_DefeatedAlder::
+	goto SixIsland_PatternBush_EventScript_Larvesta
+	end	
+
+SixIsland_PatternBush_EventScript_Larvesta::
+	msgbox SixIsland_PatternBush_Text_AlderWantsToGiveLarvesta
+	setvar VAR_TEMP_1, SPECIES_LARVESTA
+	givemon SPECIES_LARVESTA, 5
+	goto_if_eq VAR_RESULT, 0, SixIsland_PatternBush_EventScript_ReceiveLarvestaParty
+	goto_if_eq VAR_RESULT, 1, SixIsland_PatternBush_EventScript_ReceiveLarvestaPC
+	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
+	release
+	end
+	
+SixIsland_PatternBush_EventScript_ReceiveLarvestaParty::
+	playfanfare MUS_LEVEL_UP
+	message SixIsland_PatternBush_Text_ObtainedLarvestaFromAlder
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_LARVESTA
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SixIsland_PatternBush_EventScript_EndReceiveLarvesta
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto SixIsland_PatternBush_EventScript_EndReceiveLarvesta
+	end
+
+SixIsland_PatternBush_EventScript_ReceiveLarvestaPC::
+	playfanfare MUS_LEVEL_UP
+	message SixIsland_PatternBush_Text_ObtainedLarvestaFromAlder
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_LARVESTA
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SixIsland_PatternBush_EventScript_LarvestaTransferredToPC
+	call EventScript_NameReceivedBoxMon
+	goto SixIsland_PatternBush_EventScript_LarvestaTransferredToPC
+	end
+
+SixIsland_PatternBush_EventScript_LarvestaTransferredToPC::
+	call EventScript_TransferredToPC
+	goto SixIsland_PatternBush_EventScript_EndReceiveLarvesta
+	end
+
+SixIsland_PatternBush_EventScript_EndReceiveLarvesta::
+	msgbox SixIsland_PatternBush_Text_ExplainLarvesta
+	setflag FLAG_GOT_LARVESTA_FROM_ALDER
+	release
+	end
+
+SixIsland_PatternBush_EventScript_NotNow::
+	msgbox SixIsland_PatternBush_Text_NotNow
+	release
 	end
 
 SixIsland_PatternBush_EventScript_Jonah::
@@ -38,7 +95,7 @@ SixIsland_PatternBush_EventScript_Jonah::
 	end
 
 SixIsland_PatternBush_EventScript_Vance::
-	trainerbattle_single TRAINER_BUG_CATCHER_VANCE, SixIsland_PatternBush_Text_VanceIntro, SixIsland_PatternBush_Text_VanceDefeat
+	trainerbattle_single TRAINER_BUG_MANIAC_VANCE, SixIsland_PatternBush_Text_VanceIntro, SixIsland_PatternBush_Text_VanceDefeat
 	msgbox SixIsland_PatternBush_Text_VancePostBattle, MSGBOX_AUTOCLOSE
 	end
 

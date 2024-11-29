@@ -8,7 +8,7 @@
 #define TRAINER_AQUA_GRUNT_F                       3
 #define TRAINER_RS_AROMA_LADY                      4
 #define TRAINER_RS_RUIN_MANIAC                     5
-#define TRAINER_INTERVIEWER                        6
+#define TRAINER_IRIS                               6
 #define TRAINER_KIMONO_GIRL                        7
 #define TRAINER_BARRY                              8
 #define TRAINER_RS_COOLTRAINER_M                   9
@@ -614,9 +614,9 @@
 #define TRAINER_PSYCHIC_LAURA                    608
 #define TRAINER_PKMN_BREEDER_BETHANY             609
 #define TRAINER_PKMN_BREEDER_ALLISON             610
-#define TRAINER_BUG_CATCHER_GARRET               611
+#define TRAINER_ALDER                           611
 #define TRAINER_BUG_CATCHER_JONAH                612
-#define TRAINER_BUG_CATCHER_VANCE                613
+#define TRAINER_BUG_MANIAC_VANCE                 613
 #define TRAINER_YOUNGSTER_NASH                   614
 #define TRAINER_YOUNGSTER_CORDELL                615
 #define TRAINER_LASS_DALIA                       616

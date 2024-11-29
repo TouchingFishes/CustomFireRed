@@ -24,6 +24,32 @@ FiveIsland_MemorialPillar_Text_ChazPostBattle::
     .string "There was a really somber guy\n"
     .string "over that way.$"
 
+FiveIsland_MemorialPillar_Text_IrisIntro::
+    .string "Hi, I'm IRIS.\p"
+    .string "You look like a strong TRAINER.\n"
+    .string "Know what? I really look forward\p"  
+    .string "to having serious battles with\n"
+    .string "strong TRAINERS! I mean, come on!\p"
+    .string "If I battle with people like that,\n"    
+    .string "not only will I get stronger, my\p"
+    .string "POKéMON will, too! And we'll get\n"
+    .string "to know each other even better!\p"
+    .string "OK!\p"
+    .string "Brace yourself!$"
+
+FiveIsland_MemorialPillar_Text_IrisDefeat::
+    .string "Aghhhh... I did my best, but\n"
+    .string "we lost...$"
+
+FiveIsland_MemorialPillar_Text_IrisPostBattle::
+    .string "I'm upset I couldn't win! But\n"
+    .string "you know what? More than that,\p" 
+    .string "I'm happy! I mean, come on.\p"
+    .string "By having a serious battle, you\n"
+    .string "and your POKéMON, and me and my\p"
+    .string "POKéMON, we all got to know one\n"
+    .string "another better than before!$"
+
 FiveIsland_MemorialPillar_Text_HaroldIntro::
     .string "I'm the youngest of the BIRD\n"
     .string "BROTHERS.\p"

@@ -13,8 +13,8 @@ const u32 gTrainerPalette_RSAromaLady[] = INCBIN_U32("graphics/trainers/palettes
 const u32 gTrainerFrontPic_RSRuinManiac[] = INCBIN_U32("graphics/trainers/front_pics/rs_ruin_maniac_front_pic.4bpp.lz");
 const u32 gTrainerPalette_RSRuinManiac[] = INCBIN_U32("graphics/trainers/palettes/rs_ruin_maniac.gbapal.lz");
 
-const u32 gTrainerFrontPic_Interviewer[] = INCBIN_U32("graphics/trainers/front_pics/interviewer_front_pic.4bpp.lz");
-const u32 gTrainerPalette_Interviewer[] = INCBIN_U32("graphics/trainers/palettes/interviewer.gbapal.lz");
+const u32 gTrainerFrontPic_Iris[] = INCBIN_U32("graphics/trainers/front_pics/iris_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Iris[] = INCBIN_U32("graphics/trainers/palettes/iris.gbapal.lz");
 
 const u32 gTrainerFrontPic_Barry[] = INCBIN_U32("graphics/trainers/front_pics/barry_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Barry[] = INCBIN_U32("graphics/trainers/palettes/barry.gbapal.lz");
