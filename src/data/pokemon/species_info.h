@@ -12186,11 +12186,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CURSOLA] =
     {
-        .baseHP = 65, //60
+        .baseHP = 55, //60
         .baseAttack = 100, //95
         .baseDefense = 50, 
         .baseSpeed = 30,
-        .baseSpAttack = 135, //145
+        .baseSpAttack = 130, //145
         .baseSpDefense = 130, 
         .types = {TYPE_GHOST, TYPE_GHOST},
         .catchRate = 30,
@@ -12216,13 +12216,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CORSOREEF] =
     {
-        .baseHP = 130, //65
+        .baseHP = 110, //65
         .baseAttack = 80, //95
         .baseDefense = 95, //50
         .baseSpeed = 30,
         .baseSpAttack = 80, //145
-        .baseSpDefense = 95, //130
-        .types = {TYPE_GHOST, TYPE_GHOST},
+        .baseSpDefense = 75, //130
+        .types = {TYPE_WATER, TYPE_GRASS},
         .catchRate = 30,
         .expYield = 179,
         .evYield_HP = 2,
