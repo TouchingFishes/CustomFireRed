@@ -68,6 +68,9 @@ CeladonCity_Text_ReceivedChikorita:
 CeladonCity_Text_PlayerHasFullParty:
     .string "Ah, your party is full.$"
 
+CeladonCity_Text_AlreadyGotChikorita:
+    .string "Please take care of CHIKORITA.$"
+
 CeladonCity_Text_GuardSpecProtectsFromStatus::
     .string "TRAINER TIPS\p"
     .string "GUARD SPEC. protects POKéMON\n"

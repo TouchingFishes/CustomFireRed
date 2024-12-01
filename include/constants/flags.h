@@ -794,15 +794,15 @@
 #define FLAG_OAKS_RATING_IS_VIA_PC                       0x2FF
 
 // Unused?
-#define FLAG_GOT_VANILLITE           0x300 //now used for vanillite guy in cerulean mart
-#define FLAG_GOT_RIOLU_EGG           0x301 //now used in waterlabyrinth egg event
-#define FLAG_NO_ROOM_FOR_RIOLU_EGG   0x302 //now used in waterlabyrinth egg event
-#define FLAG_GOT_GIBLE_FROM_CYNTHIA  0x303
-#define FLAG_GOT_BELDUM_FROM_TROY    0x304
-#define FLAG_GOT_LARVESTA_FROM_ALDER 0x305
-#define FLAG_0x306               0x306
-#define FLAG_0x307               0x307
-#define FLAG_0x308               0x308
+#define FLAG_GOT_VANILLITE               0x300 //now used for vanillite guy in cerulean mart
+#define FLAG_GOT_RIOLU_EGG               0x301 //now used in waterlabyrinth egg event
+#define FLAG_NO_ROOM_FOR_RIOLU_EGG       0x302 //now used in waterlabyrinth egg event
+#define FLAG_GOT_GIBLE_FROM_CYNTHIA      0x303
+#define FLAG_GOT_BELDUM_FROM_TROY        0x304
+#define FLAG_GOT_LARVESTA_FROM_ALDER     0x305
+#define FLAG_GOT_CHIKORITA               0x306
+#define FLAG_GOT_CYNDAQUIL               0x307
+#define FLAG_GOT_TOTODILE                0x308
 #define FLAG_0x309               0x309
 #define FLAG_0x30A               0x30A
 #define FLAG_0x30B               0x30B

@@ -85,6 +85,9 @@ FuchsiaCity_Text_ReceivedTotodile:
 FuchsiaCity_Text_PlayerHasFullParty:
 	.string "Ah, your party is full.$"
 
+FuchsiaCity_Text_AlreadyGotTotodile:
+	.string "Come back if you want more.$"
+
 @ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
 FuchsiaCity_Text_Ellipsis::
     .string "……$"

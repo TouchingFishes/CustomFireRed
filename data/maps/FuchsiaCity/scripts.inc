@@ -35,19 +35,26 @@ FuchsiaCity_EventScript_Youngster::
 FuchsiaCity_EventScript_TotodileGuy::
 	lock
 	faceplayer
+	goto_if_set FLAG_GOT_TOTODILE, PewterCity_EventScript_AlreadyGotTotodile
 	msgbox FuchsiaCity_Text_TakeTotodile, MSGBOX_DEFAULT
 	getpartysize
 	compare VAR_RESULT, 6
 	goto_if_eq FuchsiaCity_EventScript_PlayerHasFullParty
-	givemon SPECIES_TOTODILE, 14, ITEM_MYSTIC_WATER
+	givemon SPECIES_TOTODILE, 14, ITEM_SITRUS_BERRY
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox FuchsiaCity_Text_ReceivedTotodile, MSGBOX_DEFAULT
+	setflag FLAG_GOT_TOTODILE
 	waitfanfare
 	release
 	end
 
 FuchsiaCity_EventScript_PlayerHasFullParty::
 	msgbox FuchsiaCity_Text_PlayerHasFullParty, MSGBOX_DEFAULT
+	release
+	end
+
+PewterCity_EventScript_AlreadyGotTotodile::
+	msgbox FuchsiaCity_Text_AlreadyGotTotodile, MSGBOX_DEFAULT
 	release
 	end
 

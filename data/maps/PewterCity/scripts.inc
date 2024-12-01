@@ -435,19 +435,26 @@ PewterCity_EventScript_Lass::
 PewterCity_EventScript_CyndaquilGuy::
 	lock
 	faceplayer
+	goto_if_set FLAG_GOT_CYNDAQUIL, PewterCity_EventScript_AlreadyGotCyndaquil
 	msgbox PewterCity_Text_TakeCyndaquil, MSGBOX_DEFAULT
 	getpartysize
 	compare VAR_RESULT, 6
 	goto_if_eq PewterCity_EventScript_PlayerHasFullParty
-	givemon SPECIES_CYNDAQUIL, 14, ITEM_CHARCOAL
+	givemon SPECIES_CYNDAQUIL, 14, ITEM_SITRUS_BERRY
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox PewterCity_Text_ReceivedCyndaquil, MSGBOX_DEFAULT
+	setflag FLAG_GOT_CYNDAQUIL
 	waitfanfare
 	release
 	end
 
 PewterCity_EventScript_PlayerHasFullParty::
 	msgbox PewterCity_Text_PlayerHasFullParty, MSGBOX_DEFAULT
+	release
+	end
+
+PewterCity_EventScript_AlreadyGotCyndaquil::
+	msgbox PewterCity_Text_AlreadyGotCyndaquil, MSGBOX_DEFAULT
 	release
 	end
 
