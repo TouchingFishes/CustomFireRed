@@ -752,42 +752,42 @@ static const struct TrainerMonItemCustomMoves sParty_RockerMoa[] = {
         .lvl = 67,
         .species = SPECIES_URSARING,
         .heldItem = ITEM_SOFT_SAND,
-        .moves = {MOVE_HYPER_BEAM, MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE},
+        .moves = {MOVE_HYPER_BEAM, MOVE_SLASH, MOVE_FAINT_ATTACK, MOVE_EARTHQUAKE},
     },
     {
         .iv = 255,
         .lvl = 66,
         .species = SPECIES_TINKATON,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_SHADOW_BALL, MOVE_ANCIENT_POWER, MOVE_WATER_PULSE, MOVE_PSYCHIC},
+        .moves = {MOVE_GIGATON_SLAM, MOVE_SUPERPOWER, MOVE_BRICK_BREAK, MOVE_FAKE_OUT},
     },
     {
         .iv = 255,
         .lvl = 65,
         .species = SPECIES_BITEMARE,
         .heldItem = ITEM_CHESTO_BERRY,
-        .moves = {MOVE_METAL_CLAW, MOVE_POISON_FANG, MOVE_ICE_BEAM, MOVE_REST},
+        .moves = {MOVE_METAL_CLAW, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_FAKE_OUT},
     },
     {
         .iv = 255,
-        .lvl = 66, //53
+        .lvl = 66,
         .species = SPECIES_AGGRON,
         .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_DIVE, MOVE_DRAGON_BREATH, MOVE_TWISTER, MOVE_ICE_BEAM},
+        .moves = {MOVE_DRAGON_CLAW, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE},
     },
     {
         .iv = 255,
         .lvl = 66,
         .species = SPECIES_DECIBELLE,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_CRUNCH, MOVE_SURF, MOVE_ROCK_SMASH, MOVE_EARTHQUAKE},
+        .moves = {MOVE_PSYCHIC, MOVE_SHOCK_WAVE, MOVE_MIRROR_SHOT, MOVE_SHADOW_BALL},
     },
     {
         .iv = 255,
         .lvl = 68,
         .species = SPECIES_NINETALES,
         .heldItem = ITEM_DRAGON_FANG,
-        .moves = {MOVE_HYPER_BEAM, MOVE_FLY, MOVE_CRUNCH, MOVE_FIRE_BLAST},
+        .moves = {MOVE_FLAMETHROWER, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP},
     },
 };
 static const struct TrainerMonNoItemDefaultMoves sParty_AquaAdminMatt[] = {DUMMY_TRAINER_MON};
@@ -4663,24 +4663,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BirdKeeperMarlon[] = {
     },
 };
 
-static const struct TrainerMonItemDefaultMoves sParty_BlackBeltKoichi[] = {
+static const struct TrainerMonItemCustomMoves sParty_BlackBeltKoichi[] = {
     {
         .iv = 255,
-        .lvl = 37,
+        .lvl = 38,
         .species = SPECIES_MLLOY,
         .heldItem = ITEM_STICK,
+        .moves = {MOVE_AERIAL_ACE, MOVE_CUT, MOVE_DOUBLE_KICK, MOVE_COUNTER},
     },
     {
         .iv = 255,
-        .lvl = 40,
+        .lvl = 41,
         .species = SPECIES_HITMONLEE,
         .heldItem = ITEM_BLACK_BELT,
+        .moves = {MOVE_HI_JUMP_KICK, MOVE_BOUNCE, MOVE_MEGA_KICK, MOVE_MIND_READER},
     },
     {
         .iv = 255,
-        .lvl = 40,
+        .lvl = 41,
         .species = SPECIES_HITMONCHAN,
         .heldItem = ITEM_BLACK_BELT,
+        .moves = {MOVE_MACH_PUNCH, MOVE_SKY_UPPERCUT, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH},
     },
 };
 

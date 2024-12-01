@@ -743,6 +743,11 @@ static const union AnimCmd *const sAnims_Cynthia[] =
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_KimonoGirl[] =
+{
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_AQUA_LEADER_ARCHIE]    = sAnims_AquaLeaderArchie,
@@ -894,7 +899,7 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_LADY]                  = sAnims_Lady,
     [TRAINER_PIC_PAINTER]               = sAnims_Painter,
     [TRAINER_PIC_CYNTHIA]               = sAnims_Cynthia,
-    [TRAINER_PIC_KIMONO_GIRL]           = sAnims_Cynthia,
+    [TRAINER_PIC_KIMONO_GIRL]           = sAnims_KimonoGirl,
     [TRAINER_PIC_KIMONO_GIRL_AND_CAT]   = sAnims_Cynthia,
     [TRAINER_PIC_SENSEI]                = sAnims_Cynthia,
     [TRAINER_PIC_CASINO_ACE]            = sAnims_Cynthia,

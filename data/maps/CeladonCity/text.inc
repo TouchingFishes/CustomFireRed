@@ -59,6 +59,15 @@ CeladonCity_Text_DeptStoreSign::
     .string "Find what you need at the\n"
     .string "CELADON DEPT. STORE!$"
 
+CeladonCity_Text_TakeChikorita:
+    .string "Please, take this CHIKORITA.$"
+
+CeladonCity_Text_ReceivedChikorita:
+    .string "{PLAYER} received a CHIKORITA!$"
+
+CeladonCity_Text_PlayerHasFullParty:
+    .string "Ah, your party is full.$"
+
 CeladonCity_Text_GuardSpecProtectsFromStatus::
     .string "TRAINER TIPS\p"
     .string "GUARD SPEC. protects POKéMON\n"

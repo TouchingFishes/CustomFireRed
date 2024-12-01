@@ -2279,7 +2279,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_DECIBELLE] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 7,
     },
     [SPECIES_FALINKS] =
     {

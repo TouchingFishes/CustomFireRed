@@ -76,6 +76,15 @@ FuchsiaCity_Text_KabutoSign::
     .string "An extremely rare POKéMON that was\l"
     .string "regenerated from a fossil.$"
 
+FuchsiaCity_Text_TakeTotodile:
+	.string "Please, take this TOTODILE.$"
+
+FuchsiaCity_Text_ReceivedTotodile:
+	.string "{PLAYER} received a TOTODILE!$"
+
+FuchsiaCity_Text_PlayerHasFullParty:
+	.string "Ah, your party is full.$"
+
 @ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
 FuchsiaCity_Text_Ellipsis::
     .string "……$"

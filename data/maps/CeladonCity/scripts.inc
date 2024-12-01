@@ -41,6 +41,25 @@ CeladonCity_EventScript_FatMan::
 	release
 	end
 
+CeladonCity_EventScript_ChikoritaWoman::
+	lock
+	faceplayer
+	msgbox CeladonCity_Text_TakeChikorita, MSGBOX_DEFAULT
+	getpartysize
+	compare VAR_RESULT, 6
+	goto_if_eq CeladonCity_EventScript_PlayerHasFullParty
+	givemon SPECIES_CHIKORITA, 14, ITEM_MIRACLE_SEED
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox CeladonCity_Text_ReceivedChikorita, MSGBOX_DEFAULT
+	waitfanfare
+	release
+	end
+
+CeladonCity_EventScript_PlayerHasFullParty::
+	msgbox CeladonCity_Text_PlayerHasFullParty, MSGBOX_DEFAULT
+	release
+	end
+	
 CeladonCity_EventScript_Poliwrath::
 	lock
 	faceplayer

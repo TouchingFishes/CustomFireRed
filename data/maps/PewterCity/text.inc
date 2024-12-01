@@ -20,6 +20,15 @@ Text_DreamEaterTaught::
     .string "…ZZZ…\n"
     .string "I…can't eat…anymore…$"
 
+PewterCity_Text_TakeCyndaquil:
+	.string "Please, take this CYNDAQUIL.$"
+
+PewterCity_Text_ReceivedCyndaquil:
+	.string "{PLAYER} received a CYNDAQUIL!$"
+
+PewterCity_Text_PlayerHasFullParty:
+	.string "Ah, your party is full.$"
+
 PewterCity_Text_ClefairyCameFromMoon::
     .string "CLEFAIRY came from the moon.\n"
     .string "That's what the rumor is.\p"

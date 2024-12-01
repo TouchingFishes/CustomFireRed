@@ -432,6 +432,25 @@ PewterCity_EventScript_Lass::
 	msgbox PewterCity_Text_ClefairyCameFromMoon, MSGBOX_NPC
 	end
 
+PewterCity_EventScript_CyndaquilGuy::
+	lock
+	faceplayer
+	msgbox PewterCity_Text_TakeCyndaquil, MSGBOX_DEFAULT
+	getpartysize
+	compare VAR_RESULT, 6
+	goto_if_eq PewterCity_EventScript_PlayerHasFullParty
+	givemon SPECIES_CYNDAQUIL, 14, ITEM_CHARCOAL
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox PewterCity_Text_ReceivedCyndaquil, MSGBOX_DEFAULT
+	waitfanfare
+	release
+	end
+
+PewterCity_EventScript_PlayerHasFullParty::
+	msgbox PewterCity_Text_PlayerHasFullParty, MSGBOX_DEFAULT
+	release
+	end
+
 PewterCity_EventScript_MuseumGuide::
 	lock
 	faceplayer
