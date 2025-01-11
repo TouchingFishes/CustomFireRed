@@ -250,7 +250,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FLY] =
     {
         .effect = EFFECT_SEMI_INVULNERABLE,
-        .power = 90, //70
+        .power = 80, //70
         .type = TYPE_FLYING,
         .accuracy = 100, //95
         .pp = 15,
@@ -939,7 +939,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_MEGA_DRAIN] =
     {
         .effect = EFFECT_ABSORB,
-        .power = 60, //40
+        .power = 50, //40
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 15,
@@ -2096,7 +2096,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_TRI_ATTACK] =
     {
         .effect = EFFECT_TRI_ATTACK,
-        .power = 95, //80
+        .power = 80, 
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 10,
@@ -2629,7 +2629,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_GIGA_DRAIN] =
     {
         .effect = EFFECT_ABSORB,
-        .power = 90, //60
+        .power = 80, //60
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 10,
@@ -2928,7 +2928,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_DRAGON_BREATH] =
     {
         .effect = EFFECT_PARALYZE_HIT,
-        .power = 75, //60
+        .power = 70, //60
         .type = TYPE_DRAGON,
         .accuracy = 100,
         .pp = 20,
@@ -3201,7 +3201,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_ANCIENT_POWER] =
     {
         .effect = EFFECT_ALL_STATS_UP_HIT,
-        .power = 80, //60
+        .power = 60, 
         .type = TYPE_ROCK,
         .accuracy = 100,
         .pp = 5,
@@ -3227,9 +3227,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FUTURE_SIGHT] =
     {
         .effect = EFFECT_FUTURE_SIGHT,
-        .power = 120, //80
+        .power = 80, 
         .type = TYPE_PSYCHIC,
-        .accuracy = 100, //90
+        .accuracy = 100, 
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -3240,11 +3240,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_ROCK_SMASH] =
     {
         .effect = EFFECT_DEFENSE_DOWN_HIT,
-        .power = 60, //20
+        .power = 40, //20
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 30,
+        .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
@@ -3786,7 +3786,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_DIVE] =
     {
         .effect = EFFECT_SEMI_INVULNERABLE,
-        .power = 70, //60
+        .power = 80, //60
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 10,

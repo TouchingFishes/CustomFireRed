@@ -144,9 +144,9 @@
 #define TRAINER_SAILOR_HUEY                      138
 #define TRAINER_SAILOR_DYLAN                     139
 #define TRAINER_SAILOR_PHILLIP                   140
-#define TRAINER_SAILOR_DWAYNE                    141
+#define TRAINER_JUGGLER_DWAYNE                   141
 #define TRAINER_CAMPER_LIAM                      142
-#define TRAINER_KINDLER_SHANE                     143
+#define TRAINER_KINDLER_SHANE                    143
 #define TRAINER_CAMPER_ETHAN                     144
 #define TRAINER_CAMPER_RICKY                     145
 #define TRAINER_CAMPER_JEFF                      146
@@ -194,7 +194,7 @@
 #define TRAINER_HIKER_TRENT                      188
 #define TRAINER_HIKER_DUDLEY                     189
 #define TRAINER_HIKER_ALLEN                      190
-#define TRAINER_HIKER_ERIC                       191
+#define TRAINER_TAMER_ERIC                       191
 #define TRAINER_HIKER_LENNY                      192
 #define TRAINER_KINDLER_OLIVER                   193
 #define TRAINER_HIKER_LUCAS                      194
@@ -293,7 +293,7 @@
 #define TRAINER_JUGGLER_NELSON                   287
 #define TRAINER_NINJA_BOY_KIRK                   288
 #define TRAINER_NINJA_BOY_SHAWN                  289
-#define TRAINER_JUGGLER_GREGORY                  290
+#define TRAINER_COLLECTOR_GREGORY                290
 #define TRAINER_JUGGLER_EDWARD                   291
 #define TRAINER_NINJA_BOY_KAYDEN                 292
 #define TRAINER_NINJA_BOY_NATE                   293
@@ -326,7 +326,7 @@
 #define TRAINER_BLACK_BELT_AARON                 320
 #define TRAINER_BLACK_BELT_HITOSHI               321
 #define TRAINER_BLACK_BELT_ATSUSHI               322
-#define TRAINER_BLACK_BELT_KIYO                  323
+#define TRAINER_COLLECTOR_KIYO                   323
 #define TRAINER_BLACK_BELT_TAKASHI               324
 #define TRAINER_BLACK_BELT_DAISUKE               325
 #define TRAINER_RIVAL_OAKS_LAB_SQUIRTLE          326

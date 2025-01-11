@@ -1292,7 +1292,6 @@ static const u16 sGastlyLevelUpLearnset[] = {
 static const u16 sHaunterLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE(1, MOVE_LICK),
-    LEVEL_UP_MOVE(1, MOVE_SPITE),
     LEVEL_UP_MOVE(8, MOVE_SPITE),
     LEVEL_UP_MOVE(13, MOVE_CURSE),
     LEVEL_UP_MOVE(16, MOVE_NIGHT_SHADE),
@@ -1309,7 +1308,6 @@ static const u16 sHaunterLevelUpLearnset[] = {
 static const u16 sGengarLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE(1, MOVE_LICK),
-    LEVEL_UP_MOVE(1, MOVE_SPITE),
     LEVEL_UP_MOVE(8, MOVE_SPITE),
     LEVEL_UP_MOVE(13, MOVE_CURSE),
     LEVEL_UP_MOVE(16, MOVE_NIGHT_SHADE),

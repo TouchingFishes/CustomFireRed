@@ -241,7 +241,7 @@ VermilionCity_Gym_EventScript_NoRoomForTM34::
 	end
 
 VermilionCity_Gym_EventScript_Dwayne::
-	trainerbattle_single TRAINER_SAILOR_DWAYNE, VermilionCity_Gym_Text_DwayneIntro, VermilionCity_Gym_Text_DwayneDefeat
+	trainerbattle_single TRAINER_JUGGLER_DWAYNE, VermilionCity_Gym_Text_DwayneIntro, VermilionCity_Gym_Text_DwayneDefeat
 	famechecker FAMECHECKER_LTSURGE, 4
 	msgbox VermilionCity_Gym_Text_DwaynePostBattle, MSGBOX_AUTOCLOSE
 	end

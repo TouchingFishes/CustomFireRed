@@ -56,7 +56,7 @@ ViridianCity_Gym_EventScript_Atsushi::
 	end
 
 ViridianCity_Gym_EventScript_Kiyo::
-	trainerbattle_single TRAINER_BLACK_BELT_KIYO, ViridianCity_Gym_Text_KiyoIntro, ViridianCity_Gym_Text_KiyoDefeat
+	trainerbattle_single TRAINER_COLLECTOR_KIYO, ViridianCity_Gym_Text_KiyoIntro, ViridianCity_Gym_Text_KiyoDefeat
 	msgbox ViridianCity_Gym_Text_KiyoPostBattle, MSGBOX_AUTOCLOSE
 	end
 

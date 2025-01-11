@@ -20,7 +20,7 @@ EventScript_SetCeruleanGymTrainers::
 	return
 
 EventScript_SetVermilionGymTrainers::
-	settrainerflag TRAINER_SAILOR_DWAYNE
+	settrainerflag TRAINER_JUGGLER_DWAYNE
 	settrainerflag TRAINER_ENGINEER_BAILY
 	settrainerflag TRAINER_GENTLEMAN_TUCKER
 	return
@@ -68,7 +68,7 @@ EventScript_SetViridianGymTrainers::
 	settrainerflag TRAINER_TAMER_JASON
 	settrainerflag TRAINER_TAMER_COLE
 	settrainerflag TRAINER_BLACK_BELT_ATSUSHI
-	settrainerflag TRAINER_BLACK_BELT_KIYO
+	settrainerflag TRAINER_COLLECTOR_KIYO
 	settrainerflag TRAINER_BLACK_BELT_TAKASHI
 	settrainerflag TRAINER_COOLTRAINER_SAMUEL
 	settrainerflag TRAINER_COOLTRAINER_YUJI

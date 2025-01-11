@@ -2911,7 +2911,7 @@ const u8 gMlloyPokedexTextUnused[] = _("");
 
 const u8 gBitemarePokedexText[] = _(
     "Bitemare is ever hungry for prey. It uses\n"
-    "deceptive tactics to lure it prey. Once\n"
+    "deceptive tactics to lure its prey. Once\n"
     "it opens its maw, there is no escape.");
 
 const u8 gBitemarePokedexTextUnused[] = _("");

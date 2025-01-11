@@ -79,7 +79,7 @@ VictoryRoad_2F_EventScript_Nelson::
 	end
 
 VictoryRoad_2F_EventScript_Gregory::
-	trainerbattle_single TRAINER_JUGGLER_GREGORY, VictoryRoad_2F_Text_GregoryIntro, VictoryRoad_2F_Text_GregoryDefeat
+	trainerbattle_single TRAINER_COLLECTOR_GREGORY, VictoryRoad_2F_Text_GregoryIntro, VictoryRoad_2F_Text_GregoryDefeat
 	msgbox VictoryRoad_2F_Text_GregoryPostBattle, MSGBOX_AUTOCLOSE
 	end
 

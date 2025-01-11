@@ -22,7 +22,7 @@ RockTunnel_B1F_EventScript_Allen::
 	end
 
 RockTunnel_B1F_EventScript_Eric::
-	trainerbattle_single TRAINER_HIKER_ERIC, RockTunnel_B1F_Text_EricIntro, RockTunnel_B1F_Text_EricDefeat
+	trainerbattle_single TRAINER_TAMER_ERIC, RockTunnel_B1F_Text_EricIntro, RockTunnel_B1F_Text_EricDefeat
 	msgbox RockTunnel_B1F_Text_EricPostBattle, MSGBOX_AUTOCLOSE
 	end
 

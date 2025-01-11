@@ -1403,15 +1403,15 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_SailorPhillip),
     },
-    [TRAINER_SAILOR_DWAYNE] = {
-        .trainerClass = TRAINER_CLASS_SAILOR,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_SAILOR,
+    [TRAINER_JUGGLER_DWAYNE] = {
+        .trainerClass = TRAINER_CLASS_JUGGLER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
+        .trainerPic = TRAINER_PIC_JUGGLER,
         .trainerName = _("DWAYNE"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_SailorDwayne),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_JugglerDwayne),
     },
     [TRAINER_CAMPER_LIAM] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
@@ -1903,15 +1903,15 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_HikerAllen),
     },
-    [TRAINER_HIKER_ERIC] = {
-        .trainerClass = TRAINER_CLASS_HIKER,
+    [TRAINER_TAMER_ERIC] = {
+        .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_HIKER,
+        .trainerPic = TRAINER_PIC_TAMER,
         .trainerName = _("ERIC"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_HikerEric),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_TamerEric),
     },
     [TRAINER_HIKER_LENNY] = {
         .trainerClass = TRAINER_CLASS_HIKER,
@@ -2893,15 +2893,15 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_NinjaBoyShawn),
     },
-    [TRAINER_JUGGLER_GREGORY] = {
-        .trainerClass = TRAINER_CLASS_JUGGLER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_JUGGLER,
+    [TRAINER_COLLECTOR_GREGORY] = {
+        .trainerClass = TRAINER_CLASS_COLLECTOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
+        .trainerPic = TRAINER_PIC_COLLECTOR,
         .trainerName = _("GREGORY"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_JugglerGregory),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_CollectorGregory),
     },
     [TRAINER_JUGGLER_EDWARD] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
@@ -2961,7 +2961,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_TamerJason),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_TamerJason),
     },
     [TRAINER_TAMER_COLE] = {
         .trainerClass = TRAINER_CLASS_TAMER,
@@ -3223,15 +3223,15 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = ITEM_DEFAULT_MOVES(sParty_BlackBeltAtsushi),
     },
-    [TRAINER_BLACK_BELT_KIYO] = {
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
+    [TRAINER_COLLECTOR_KIYO] = {
+        .trainerClass = TRAINER_CLASS_COLLECTOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
+        .trainerPic = TRAINER_PIC_COLLECTOR,
         .trainerName = _("KIYO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = ITEM_DEFAULT_MOVES(sParty_BlackBeltKiyo),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_CollectorKiyo),
     },
     [TRAINER_BLACK_BELT_TAKASHI] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
