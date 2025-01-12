@@ -2821,11 +2821,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_HYPNO] =
     {
-        .baseHP = 97, //85
+        .baseHP = 99, //85
         .baseAttack = 73,
         .baseDefense = 70,
         .baseSpeed = 67,
-        .baseSpAttack = 73,
+        .baseSpAttack = 83, //73
         .baseSpDefense = 115,
         .types = {TYPE_PSYCHIC, TYPE_PSYCHIC},
         .catchRate = 75,
@@ -4358,12 +4358,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_MEWTWO] =
     {
-        .baseHP = 106,
-        .baseAttack = 110,
-        .baseDefense = 90,
+        .baseHP = 136, //106
+        .baseAttack = 130, //110
+        .baseDefense = 110, //90
         .baseSpeed = 130,
-        .baseSpAttack = 154,
-        .baseSpDefense = 90,
+        .baseSpAttack = 174, //154
+        .baseSpDefense = 110, //90
         .types = {TYPE_PSYCHIC, TYPE_PSYCHIC},
         .catchRate = 3,
         .expYield = 220,
