@@ -1719,7 +1719,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LassKay[] = {
         .iv = 0,
         .lvl = 25,
         .species = SPECIES_BELLSPROUT,
-        .moves = {MOVE_ACID, MOVE_GROWTH, MOVE_SLEEP_POWDER, MOVE_VINE_WHIP},
+        .moves = {MOVE_ACID, MOVE_TEETER_DANCE, MOVE_SLEEP_POWDER, MOVE_VINE_WHIP},
     },
     {
         .iv = 255,
@@ -2530,7 +2530,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_HikerBrice[] = {
     {
         .iv = 0,
         .lvl = 20,
-        .species = SPECIES_ARON,
+        .species = SPECIES_MAKUHITA,
     },
 };
 
@@ -3723,7 +3723,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GamerStan[] = {
     {
         .iv = 0,
         .lvl = 20,
-        .species = SPECIES_POLIWAG,
+        .species = SPECIES_LOTAD,
     },
     {
         .iv = 0,
@@ -7654,7 +7654,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_HikerJeremy[] = {
     {
         .iv = 0,
         .lvl = 21,
-        .species = SPECIES_ARON,
+        .species = SPECIES_MAKUHITA,
     },
 };
 
@@ -7667,7 +7667,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerAlma[] = {
     {
         .iv = 0,
         .lvl = 30,
-        .species = SPECIES_POLIWHIRL,
+        .species = SPECIES_LOMBRE,
     },
     {
         .iv = 0,
@@ -7726,7 +7726,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerGwen[] = {
     {
         .iv = 0,
         .lvl = 27,
-        .species = SPECIES_MEOWTH,
+        .species = SPECIES_LOMBRE,
     },
     {
         .iv = 0,
@@ -7796,7 +7796,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerIrene[] = {
     {
         .iv = 0,
         .lvl = 40,
-        .species = SPECIES_HORSEA,
+        .species = SPECIES_LOMBRE,
     },
     {
         .iv = 0,
@@ -7845,7 +7845,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerLeah[] = {
     {
         .iv = 0,
         .lvl = 23,
-        .species = SPECIES_BELLSPROUT,
+        .species = SPECIES_LOTAD,
     },
     {
         .iv = 0,
@@ -8332,12 +8332,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_YoungsterChad4[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_HikerFranklin2[] = {
     {
         .iv = 40,
-        .lvl = 25,
+        .lvl = 28,
         .species = SPECIES_MACHOKE,
     },
     {
         .iv = 40,
-        .lvl = 25,
+        .lvl = 28,
         .species = SPECIES_GEOWATT,
     },
 };
@@ -9171,7 +9171,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerClaire[] = {
     {
         .iv = 0,
         .lvl = 39,
-        .species = SPECIES_PIKACHU,
+        .species = SPECIES_LUDICOLO,
     },
     {
         .iv = 0,
