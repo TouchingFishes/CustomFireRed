@@ -13216,7 +13216,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
         .lvl = 70,
         .species = SPECIES_GENGAR,
         .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_SHADOW_BALL, MOVE_PROTECT, MOVE_TOXIC, MOVE_THUNDERBOLT},
+        .moves = {MOVE_SHADOW_BALL, MOVE_FIRE_PUNCH, MOVE_TOXIC, MOVE_THUNDERBOLT},
     },
     {
         .iv = 255,
@@ -13237,7 +13237,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
         .lvl = 71,
         .species = SPECIES_ARBOK,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_FLAMETHROWER, MOVE_EARTHQUAKE, MOVE_POISON_TAIL, MOVE_TOXIC},
+        .moves = {MOVE_FLAMETHROWER, MOVE_EARTHQUAKE, MOVE_POISON_TAIL, MOVE_CRUNCH},
     },
     {
         .iv = 255,
