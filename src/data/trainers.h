@@ -40,7 +40,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_RSAromaLady),
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_RSAromaLady),
     },
     [TRAINER_RS_RUIN_MANIAC] = {
         .trainerClass = TRAINER_CLASS_RS_RUIN_MANIAC,
