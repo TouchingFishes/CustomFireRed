@@ -631,7 +631,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_NinjaBoyTakeshi[] = {
         .iv = 255,
         .lvl = 51,
         .species = SPECIES_ARIADOS,
-        .moves = {MOVE_SIGNAL_BEAM, MOVE_PSYCHIC, MOVE_PROTECT, MOVE_POISON_FANG},
+        .moves = {MOVE_SIGNAL_BEAM, MOVE_PSYCHIC, MOVE_SUBSTITUTE, MOVE_POISON_FANG},
     },
     {
         .iv = 255,
@@ -6800,7 +6800,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderKoga[] = {
         .iv = 255,
         .lvl = 40,
         .species = SPECIES_WEEZING,
-        .moves = {MOVE_SELF_DESTRUCT, MOVE_GUNK_SHOT, MOVE_PROTECT, MOVE_TOXIC},
+        .moves = {MOVE_SELF_DESTRUCT, MOVE_GUNK_SHOT, MOVE_SUBSTITUTE, MOVE_TOXIC},
     },
     {
         .iv = 255,
@@ -13227,9 +13227,9 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
     {
         .iv = 255,
         .lvl = 70,
-        .species = SPECIES_GENGAR,
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_SHADOW_BALL, MOVE_FIRE_PUNCH, MOVE_TOXIC, MOVE_THUNDERBOLT},
+        .species = SPECIES_CROBAT,
+        .heldItem = ITEM_SHARP_BEAK,
+        .moves = {MOVE_FLY, MOVE_POISON_FANG, MOVE_FAINT_ATTACK, MOVE_TOXIC},
     },
     {
         .iv = 255,
@@ -13243,20 +13243,20 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
         .lvl = 70,
         .species = SPECIES_KROLUCARD,
         .heldItem = ITEM_BLACK_GLASSES,
-        .moves = {MOVE_DRAIN_LIFE, MOVE_EXTRASENSORY, MOVE_GIGA_DRAIN, MOVE_AERIAL_ACE},
+        .moves = {MOVE_DRAIN_LIFE, MOVE_EXTRASENSORY, MOVE_GIGA_DRAIN, MOVE_SUBSTITUTE},
     },
     {
         .iv = 255,
         .lvl = 71,
         .species = SPECIES_ARBOK,
-        .heldItem = ITEM_SITRUS_BERRY,
+        .heldItem = ITEM_POISON_BARB,
         .moves = {MOVE_FLAMETHROWER, MOVE_EARTHQUAKE, MOVE_POISON_TAIL, MOVE_CRUNCH},
     },
     {
         .iv = 255,
         .lvl = 73,
         .species = SPECIES_GENGAR,
-        .heldItem = ITEM_CHESTO_BERRY,
+        .heldItem = ITEM_LEFTOVERS,
         .moves = {MOVE_SHADOW_BALL, MOVE_SUBSTITUTE, MOVE_HYPNOSIS, MOVE_GIGA_DRAIN},
     },
 };
