@@ -133,5 +133,3 @@ SixIsland_RuinValley_Text_NotNow::
 
 
 
-
-    
