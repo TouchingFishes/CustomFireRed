@@ -8793,32 +8793,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt44[] = {
 //Ice Cave Will Become Executive, vllt Euxinos geben?
 static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketGrunt45[] = {
     {
-        .iv = 0,
-        .lvl = 55,
+        .iv = 255,
+        .lvl = 63,
         .species = SPECIES_URSARING,
         .moves = {MOVE_THRASH, MOVE_FAINT_ATTACK, MOVE_EARTHQUAKE, MOVE_ROCK_SMASH},
     },
     {
-        .iv = 150,
-        .lvl = 57,
+        .iv = 255,
+        .lvl = 61,
         .species = SPECIES_TENTACRUEL,
         .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_REST, MOVE_SLEEP_TALK},
     },
     {
-        .iv = 0,
-        .lvl = 55,
+        .iv = 255,
+        .lvl = 59,
         .species = SPECIES_HONCHKROW,
         .moves = {MOVE_DRILL_PECK, MOVE_FAINT_ATTACK, MOVE_SHADOW_BALL, MOVE_HAZE},
     },
     {
-        .iv = 150,
-        .lvl = 59,
+        .iv = 255,
+        .lvl = 63,
         .species = SPECIES_GRIMMSNARL,
         .moves = {MOVE_DRAIN_PUNCH, MOVE_CRUNCH, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH},
     },
     {
-        .iv = 0,
-        .lvl = 60,
+        .iv = 255,
+        .lvl = 65,
         .species = SPECIES_WEAVILE,
         .moves = {MOVE_BRICK_BREAK, MOVE_NIGHT_SLASH, MOVE_FAKE_OUT, MOVE_AERIAL_ACE},
     },
@@ -8827,79 +8827,85 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketGrunt45[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt46[] = {
     {
         .iv = 0,
-        .lvl = 48,
+        .lvl = 59,
         .species = SPECIES_MUK,
     },
     {
         .iv = 0,
-        .lvl = 48,
+        .lvl = 59,
         .species = SPECIES_GOLBAT,
     },
     {
         .iv = 0,
-        .lvl = 48,
+        .lvl = 59,
         .species = SPECIES_RATICATE,
     },
 };
-
+//warehouse
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt47[] = {
     {
         .iv = 0,
-        .lvl = 48,
-        .species = SPECIES_MACHOP,
-    },
-    {
-        .iv = 0,
-        .lvl = 48,
-        .species = SPECIES_MACHOP,
-    },
-    {
-        .iv = 0,
-        .lvl = 48,
+        .lvl = 61,
         .species = SPECIES_MACHOKE,
     },
+    {
+        .iv = 0,
+        .lvl = 61,
+        .species = SPECIES_MACHOKE,
+    },
+    {
+        .iv = 0,
+        .lvl = 63,
+        .species = SPECIES_MIGHTYENA,
+    },
 };
-
+//warehouse
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt48[] = {
     {
         .iv = 0,
-        .lvl = 49,
+        .lvl = 62,
         .species = SPECIES_HYPNO,
     },
     {
         .iv = 0,
-        .lvl = 49,
+        .lvl = 62,
         .species = SPECIES_HYPNO,
     },
 };
 //ARIANA
 static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin[] = {
     {
-        .iv = 150,
-        .lvl = 66,
+        .iv = 255,
+        .lvl = 67,
         .species = SPECIES_CLOYSTER,
         .moves = {MOVE_ICICLE_SPEAR, MOVE_SPIKES, MOVE_SURF, MOVE_TOXIC},
     },
     {
-        .iv = 150,
+        .iv = 255,
         .lvl = 65,
         .species = SPECIES_TOXIBRO,
         .moves = {MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_PSYCHIC, MOVE_DIVE},
     },
     {
-        .iv = 150,
+        .iv = 255,
+        .lvl = 65,
+        .species = SPECIES_HONCHKROW,
+        .moves = {MOVE_DRILL_PECK, MOVE_FAINT_ATTACK, MOVE_SHADOW_BALL, MOVE_HAZE},
+    },
+    {
+        .iv = 255,
         .lvl = 67,
         .species = SPECIES_ARBOK,
         .moves = {MOVE_SLUDGE_BOMB, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_FLAMETHROWER},
     },
     {
-        .iv = 200,
-        .lvl = 65,
+        .iv = 255,
+        .lvl = 67,
         .species = SPECIES_HAXORUS,
         .moves = {MOVE_DRAGON_CLAW, MOVE_SWORDS_DANCE, MOVE_X_SCISSOR, MOVE_EARTHQUAKE},
     },
     {
-        .iv = 150,
+        .iv = 255,
         .lvl = 69,
         .species = SPECIES_VILEPLUME,
         .moves = {MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_SLUDGE_BOMB, MOVE_TOXIC},
@@ -8908,37 +8914,37 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin[] = {
 //ARCHER
 static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin2[] = {
     {
-        .iv = 200,
+        .iv = 255,
         .lvl = 67,
         .species = SPECIES_PINSIR,
         .moves = {MOVE_X_SCISSOR, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE},
     },
     {
-        .iv = 200,
+        .iv = 255,
         .lvl = 68,
         .species = SPECIES_WEEZING,
         .moves = {MOVE_SLUDGE_BOMB, MOVE_THUNDERBOLT, MOVE_EXPLOSION, MOVE_SHADOW_BALL},
     },
     {
-        .iv = 200,
+        .iv = 255,
         .lvl = 65,
         .species = SPECIES_BITEMARE,
         .moves = {MOVE_CRUNCH, MOVE_BRICK_BREAK, MOVE_ANCIENT_POWER, MOVE_POISON_FANG},
     },
     {
-        .iv = 150,
+        .iv = 255,
         .lvl = 65,
         .species = SPECIES_GEMGEIST,
         .moves = {MOVE_SHADOW_BALL, MOVE_POWER_GEM, MOVE_TOXIC, MOVE_DETECT},
     },
     {
-        .iv = 200,
+        .iv = 255,
         .lvl = 68,
         .species = SPECIES_HOUNDOOM,
         .moves = {MOVE_FLAMETHROWER, MOVE_CRUNCH, MOVE_IRON_TAIL, MOVE_SHADOW_BALL},
     },
     {
-        .iv = 200,
+        .iv = 255,
         .lvl = 70, 
         .species = SPECIES_HYDREIGON,
         .moves = {MOVE_DRAGON_CLAW, MOVE_CRUNCH, MOVE_SURF, MOVE_FLAMETHROWER},
@@ -8948,13 +8954,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin2[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_ScientistGideon[] = {
     {
         .iv = 255,
-        .lvl = 66,
+        .lvl = 67,
         .species = SPECIES_REUNICLUS,
         .moves = {MOVE_PSYCHIC, MOVE_SHOCK_WAVE, MOVE_RECOVER, MOVE_CALM_MIND},
     },
     {
         .iv = 255,
-        .lvl = 66,
+        .lvl = 68,
         .species = SPECIES_SHEDINJA,
         .moves = {MOVE_SHADOW_BALL, MOVE_SILVER_WIND, MOVE_GIGA_DRAIN, MOVE_AGILITY},
     },
@@ -8966,19 +8972,19 @@ static const struct TrainerMonNoItemCustomMoves sParty_ScientistGideon[] = {
     },
     {
         .iv = 255,
-        .lvl = 66,
+        .lvl = 69,
         .species = SPECIES_PORYGON2,
         .moves = {MOVE_TRI_ATTACK, MOVE_RECOVER, MOVE_THUNDERBOLT, MOVE_ICE_BEAM},
     },
     {
         .iv = 255,
-        .lvl = 66,
+        .lvl = 69,
         .species = SPECIES_MAGNETON,
         .moves = {MOVE_TRI_ATTACK, MOVE_THUNDER, MOVE_THUNDER_WAVE, MOVE_MIRROR_SHOT},
     },
     {
         .iv = 255,
-        .lvl = 70,
+        .lvl = 72,
         .species = SPECIES_EUXINOS,
         .moves = {MOVE_POISON_FANG, MOVE_ANCIENT_POWER, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE},
     },
