@@ -8882,7 +8882,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin[] = {
     },
     {
         .iv = 150,
-        .lvl = 64,
+        .lvl = 65,
         .species = SPECIES_TOXIBRO,
         .moves = {MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_PSYCHIC, MOVE_DIVE},
     },
@@ -8894,7 +8894,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin[] = {
     },
     {
         .iv = 200,
-        .lvl = 64,
+        .lvl = 65,
         .species = SPECIES_HAXORUS,
         .moves = {MOVE_DRAGON_CLAW, MOVE_SWORDS_DANCE, MOVE_X_SCISSOR, MOVE_EARTHQUAKE},
     },
@@ -8939,7 +8939,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin2[] = {
     },
     {
         .iv = 200,
-        .lvl = 70,
+        .lvl = 70, 
         .species = SPECIES_HYDREIGON,
         .moves = {MOVE_DRAGON_CLAW, MOVE_CRUNCH, MOVE_SURF, MOVE_FLAMETHROWER},
     },

@@ -152,6 +152,10 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     {.size = 8, .y_offset = 1},
     {.size = 8, .y_offset = 1},
     {.size = 8, .y_offset = 1},
+    {.size = 8, .y_offset = 1},
+    {.size = 8, .y_offset = 1},
+    {.size = 8, .y_offset = 1},
+    {.size = 8, .y_offset = 1},
 };
 
 const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
@@ -309,6 +313,11 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(KIMONO_GIRL_AND_CAT, gTrainerFrontPic_KimonoGirlAndCat, 0x800),
     TRAINER_SPRITE(SENSEI, gTrainerFrontPic_Sensei, 0x800),
     TRAINER_SPRITE(CASINO_ACE, gTrainerFrontPic_CasinoAce, 0x800),
+    TRAINER_SPRITE(GIDEON, gTrainerFrontPic_Gideon, 0x800),
+    TRAINER_SPRITE(ROCKET_EXEC_M, gTrainerFrontPic_RocketExecM, 0x800),
+    TRAINER_SPRITE(ROCKET_EXEC_F, gTrainerFrontPic_RocketExecF, 0x800),
+
+
 };
 
 const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
@@ -466,4 +475,7 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(KIMONO_GIRL_AND_CAT, gTrainerPalette_KimonoGirlAndCat),
     TRAINER_PAL(SENSEI, gTrainerPalette_Sensei),
     TRAINER_PAL(CASINO_ACE, gTrainerPalette_CasinoAce),
+    TRAINER_PAL(GIDEON, gTrainerPalette_Gideon),
+    TRAINER_PAL(ROCKET_EXEC_M, gTrainerPalette_RocketExecM),
+    TRAINER_PAL(ROCKET_EXEC_F, gTrainerPalette_RocketExecF),
 };

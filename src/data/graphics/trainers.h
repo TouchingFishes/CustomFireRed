@@ -457,6 +457,15 @@ const u32 gTrainerPalette_Sensei[] = INCBIN_U32("graphics/trainers/palettes/sens
 const u32 gTrainerFrontPic_CasinoAce[] = INCBIN_U32("graphics/trainers/front_pics/casino_ace_front_pic.4bpp.lz");
 const u32 gTrainerPalette_CasinoAce[] = INCBIN_U32("graphics/trainers/palettes/casino_ace.gbapal.lz");
 
+const u32 gTrainerFrontPic_Gideon[] = INCBIN_U32("graphics/trainers/front_pics/gideon_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Gideon[] = INCBIN_U32("graphics/trainers/palettes/gideon.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketExecM[] = INCBIN_U32("graphics/trainers/front_pics/rocket_admin_m_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketExecM[] = INCBIN_U32("graphics/trainers/palettes/rocket_admin_m.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketExecF[] = INCBIN_U32("graphics/trainers/front_pics/rocket_admin_f_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketExecF[] = INCBIN_U32("graphics/trainers/palettes/rocket_admin_f.gbapal.lz");
+
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red_back_pic.4bpp");
 const u8 gTrainerBackPic_Leaf[] = INCBIN_U8("graphics/trainers/back_pics/leaf_back_pic.4bpp");
 const u8 gTrainerBackPic_Pokedude[] = INCBIN_U8("graphics/trainers/back_pics/pokedude_back_pic.4bpp");

@@ -903,4 +903,7 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_KIMONO_GIRL_AND_CAT]   = sAnims_Cynthia,
     [TRAINER_PIC_SENSEI]                = sAnims_Cynthia,
     [TRAINER_PIC_CASINO_ACE]            = sAnims_Cynthia,
+    [TRAINER_PIC_GIDEON]                = sAnims_Cynthia,
+    [TRAINER_PIC_ROCKET_EXEC_M]         = sAnims_Cynthia,
+    [TRAINER_PIC_ROCKET_EXEC_F]         = sAnims_Cynthia,
 };
