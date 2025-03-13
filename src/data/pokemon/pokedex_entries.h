@@ -5722,15 +5722,15 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_EUXINOS] =
     {
-        .categoryName = _("PLACEHOLDER"),
-        .height = 5,
-        .weight = 100,
+        .categoryName = _(""),
+        .height = 19,
+        .weight = 1550,
         .description = gEuxinosPokedexText,
         .unusedDescription = gEuxinosPokedexTextUnused,
-        .pokemonScale = 490,
-        .pokemonOffset = 0,
-        .trainerScale = 256,
-        .trainerOffset = 0,
+        .pokemonScale = 256,
+        .pokemonOffset = -1,
+        .trainerScale = 312,
+        .trainerOffset = 2,
     },
 
     [NATIONAL_DEX_VOLTREL] =

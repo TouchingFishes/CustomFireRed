@@ -3085,16 +3085,16 @@ const u8 gLurantisPokedexText[] = _(
 const u8 gLurantisPokedexTextUnused[] = _("");
 
 const u8 gGekoponPokedexText[] = _(
-    "This is a placeholder Pokémon. Its traits\n"
-    "and behavior have yet to be defined, but\n"
-    "it is an essential part of the ecosystem.");
+    "Gekopon is known for its calm demeanor.\n"
+    "But if it sense, that the grove it lives\n"
+    "in is endangered, it will fight any foe.");
   
 const u8 gGekoponPokedexTextUnused[] = _("");
 
 const u8 gEuxinosPokedexText[] = _(
-    "This is a placeholder Pokémon. Its traits\n"
-    "and behavior have yet to be defined, but\n"
-    "it is an essential part of the ecosystem.");
+    "Ages ago, Euxinos used to be the apex\n"
+    "predator. Luckily this strange aeon has\n"
+    "passed and with it Euxinos' reign.");
   
 const u8 gEuxinosPokedexTextUnused[] = _("");
 
