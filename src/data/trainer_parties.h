@@ -34,35 +34,35 @@ static const struct TrainerMonItemCustomMoves sParty_AquaLeader[] = {
         .lvl = 66,
         .species = SPECIES_CROBAT,
         .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_COSMIC_POWER, MOVE_PSYCHIC},
+        .moves = {MOVE_AERIAL_ACE, MOVE_BITE, MOVE_POISON_FANG, MOVE_DOUBLE_TEAM},
     },
     {
         .iv = 255,
         .lvl = 65,
         .species = SPECIES_MUK,
         .heldItem = ITEM_PETAYA_BERRY,
-        .moves = {MOVE_SLUDGE_BOMB, MOVE_THUNDER, MOVE_FIRE_BLAST, MOVE_TOXIC},
+        .moves = {MOVE_SLUDGE_BOMB, MOVE_FAINT_ATTACK, MOVE_FIRE_BLAST, MOVE_TOXIC},
     },
     {
         .iv = 255,
         .lvl = 66,
         .species = SPECIES_WAILORD,
-        .heldItem = ITEM_SOFT_SAND,
-        .moves = {MOVE_IRON_TAIL, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
+        .heldItem = ITEM_MYSTIC_WATER,
+        .moves = {MOVE_WATER_SPOUT, MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
     },
     {
         .iv = 255,
         .lvl = 66,
         .species = SPECIES_WEAVILE,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_CRUNCH, MOVE_SLUDGE_BOMB, MOVE_FLAMETHROWER, MOVE_OVERHEAT},
+        .moves = {MOVE_NIGHT_SLASH, MOVE_AERIAL_ACE, MOVE_BRICK_BREAK, MOVE_DOUBLE_EDGE},
     },
     {
         .iv = 255,
         .lvl = 68,
         .species = SPECIES_SHARPEDO,
         .heldItem = ITEM_PETAYA_BERRY,
-        .moves = {MOVE_ERUPTION, MOVE_EARTHQUAKE, MOVE_REST, MOVE_SLEEP_TALK},
+        .moves = {MOVE_SURF, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_ICE_BEAM},
     },
 };
 static const struct TrainerMonNoItemDefaultMoves sParty_AquaGruntM[] = {DUMMY_TRAINER_MON};
@@ -72,13 +72,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_RSAromaLady[] = {
         .iv = 255,
         .lvl = 76,
         .species = SPECIES_BRELOOM,
-        .moves = {MOVE_CRUNCH, MOVE_OUTRAGE, MOVE_SURF, MOVE_FIRE_BLAST},
+        .moves = {MOVE_SPORE, MOVE_SKY_UPPERCUT, MOVE_IRON_TAIL, MOVE_CUT},
     },
     {
         .iv = 255,
         .lvl = 76,
         .species = SPECIES_ROSERADE,
-        .moves = {MOVE_GIGA_DRAIN, MOVE_THUNDERBOLT, MOVE_REST, MOVE_SLEEP_TALK},
+        .moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_REST, MOVE_SLEEP_TALK},
     },
 };
 static const struct TrainerMonNoItemDefaultMoves sParty_RSRuinManiac[] = {DUMMY_TRAINER_MON};

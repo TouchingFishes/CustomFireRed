@@ -64,6 +64,7 @@ FiveIsland_RocketWarehouse_EventScript_DefeatedGideon::
 	msgbox FiveIsland_RocketWarehouse_Text_GideonPostBattle
 	setflag FLAG_RECOVERED_SAPPHIRE
 	giveitem ITEM_SAPPHIRE
+	giveitem ITEM_AURORA_TICKET
 	release
 	end
 

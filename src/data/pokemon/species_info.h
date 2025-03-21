@@ -8414,7 +8414,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_WAILORD] =
     {
-        .baseHP = 170,
+        .baseHP = 200, //170
         .baseAttack = 90,
         .baseDefense = 45,
         .baseSpeed = 60,
@@ -12216,13 +12216,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CORSOREEF] =
     {
-        .baseHP = 110, //65
+        .baseHP = 130, //65
         .baseAttack = 80, //95
         .baseDefense = 95, //50
         .baseSpeed = 30,
         .baseSpAttack = 80, //145
         .baseSpDefense = 75, //130
-        .types = {TYPE_WATER, TYPE_GRASS},
+        .types = {TYPE_WATER, TYPE_ROCK},
         .catchRate = 30,
         .expYield = 179,
         .evYield_HP = 2,

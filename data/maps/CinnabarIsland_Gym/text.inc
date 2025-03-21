@@ -20,8 +20,8 @@ CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
 
 CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
     .string "Hah!\p"
-    .string "The VOLCANOBADGE heightens the\n"
-    .string "SPECIAL stats of your POKéMON.\p"
+    .string "The VOLCANOBADGE burns with\n"
+    .string "the heat of my POKéMON.\p"
     .string "Here, you can have this, too!$"
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
