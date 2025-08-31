@@ -764,9 +764,9 @@ static const struct TrainerMonItemCustomMoves sParty_RockerMoa[] = {
     {
         .iv = 255,
         .lvl = 67,
-        .species = SPECIES_URSARING,
-        .heldItem = ITEM_SOFT_SAND,
-        .moves = {MOVE_HYPER_BEAM, MOVE_SLASH, MOVE_FAINT_ATTACK, MOVE_EARTHQUAKE},
+        .species = SPECIES_DEWGONG,
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_SURF, MOVE_REST, MOVE_ICE_BEAM, MOVE_SLEEP_TALK},
     },
     {
         .iv = 255,
@@ -779,7 +779,7 @@ static const struct TrainerMonItemCustomMoves sParty_RockerMoa[] = {
         .iv = 255,
         .lvl = 65,
         .species = SPECIES_BITEMARE,
-        .heldItem = ITEM_CHESTO_BERRY,
+        .heldItem = ITEM_BLACK_GLASSES,
         .moves = {MOVE_METAL_CLAW, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_FAKE_OUT},
     },
     {
@@ -4030,7 +4030,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PsychicCameron[] = {
     {
         .iv = 50,
         .lvl = 38,
-        .species = SPECIES_TOXIBRO,
+        .species = SPECIES_SLOWBRO,
     },
     {
         .iv = 50,
@@ -8883,7 +8883,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketAdmin[] = {
     {
         .iv = 255,
         .lvl = 65,
-        .species = SPECIES_TOXIBRO,
+        .species = SPECIES_PURGISLUG,
         .moves = {MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_PSYCHIC, MOVE_DIVE},
     },
     {
@@ -10885,7 +10885,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerIsabelle4[] = {
     {
         .iv = 80,
         .lvl = 47,
-        .species = SPECIES_TOXIBRO,
+        .species = SPECIES_PURGISLUG,
     },
     {
         .iv = 80,

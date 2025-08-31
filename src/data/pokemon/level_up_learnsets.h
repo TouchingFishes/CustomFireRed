@@ -6216,7 +6216,7 @@ static const u16 sGemgeistLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sToxibroLevelUpLearnset[] = {
+static const u16 sPurgislugLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_CURSE),
     LEVEL_UP_MOVE(1, MOVE_YAWN),
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
@@ -6832,7 +6832,7 @@ static const u16 sPuruglyLevelUpLearnset[] = {
 };
 
 static const u16 sImpidimpLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_FAKE_OUT),
+    LEVEL_UP_MOVE(1, MOVE_FAKE_OUT), //dumb idea
     LEVEL_UP_MOVE(1, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(4, MOVE_BITE),
     LEVEL_UP_MOVE(8, MOVE_FAKE_TEARS),
@@ -6957,7 +6957,6 @@ static const u16 sKrolucadaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(40, MOVE_FAINT_ATTACK),
     LEVEL_UP_MOVE(50, MOVE_PSYBEAM),
     LEVEL_UP_MOVE(59, MOVE_SILVER_WIND),
-    LEVEL_UP_MOVE(70, MOVE_CRUNCH),
     LEVEL_UP_END
 };
 

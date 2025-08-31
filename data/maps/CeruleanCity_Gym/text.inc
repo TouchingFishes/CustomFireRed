@@ -4,7 +4,7 @@ CeruleanCity_Gym_Text_MistyIntro::
     .string "policy about POKéMON can turn pro.\p"
     .string "What is your approach when you\n"
     .string "catch and train POKéMON?\p"
-    .string "My policy is an all-out offensive\n"
+    .string "My policy is all-out defense\n"
     .string "with WATER-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::

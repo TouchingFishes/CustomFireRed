@@ -1972,8 +1972,8 @@ Cry_Gemgeist::
 	.incbin "sound/direct_sound_samples/cries/sableye.bin"
 
 	.align 2
-Cry_Toxibro::
-	.incbin "sound/direct_sound_samples/cries/slowbro.bin"
+Cry_Purgislug::
+	.incbin "sound/direct_sound_samples/cries/purgislug.bin"
 
 	.align 2
 Cry_Geowatt::

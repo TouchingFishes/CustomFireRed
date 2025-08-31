@@ -2923,12 +2923,12 @@ const u8 gGemgeistPokedexText[] = _(
 
 const u8 gGemgeistPokedexTextUnused[] = _("");
 
-const u8 gToxibroPokedexText[] = _(
-    "Although it is normally zoned out, its\n"
-    "expression abruptly sharpens on occasion.\n"
-    "The cause seems to be its weird diet.");
+const u8 gPurgislugPokedexText[] = _(
+    "Although it is normally concentrating on\n"
+    "weaving its magic, it is always ready\n"
+    "to defend itself, if its disturbed.");
   
-const u8 gToxibroPokedexTextUnused[] = _("");
+const u8 gPurgislugPokedexTextUnused[] = _("");
 
 const u8 gGeowattPokedexText[] = _(
     "It fires rocks charged with electricity.\n"

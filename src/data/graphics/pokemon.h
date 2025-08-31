@@ -2924,12 +2924,12 @@ const u32 gMonShinyPalette_Gemgeist[] = INCBIN_U32("graphics/pokemon/gemgeist/sh
 const u8 gMonIcon_Gemgeist[] = INCBIN_U8("graphics/pokemon/gemgeist/icon.4bpp");
 const u8 gMonFootprint_Gemgeist[] = INCBIN_U8("graphics/pokemon/gemgeist/footprint.1bpp");
 
-const u32 gMonFrontPic_Toxibro[] = INCBIN_U32("graphics/pokemon/toxibro/front.4bpp.lz");
-const u32 gMonPalette_Toxibro[] = INCBIN_U32("graphics/pokemon/toxibro/normal.gbapal.lz");
-const u32 gMonBackPic_Toxibro[] = INCBIN_U32("graphics/pokemon/toxibro/back.4bpp.lz");
-const u32 gMonShinyPalette_Toxibro[] = INCBIN_U32("graphics/pokemon/toxibro/shiny.gbapal.lz");
-const u8 gMonIcon_Toxibro[] = INCBIN_U8("graphics/pokemon/toxibro/icon.4bpp");
-const u8 gMonFootprint_Toxibro[] = INCBIN_U8("graphics/pokemon/slowbro/footprint.1bpp");
+const u32 gMonFrontPic_Purgislug[] = INCBIN_U32("graphics/pokemon/purgislug/front.4bpp.lz");
+const u32 gMonPalette_Purgislug[] = INCBIN_U32("graphics/pokemon/purgislug/normal.gbapal.lz");
+const u32 gMonBackPic_Purgislug[] = INCBIN_U32("graphics/pokemon/purgislug/back.4bpp.lz");
+const u32 gMonShinyPalette_Purgislug[] = INCBIN_U32("graphics/pokemon/purgislug/shiny.gbapal.lz");
+const u8 gMonIcon_Purgislug[] = INCBIN_U8("graphics/pokemon/purgislug/icon.4bpp");
+const u8 gMonFootprint_Purgislug[] = INCBIN_U8("graphics/pokemon/misdreavus/footprint.1bpp");
 
 const u32 gMonFrontPic_Geowatt[] = INCBIN_U32("graphics/pokemon/geowatt/front.4bpp.lz");
 const u32 gMonPalette_Geowatt[] = INCBIN_U32("graphics/pokemon/geowatt/normal.gbapal.lz");

@@ -5407,18 +5407,18 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = -2,
     },
-
-    [NATIONAL_DEX_TOXIBRO] =
+    //to do
+    [NATIONAL_DEX_PURGISLUG] =
     {
-        .categoryName = _("DOPEY"),
-        .height = 12,
-        .weight = 360,
-        .description = gToxibroPokedexText,
-        .unusedDescription = gToxibroPokedexTextUnused,
-        .pokemonScale = 256,
-        .pokemonOffset = 10,
-        .trainerScale = 256,
-        .trainerOffset = 0,
+        .categoryName = _("WITCH"),
+        .height = 15,
+        .weight = 604,
+        .description = gPurgislugPokedexText,
+        .unusedDescription = gPurgislugPokedexTextUnused,
+        .pokemonScale = 275,
+        .pokemonOffset = -1,
+        .trainerScale = 269,
+        .trainerOffset = -1,
     },
 
     [NATIONAL_DEX_GEOWATT] =

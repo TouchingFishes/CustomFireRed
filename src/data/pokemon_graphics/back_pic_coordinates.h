@@ -2206,10 +2206,10 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 13,
     },
-    [SPECIES_TOXIBRO] =
+    [SPECIES_PURGISLUG] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
     },
     [SPECIES_GEOWATT] =
     {

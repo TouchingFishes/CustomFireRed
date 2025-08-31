@@ -380,6 +380,7 @@
 #define MOVE_GUNK_SHOT 375 //weezing + muk
 #define MOVE_X_SCISSOR 376 // pinsir, gligar, paras
 #define MOVE_GRASS_KNOT 377 //tangela
+//MOVE_HEAD_SMASH, MOVE_WOOD_HAMMER, MOVE_MAGICAL_FIRE, MOVE_STONE_EDGE, MOVE_POWER_WHIP
 
 #define MOVES_COUNT 378
 

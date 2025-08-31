@@ -2206,7 +2206,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 5,
     },
-    [SPECIES_TOXIBRO] =
+    [SPECIES_PURGISLUG] =
     {
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 1,

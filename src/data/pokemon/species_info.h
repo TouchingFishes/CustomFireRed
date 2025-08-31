@@ -1488,7 +1488,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DUGTRIO] =
     {
         .baseHP = 35,
-        .baseAttack = 90, //80
+        .baseAttack = 100, //80
         .baseDefense = 50,
         .baseSpeed = 120,
         .baseSpAttack = 50,
@@ -1980,7 +1980,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_MACHAMP] =
     {
-        .baseHP = 90,
+        .baseHP = 95,
         .baseAttack = 140, //130
         .baseDefense = 80,
         .baseSpeed = 55,
@@ -12095,7 +12095,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
-    [SPECIES_TOXIBRO] =
+    [SPECIES_PURGISLUG] =
     {
         .baseHP = 95,
         .baseAttack = 100,
@@ -12216,12 +12216,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CORSOREEF] =
     {
-        .baseHP = 130, //65
-        .baseAttack = 80, //95
+        .baseHP = 110, //65
+        .baseAttack = 70, //95
         .baseDefense = 95, //50
         .baseSpeed = 30,
-        .baseSpAttack = 80, //145
-        .baseSpDefense = 75, //130
+        .baseSpAttack = 70, //145
+        .baseSpDefense = 95, //130
         .types = {TYPE_WATER, TYPE_ROCK},
         .catchRate = 30,
         .expYield = 179,
@@ -12395,12 +12395,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_MISMAGIUS] =
     {
-        .baseHP = 65, //60
-        .baseAttack = 65, //60
-        .baseDefense = 65, //60
-        .baseSpeed = 90, //85
-        .baseSpAttack = 90, //85
-        .baseSpDefense = 90, //85
+        .baseHP = 60, //60
+        .baseAttack = 60, //60
+        .baseDefense = 60, //60
+        .baseSpeed = 105, //85
+        .baseSpAttack = 105, //85
+        .baseSpDefense = 105, //85
         .types = {TYPE_GHOST, TYPE_PSYCHIC},
         .catchRate = 45,
         .expYield = 147,
@@ -13576,7 +13576,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 40,
         .types = {TYPE_BUG, TYPE_DARK},
         .catchRate = 90,
-        .expYield = 157,
+        .expYield = 74,
         .evYield_HP = 0,
         .evYield_Attack = 0,
         .evYield_Defense = 0,

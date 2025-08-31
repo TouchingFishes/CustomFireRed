@@ -3006,15 +3006,13 @@ static const u16 sTutorLearnsets[] =
                       | TUTOR(MOVE_DREAM_EATER)
                       | TUTOR(MOVE_SUBSTITUTE),
     
-    [SPECIES_TOXIBRO] = TUTOR(MOVE_MEGA_PUNCH)
-                    | TUTOR(MOVE_MEGA_KICK)
-                    | TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_PURGISLUG] = TUTOR(MOVE_BODY_SLAM)
                     | TUTOR(MOVE_DOUBLE_EDGE)
                     | TUTOR(MOVE_COUNTER)
                     | TUTOR(MOVE_SEISMIC_TOSS)
                     | TUTOR(MOVE_MIMIC)
                     | TUTOR(MOVE_DREAM_EATER)
-                    | TUTOR(MOVE_THUNDER_WAVE)
+                    | TUTOR(MOVE_ROCK_SLIDE)
                     | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_GEOWATT] = TUTOR(MOVE_MEGA_PUNCH)

@@ -417,7 +417,7 @@ gCryTable::
 	cry Cry_Mlloy
 	cry Cry_Bitemare
 	cry Cry_Gemgeist
-	cry Cry_Toxibro
+	cry Cry_Purgislug
 	cry Cry_Geowatt
 	cry Cry_Clodsire
 	cry Cry_Cursola
@@ -905,7 +905,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Mlloy
 	cry_reverse Cry_Bitemare
 	cry_reverse Cry_Gemgeist
-	cry_reverse Cry_Toxibro
+	cry_reverse Cry_Purgislug
 	cry_reverse Cry_Geowatt
 	cry_reverse Cry_Clodsire
 	cry_reverse Cry_Cursola
