@@ -6630,7 +6630,6 @@ static const u16 sFletchlingLevelUpLearnset[] = {
 static const u16 sFletchinderLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_PECK),
     LEVEL_UP_MOVE(1, MOVE_GROWL),
-    LEVEL_UP_MOVE(1, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE(7, MOVE_EMBER),
     LEVEL_UP_MOVE(13, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(20, MOVE_AGILITY),

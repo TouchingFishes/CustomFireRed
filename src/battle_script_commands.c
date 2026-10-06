@@ -1250,7 +1250,31 @@ void AI_CalcDmg(u8 attacker, u8 defender)
     if (gProtectStructs[attacker].helpingHand)
         gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
 }
-//solid rock and filter
+
+
+//buggy, the block over switch (multiplier) should be:
+/*
+gBattleMoveDamage = gBattleMoveDamage * multiplier / 10;
+
+    // --- Defensive abilities (target) ---
+    if ((gBattleMons[gBattlerTarget].ability == ABILITY_FILTER ||
+         gBattleMons[gBattlerTarget].ability == ABILITY_SOLID_ROCK) &&
+        multiplier > 10) // super effective only
+    {
+        // Reduce damage by 25% (i.e., *0.75)
+        gBattleMoveDamage = gBattleMoveDamage * 75 / 100;
+    }
+
+    // --- Offensive abilities (attacker) ---
+    if (gBattleMons[gBattlerAttacker].ability == ABILITY_TINTED_LENS &&
+        multiplier > 0 && multiplier < 10) // not very effective
+    {
+        // Double damage
+        gBattleMoveDamage = gBattleMoveDamage * 2;
+    }
+    if (gBattleMoveDamage == 0 && multiplier != 0)
+        gBattleMoveDamage = 1;
+*/
 static void ModulateDmgByType(u8 multiplier)
 {
     if((gBattleMons[gBattlerTarget].ability == ABILITY_FILTER 
